@@ -22,9 +22,14 @@ public class Runner {
 				}
 			}
 			else if(test == 2) {
+				System.out.print("\nPlease enter the directory of the file: ");
+				String fileDir = s.next();
+				System.out.print("\nPlease enter the Number of ngrams: ");
+				int ngrams = s.nextInt();
+				System.out.println("Neural network will be trained with File: " + fileDir + "  and number of ngrams will equal: " + ngrams);
 				VectorProcessor vp = new VectorProcessor();
 				//set up CSV file
-				vp.go();
+				vp.go(fileDir,ngrams);
 				NeuralNetwork nn = new NeuralNetwork();
 			}
 			else if(test == 3)
