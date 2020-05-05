@@ -3,7 +3,7 @@ package ie.gmit.sw;
 import java.util.Scanner;
 
 public class Runner {
-	public static void main(String[] args){
+	public static void main(String[] args) throws Exception{
 		
 		/*			
 			Each of the languages in the enum Language can be represented as a number between 0 and 234. You can 
@@ -12,7 +12,8 @@ public class Runner {
 		*/
 		Scanner s = new Scanner(System.in);
 		while(true) {
-			System.out.println("1. Show Languages\n2. Train\n3. To exit");
+			System.out.println("1. Show Languages\n2. Train\n3. To exit\n");
+			System.out.print("Option: ");
 			int test = s.nextInt();
 			if(test == 1) {
 				Language[] langs = Language.values(); //Only call this once...		
@@ -21,8 +22,10 @@ public class Runner {
 				}
 			}
 			else if(test == 2) {
+				VectorProcessor vp = new VectorProcessor();
+				//set up CSV file
+				vp.go();
 				NeuralNetwork nn = new NeuralNetwork();
-		 
 			}
 			else if(test == 3)
 			{
@@ -32,5 +35,6 @@ public class Runner {
 				System.out.println("\nInvalid Command");
 			}
 		}
+		System.out.println("\nHasta Luego!\n");
 	}
 }

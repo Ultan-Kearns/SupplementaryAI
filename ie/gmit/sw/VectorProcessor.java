@@ -36,6 +36,8 @@ public void process(String line) throws Exception{
 		 * compute the index as an n gram.hashcode % vector.length
 		 * vector[i] = value of current + 1 
 		 */
+		Utilities.normalize(vector, -1, 1);
+		//write out line to file
 	}
 }
 }

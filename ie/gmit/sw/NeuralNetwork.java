@@ -3,6 +3,7 @@ package ie.gmit.sw;
 import java.io.File;
 
 import org.encog.engine.network.activation.ActivationSigmoid;
+import org.encog.engine.network.activation.ActivationTANH;
 import org.encog.ml.data.MLDataSet;
 import org.encog.ml.data.buffer.MemoryDataLoader;
 import org.encog.ml.data.buffer.codec.CSVDataCODEC;
@@ -53,6 +54,7 @@ public class NeuralNetwork {
 		network.addLayer(new BasicLayer(new ActivationSigmoid(), true, inputs)); //You need to figure out the activation function
 		//network.addLayer(....); //You need to figure out the number of hidden layers and their neurons
 		//network.addLayer(....);
+		network.addLayer(new BasicLayer(new ActivationTANH(),true,10));
 		network.addLayer(new BasicLayer(new ActivationSigmoid(), true, outputs));
 		network.getStructure().finalizeStructure();
 		network.reset();
@@ -61,10 +63,11 @@ public class NeuralNetwork {
 		DataSetCODEC dsc = new CSVDataCODEC(new File("data.csv"), CSVFormat.ENGLISH, false, inputs, outputs, false);
 		MemoryDataLoader mdl = new MemoryDataLoader(dsc);
 		MLDataSet trainingSet = mdl.external2Memory();
-
+		
 		//Use backpropagation training with alpha=0.1 and momentum=0.2
-		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.1, 0.2);
+		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.01, 0.2);
 		FoldedDataSet folded = new FoldedDataSet(trainingSet);
+		System.out.println(trainer.getTraining());
 		MLTrain train = new ResilientPropagation(network, folded);
 		CrossValidationKFold cv = new CrossValidationKFold(train, 5);
 		//Train the neural network
@@ -72,8 +75,10 @@ public class NeuralNetwork {
 		do { 
 			cv.iteration(); 
 			epoch++;
-		} while(cv.getError() > 0.01);	
+		}while(epoch < 1000); 
+		//while(cv.getError() > 0.01);	
 		Utilities.saveNeuralNetwork(network, "./test.nn");
+		
 	}
 
 }
