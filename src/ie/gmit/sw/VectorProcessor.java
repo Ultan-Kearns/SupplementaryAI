@@ -55,10 +55,14 @@ public void process(String line,int ngrams) throws Exception{
 		 * compute the index as an n gram.hashcode % vector.length
 		 * vector[i] = value of current + 1 
 		 */
-		int index = text.hashCode();
-		vector[i] = index + 1;
-		Utilities.normalize(vector, -1, 1);
-		//write out line to file
+		for(int j = ngrams; j < ngramString.length(); j+= ngrams) {
+			int index = text.hashCode();
+			vector[i] = index + 1;
+			Utilities.normalize(vector, -1, 1);
+			//write out line to file
+		}
+	
+	
 	}
 }
 }
