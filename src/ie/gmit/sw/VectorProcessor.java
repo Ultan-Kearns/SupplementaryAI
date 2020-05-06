@@ -7,6 +7,8 @@ import java.io.FileReader;
 import java.io.InputStreamReader;
 import java.text.DecimalFormat;
 
+import jdk.nashorn.internal.runtime.regexp.joni.Regex;
+
 public class VectorProcessor {
  private double[] vector = new double[100];
  private DecimalFormat df = new DecimalFormat("###.###");
@@ -19,9 +21,8 @@ public class VectorProcessor {
 		 BufferedReader br = new BufferedReader(new FileReader(file));
 		 String line = null;
 		 while((line = br.readLine()) != null) {
-			// process(line,ngrams);
-			 
-			 System.out.println(line);
+			process(line,ngrams);
+			System.out.println(line);
 		 }
 		 br.close();
 	 }
@@ -39,6 +40,12 @@ public void process(String line,int ngrams) throws Exception{
 	String text = record[0].toLowerCase();
 	String language = record[1];
 	//break line into ngrams
+	StringBuffer ngramString = new StringBuffer(text);
+	for(int i = ngrams; i < text.length(); i+= ngrams) {
+		ngramString.insert(i, "_");
+		i++;
+	}
+	System.out.println(ngramString.toString());
 	//set vector
 	for(int i = 0; i < vector.length; i++) {
 		vector[i] = 0;
