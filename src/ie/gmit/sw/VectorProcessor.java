@@ -1,30 +1,32 @@
 package ie.gmit.sw;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.io.InputStreamReader;
 import java.text.DecimalFormat;
-
-import jdk.nashorn.internal.runtime.regexp.joni.Regex;
 
 public class VectorProcessor {
  private double[] vector = new double[100];
  private DecimalFormat df = new DecimalFormat("###.###");
  private Language[] langs;
- 
+ File file = new File("./data.csv");
+
  public void go(String fileDir,int ngrams) throws Exception{
 	 File file = new File(fileDir);
  
 	 try {
+
+			System.out.println("CREATING DATA.......");
 		 BufferedReader br = new BufferedReader(new FileReader(file));
 		 String line = null;
 		 while((line = br.readLine()) != null) {
 			process(line,ngrams); 
 		 }
 		 br.close();
+
+			System.out.println("DATA FILE CREATED!");
 	 }
 	 catch(Exception e) {
 		 System.out.println(fileDir.toString());
@@ -45,9 +47,8 @@ public void process(String line,int ngrams) throws Exception{
 		ngramString.insert(i, " ");
 		i++;
 	}
-	File file = new File("data.csv");
-	FileWriter fw = new FileWriter(file);
 	file.createNewFile();
+ BufferedWriter writer = new BufferedWriter(new FileWriter(file));
 	//set vector
 	for(int i = 0; i < vector.length; i++) {
 		vector[i] = 0;
@@ -58,13 +59,16 @@ public void process(String line,int ngrams) throws Exception{
 		 * vector[i] = value of current + 1 
 		 */
 	}
-	for(int i = 0; i < 100; i++) {
-		int index = line.hashCode() % vector.length; 
-		vector[i] = index;
-		Utilities.normalize(vector, -1, 1);
+	for(int i = ngrams; i < ngramString.length() -ngrams; i+=ngrams) {
+		int hashcode = ngramString.substring(i,ngrams+i).hashCode();
+ 		vector[i % vector.length] = hashcode;
 		//write out line to file
-		fw.write(index);
+ 		Utilities.normalize(vector, -1, 1);
+ 		writer.write(df.format(vector[i %vector.length]));
+ 		//newline
+ 		writer.newLine();
 	}
-	fw.close();
+	//close file
+	writer.close();
 }
 }

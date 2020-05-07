@@ -30,7 +30,7 @@ public class Runner {
 				VectorProcessor vp = new VectorProcessor();
 				//set up CSV file
 				vp.go(fileDir,ngrams);
-				//NeuralNetwork nn = new NeuralNetwork();
+				NeuralNetwork nn = new NeuralNetwork();
 			}
 			else if(test == 3)
 			{
