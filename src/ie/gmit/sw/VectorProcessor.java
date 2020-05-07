@@ -20,6 +20,7 @@ public class VectorProcessor {
 		try {
 
 			System.out.println("CREATING DATA.......");
+			file.createNewFile();
 			BufferedReader br = new BufferedReader(new FileReader(file));
 			String line = null;
 			while ((line = br.readLine()) != null) {
@@ -46,13 +47,8 @@ public class VectorProcessor {
 		String language = record[1];
 		System.out.println("Language: " + language);
 		// break line into ngrams
-		StringBuffer ngramString = new StringBuffer(text);
-		for (int i = ngrams; i < text.length(); i += ngrams) {
-			ngramString.insert(i, ",");
-			i++;
-		}
-		file.createNewFile();
-		writer = new BufferedWriter(new FileWriter(file));
+		//everytime process is called new file is created
+		writer = new BufferedWriter(new FileWriter(file,true));
 		// set vector
 		for (int i = 0; i < vector.length; i++) {
 			vector[i] = 0;
@@ -61,13 +57,13 @@ public class VectorProcessor {
 			 * vector.length vector[i] = value of current + 1
 			 */
 		}
-		for (int i = ngrams; i < ngramString.length() - ngrams; i += ngrams) {
-			int hashcode = ngramString.substring(i, ngrams + i).hashCode();
+		for (int i = ngrams; i < text.length() - ngrams; i += ngrams) {
+			int hashcode = text.substring(i, ngrams + i).hashCode();
 			vector[i % vector.length] = hashcode;
 			// write out line to file
 			Utilities.normalize(vector, -1, 1);
 			writer.append(df.format(vector[i % vector.length]));
-			writer.append(",");
+			System.out.println(vector[i % vector.length]);
 			// newline
 			writer.newLine();
 		}
