@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.text.DecimalFormat;
 
@@ -21,8 +22,7 @@ public class VectorProcessor {
 		 BufferedReader br = new BufferedReader(new FileReader(file));
 		 String line = null;
 		 while((line = br.readLine()) != null) {
-			process(line,ngrams);
-			System.out.println(line);
+			process(line,ngrams); 
 		 }
 		 br.close();
 	 }
@@ -42,10 +42,12 @@ public void process(String line,int ngrams) throws Exception{
 	//break line into ngrams
 	StringBuffer ngramString = new StringBuffer(text);
 	for(int i = ngrams; i < text.length(); i+= ngrams) {
-		ngramString.insert(i, "_");
+		ngramString.insert(i, " ");
 		i++;
 	}
-	System.out.println(ngramString.toString());
+	File file = new File("data.csv");
+	FileWriter fw = new FileWriter(file);
+	file.createNewFile();
 	//set vector
 	for(int i = 0; i < vector.length; i++) {
 		vector[i] = 0;
@@ -55,14 +57,14 @@ public void process(String line,int ngrams) throws Exception{
 		 * compute the index as an n gram.hashcode % vector.length
 		 * vector[i] = value of current + 1 
 		 */
-		for(int j = ngrams; j < ngramString.length(); j+= ngrams) {
-			int index = text.hashCode();
-			vector[i] = index + 1;
-			Utilities.normalize(vector, -1, 1);
-			//write out line to file
-		}
-	
-	
 	}
+	for(int i = 0; i < 100; i++) {
+		int index = line.hashCode() % vector.length; 
+		vector[i] = index;
+		Utilities.normalize(vector, -1, 1);
+		//write out line to file
+		fw.write(index);
+	}
+	fw.close();
 }
 }
