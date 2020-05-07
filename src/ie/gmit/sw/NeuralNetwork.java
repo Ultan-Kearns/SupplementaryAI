@@ -46,8 +46,9 @@ public class NeuralNetwork {
 	 * or reading from the CSV file. 
 	 */
 	public NeuralNetwork() {
-		int inputs = 2; //Change this to the number of input neurons
-		int outputs = 2; //Change this to the number of output neurons
+		//as there are 234 language outputs we must need 234 input neurons and output neurons
+		int inputs = 234; //Change this to the number of input neurons
+		int outputs = 234; //Change this to the number of output neurons
 		
 		//Configure the neural network topology. 
 		BasicNetwork network = new BasicNetwork();

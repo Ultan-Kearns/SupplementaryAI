@@ -18,7 +18,19 @@ The data is then parsed using the following method:
 This code goes through each line of text and inserts a space after every i characters, in this way the text of the entire file is broken up and then inserted into the vector array which will be used to train the data set.
 	
 ## Hashing
+I hased each ngram into the fixed size vector like so:
 
+		for(int i = ngrams; i < ngramString.length() -ngrams; i+=ngrams) {
+				int hashcode = ngramString.substring(i,ngrams+i).hashCode();
+		 		vector[i % vector.length] = hashcode;
+				//write out line to file
+		 		Utilities.normalize(vector, -1, 1);
+		 		writer.write(df.format(vector[i %vector.length]));
+		 		writer.write(",");
+		 		//newline
+		 		writer.newLine();
+			}
+I used a bufferedwriter to write each line to the file and the hashcode was computed by taking each ngram out of the string.
 ## Neural Network Topology
 
 ### Activation Functions
