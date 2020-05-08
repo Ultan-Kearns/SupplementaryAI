@@ -2,6 +2,7 @@ package ie.gmit.sw;
 
 import java.io.File;
 
+import org.encog.Encog;
 import org.encog.engine.network.activation.ActivationSigmoid;
 import org.encog.engine.network.activation.ActivationTANH;
 import org.encog.ml.data.MLDataSet;
@@ -45,10 +46,13 @@ public class NeuralNetwork {
 	 * You can normalize the data using the Utils class either before or after writing to 
 	 * or reading from the CSV file. 
 	 */
+	/*
+	 * This code is based on a video provided by Dr John Healy.
+	 */
 	public NeuralNetwork() {
 		//as there are 234 language outputs we must need 234 input neurons and output neurons
-		int inputs = 234; //Change this to the number of input neurons
-		int outputs = 234; //Change this to the number of output neurons
+		int inputs = 10; //Change this to the number of input neurons
+		int outputs = 10; //Change this to the number of output neurons
 		
 		//Configure the neural network topology. 
 		BasicNetwork network = new BasicNetwork();
@@ -73,11 +77,19 @@ public class NeuralNetwork {
 		CrossValidationKFold cv = new CrossValidationKFold(train, 5);
 		//Train the neural network
 		int epoch = 1; //Use this to track the number of epochs
+		//get current time for total time trained - taken from labs
+		long start = System.currentTimeMillis();
+		double errorRate = 0;
 		do { 
 			cv.iteration(); 
+			errorRate += cv.getError(); 
 			epoch++;
 		}while(epoch < 1000); 
 		//while(cv.getError() > 0.01);	
+		long end = System.currentTimeMillis();
+
+		System.out.println("Network trained in: " + epoch + " epochs\n"
+				+ " Trained in : " + (end - start) /1000 +" seconds\nWith an error rate of: " + (errorRate / epoch) + " %" + "\nTotal ACC: " + (100.00 - errorRate));
 		Utilities.saveNeuralNetwork(network, "./test.nn");
 		
 	}

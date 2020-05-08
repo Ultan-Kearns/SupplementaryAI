@@ -12,7 +12,7 @@ public class Runner {
 		*/
 		Scanner s = new Scanner(System.in);
 		while(true) {
-			System.out.println("1. Show Languages\n2. Train\n3. To exit\n");
+			System.out.println("1. Show Languages\n2. Train\n3. To run the network\n4. To exit\n");
 			System.out.print("Option: ");
 			int test = s.nextInt();
 			if(test == 1) {
@@ -32,7 +32,13 @@ public class Runner {
 				vp.go(fileDir,ngrams);
 				NeuralNetwork nn = new NeuralNetwork();
 			}
-			else if(test == 3)
+			if(test == 3) {
+				System.out.println("Type in a sentence in any language: ");
+				String testData = s.next();
+				NeuralNetwork nn = new NeuralNetwork();
+			
+			}
+			else if(test == 4)
 			{
 				break;
 			}

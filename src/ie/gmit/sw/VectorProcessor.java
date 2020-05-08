@@ -11,18 +11,20 @@ public class VectorProcessor {
 	private double[] vector = new double[100];
 	private DecimalFormat df = new DecimalFormat("###.###");
 	private Language[] langs;
-	File file = new File("./data.csv");
+	File output = new File("./data.csv");
 	BufferedWriter writer;
 
 	public void go(String fileDir, int ngrams) throws Exception {
-		File file = new File(fileDir);
+		File input = new File(fileDir);
 
 		try {
 
 			System.out.println("CREATING DATA.......");
-			file.createNewFile();
-			BufferedReader br = new BufferedReader(new FileReader(file));
+			output.createNewFile();
+			BufferedReader br = new BufferedReader(new FileReader(input));
 			String line = null;
+			// everytime process is called new file is created
+			writer = new BufferedWriter(new FileWriter(output,false));
 			while ((line = br.readLine()) != null) {
 				process(line, ngrams);
 			}
@@ -44,11 +46,8 @@ public class VectorProcessor {
 		if (record.length > 2)
 			return; // get rid of bad lines
 		String text = record[0].toLowerCase();
-		String language = record[1];
-		System.out.println("Language: " + language);
+		String language = record[1];	
 		// break line into ngrams
-		//everytime process is called new file is created
-		writer = new BufferedWriter(new FileWriter(file,true));
 		// set vector
 		for (int i = 0; i < vector.length; i++) {
 			vector[i] = 0;
@@ -63,9 +62,9 @@ public class VectorProcessor {
 			// write out line to file
 			Utilities.normalize(vector, -1, 1);
 			writer.append(df.format(vector[i % vector.length]));
-			System.out.println(vector[i % vector.length]);
-			// newline
-			writer.newLine();
+			writer.append('\n');
 		}
+		writer.append(',');
+		System.out.println("EXITING...");
 	}
 }
