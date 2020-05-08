@@ -62,9 +62,10 @@ public class VectorProcessor {
 			// write out line to file
 			Utilities.normalize(vector, -1, 1);
 			writer.append(df.format(vector[i % vector.length]));
-			writer.append('\n');
+			writer.append(',');
 		}
-		writer.append(',');
+
+		writer.append('\n');
 		System.out.println("EXITING...");
 	}
 }
