@@ -88,9 +88,10 @@ public class NeuralNetwork {
 		long end = System.currentTimeMillis();
 
 		System.out.println("Network trained in: " + epoch + " epochs\n"
-				+ " Trained in : " + (end - start) /1000 +" seconds\nWith an error rate of: " + (errorRate / epoch) + " %" + "\nTotal ACC: " + (100.00 - errorRate));
+				+ " Trained in : " + (end - start) /1000.00 +" seconds\nWith an error rate of: " + (errorRate / epoch));
 		Utilities.saveNeuralNetwork(network, "./test.nn");
 		
 	}
+	
 
 }
