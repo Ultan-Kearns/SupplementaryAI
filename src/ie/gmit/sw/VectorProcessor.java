@@ -56,20 +56,24 @@ public class VectorProcessor {
 			 * vector.length vector[i] = value of current + 1
 			 */
 		}
-		//if ngrams = 4 should only have 4 nums of columns 
+		//if ngrams = 4 should only have 4 nums of columns , think need to find way to bail out if it can't be formatted in 4 * 4s
 		int counter = 0;
 		for (int i = ngrams; i < text.length() - ngrams; i += ngrams) {
-			int hashcode = text.substring(i, ngrams + i).hashCode();
-			vector[i % vector.length] = hashcode;
-			// write out line to file
-			Utilities.normalize(vector, -1, 1);
-			writer.append(df.format(vector[i % vector.length]));
-			writer.append(',');
-			counter++;
-			if(counter == ngrams) {
+			if(counter > 4) {
+				break;
+			}
+			if(counter == 4) {
 				writer.append('\n');
 				counter = 0;
 			}
+			double hashcode = text.substring(i, ngrams + i).hashCode();
+			vector[i % vector.length] = hashcode;
+
+			// write out line to file
+			Utilities.normalize(vector, -1, 1);
+			writer.append(df.format(vector[i % vector.length]));
+			counter++;
+			writer.append(',');
 		}
 
 		//writer.append('\n');
