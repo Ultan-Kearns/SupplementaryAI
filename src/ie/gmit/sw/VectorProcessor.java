@@ -67,12 +67,14 @@ public class VectorProcessor {
 				writer.append('\n');
 				counter = 0;
 			}
-			double hashcode = text.substring(i, ngrams + i).hashCode();
-			vector[i % vector.length] = hashcode + 1;
-
+			int hashcode = text.substring(i, ngrams + i).hashCode();
+			int index = hashcode % vector.length;
+			//think this maybe wrong
+			vector[Math.abs(index)] = vector[Math.abs(index)] + 1;
+			
 			// write out line to file
 			Utilities.normalize(vector, -1, 1);
-			writer.append(df.format(vector[i % vector.length]));
+			writer.append(df.format(vector[Math.abs(index)]));
 			counter++;
 			writer.append(',');
 		}

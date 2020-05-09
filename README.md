@@ -29,7 +29,7 @@ I parsed and hashed each ngram into the fixed size vector like so:
 		 		writer.write(df.format(vector[i %vector.length]));
 		 		writer.write(",");
 		 		//newline
-		 		writer.newLine();s
+		 		writer.newLine();
 			}
 I used a bufferedwriter to write each line to the file and the hashcode was computed by taking each ngram out of the string.
 ## Neural Network Topology
@@ -37,3 +37,7 @@ I used a bufferedwriter to write each line to the file and the hashcode was comp
 ### Number of Neurons
 ### Error Rate
 ## Extras
++ Allowed user to enter in the vector size, ngram size & number of epochs
++ Allowed user to enter in the directory for the training data
++ reported network topology to user via the CLI
++ Gave hints to user on which size to use for vector, ngrams + epochs

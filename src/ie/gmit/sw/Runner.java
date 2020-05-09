@@ -7,7 +7,8 @@ import org.encog.ml.data.MLDataPair;
 
 public class Runner {
 	public static void main(String[] args) throws Exception{
-		
+		Language[] langs = Language.values(); //Only call this once...		
+
 		/*			
 			Each of the languages in the enum Language can be represented as a number between 0 and 234. You can 
 			map the output of the neural network and the training data label to / from the language using the
@@ -19,7 +20,6 @@ public class Runner {
 			System.out.print("Option: ");
 			int test = s.nextInt();
 			if(test == 1) {
-				Language[] langs = Language.values(); //Only call this once...		
 				for (int i = 0; i < langs.length; i++){
 					System.out.println(i + "-->" + langs[i]);
 				}
@@ -27,11 +27,11 @@ public class Runner {
 			else if(test == 2) {
 				System.out.print("\nPlease enter the directory of the file: ");
 				String fileDir = s.next();
-				System.out.print("\nPlease enter the Number of ngrams: ");
+				System.out.print("\nTry 5\nPlease enter the Number of ngrams: ");
 				int ngrams = s.nextInt();
-				System.out.print("\nPlease enter the vector size: ");
+				System.out.print("\nNote make sure vector size = input neuron size(234)\nPlease enter the vector size: ");
 				VectorProcessor.vectorSize = s.nextInt();
-				System.out.print("\nPlease enter the number of epoxhs: ");
+				System.out.print("\nTry 1000\nPlease enter the number of epochs: ");
 				NeuralNetwork.epochs = s.nextInt();
 				System.out.println("Neural network will be trained with File: " + fileDir + "  and number of ngrams will equal: " + ngrams);
 				VectorProcessor vp = new VectorProcessor();
@@ -43,7 +43,6 @@ public class Runner {
 				System.out.println("Type in a sentence in any language: ");
 				String testData = s.next();
 				NeuralNetwork nn = new NeuralNetwork();
-				 
 			}
 			else if(test == 4)
 			{
@@ -52,8 +51,7 @@ public class Runner {
 			else {
 				System.out.println("\nInvalid Command");
 			}
-			s.nextLine();
-		}
+		}	
 		System.out.println("\nHasta Luego!\n");
 	}
 }

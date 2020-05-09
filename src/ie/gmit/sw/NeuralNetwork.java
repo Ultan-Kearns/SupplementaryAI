@@ -51,8 +51,9 @@ public class NeuralNetwork {
 	/*
 	 * This code is based on a video provided by Dr John Healy.
 	 */
-	static int inputs = 234; //Change this to the number of input neurons
-	static int outputs = 234; //Change this to the number of output neurons
+	 //Since there are 235 languages make inputs and outputs equal
+	static int inputs = 235;
+	static int outputs = 235; 
 	static int epochs = 10;
 	public NeuralNetwork() {
 		int hidden = 20;
@@ -76,7 +77,8 @@ public class NeuralNetwork {
 		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.1, 1);
 		FoldedDataSet folded = new FoldedDataSet(trainingSet);
 		System.out.println(trainer.getTraining());
-		MLTrain train = new ResilientPropagation(network, folded);
+		//may use backpropagation instead
+		MLTrain train = new Backpropagation(network, folded);
 		CrossValidationKFold cv = new CrossValidationKFold(train, 5);
 		//Train the neural network
 		//get current time for total time trained - taken from labs
@@ -93,7 +95,7 @@ public class NeuralNetwork {
 
 		System.out.println("Network trained in: " + epochs + " epochss\n"
 				+ " Trained in : " + (end - start) /1000.00 +" seconds\nOr approx:"+ Math.round(((end - start) /1000.00) / 60.00) +"minutes\nWith an error rate of: " + (errorRate / epochs));
-		Utilities.saveNeuralNetwork(network, "./test.nn");
+		Utilities.saveNeuralNetwork(network, "./neuralnetwork.nn");
 		
 	}
 	 
