@@ -8,12 +8,13 @@ import java.io.FileWriter;
 import java.text.DecimalFormat;
 
 public class VectorProcessor {
-	private double[] vector = new double[100];
+	static int vectorSize;
+	private double[] vector = new double[vectorSize];
 	private DecimalFormat df = new DecimalFormat("###.###");
 	private Language[] langs;
 	File output = new File("./data.csv");
 	BufferedWriter writer;
-
+	
 	public void go(String fileDir, int ngrams) throws Exception {
 		File input = new File(fileDir);
 

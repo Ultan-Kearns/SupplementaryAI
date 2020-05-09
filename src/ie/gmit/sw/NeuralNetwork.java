@@ -53,6 +53,7 @@ public class NeuralNetwork {
 	 */
 	static int inputs = 234; //Change this to the number of input neurons
 	static int outputs = 234; //Change this to the number of output neurons
+	static int epochs = 10;
 	public NeuralNetwork() {
 		int hidden = 20;
 		//Configure the neural network topology. 
@@ -78,20 +79,20 @@ public class NeuralNetwork {
 		MLTrain train = new ResilientPropagation(network, folded);
 		CrossValidationKFold cv = new CrossValidationKFold(train, 5);
 		//Train the neural network
-		int epoch = 1; //Use this to track the number of epochs
 		//get current time for total time trained - taken from labs
 		long start = System.currentTimeMillis();
 		double errorRate = 0;
+		int counter = 0;
 		do { 
 			cv.iteration(); 
 			errorRate += cv.getError(); 
-			epoch++;
-		}while(epoch < 1000); 
+			counter++;
+		}while(counter < epochs); 
 		//while(cv.getError() > 0.01);	
 		long end = System.currentTimeMillis();
 
-		System.out.println("Network trained in: " + epoch + " epochs\n"
-				+ " Trained in : " + (end - start) /1000.00 +" seconds\nOr approx:"+ Math.round(((end - start) /1000.00) / 60.00) +"minutes\nWith an error rate of: " + (errorRate / epoch));
+		System.out.println("Network trained in: " + epochs + " epochss\n"
+				+ " Trained in : " + (end - start) /1000.00 +" seconds\nOr approx:"+ Math.round(((end - start) /1000.00) / 60.00) +"minutes\nWith an error rate of: " + (errorRate / epochs));
 		Utilities.saveNeuralNetwork(network, "./test.nn");
 		
 	}

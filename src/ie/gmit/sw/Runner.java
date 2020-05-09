@@ -29,6 +29,10 @@ public class Runner {
 				String fileDir = s.next();
 				System.out.print("\nPlease enter the Number of ngrams: ");
 				int ngrams = s.nextInt();
+				System.out.print("\nPlease enter the vector size: ");
+				VectorProcessor.vectorSize = s.nextInt();
+				System.out.print("\nPlease enter the number of epoxhs: ");
+				NeuralNetwork.epochs = s.nextInt();
 				System.out.println("Neural network will be trained with File: " + fileDir + "  and number of ngrams will equal: " + ngrams);
 				VectorProcessor vp = new VectorProcessor();
 				//set up CSV file
