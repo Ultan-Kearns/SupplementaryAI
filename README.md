@@ -34,7 +34,11 @@ I parsed and hashed each ngram into the fixed size vector like so:
 I used a bufferedwriter to write each line to the file and the hashcode was computed by taking each ngram out of the string.
 ## Neural Network Topology
 ### Activation Functions
+For the input and output layers I used a sigmoidal activation function and for the hidden layer I used TANH
+
+INCLUDE PICS AND EXPLANATIONS OF SIGMOID + TANH
 ### Number of Neurons
+For the input and output layers I decided to use 235 neurons as there are 234 languages and the array starts at 0 so in reality there are 235 pieces of data in the training array.  For the hidden layer I used 20 neurons as it seemed a good number due to the fact it is 1/10th of the entire trainingset and would give each neuron a decent amount of data to learn from.
 ### Error Rate
 ## Extras
 + Allowed user to enter in the vector size, ngram size & number of epochs

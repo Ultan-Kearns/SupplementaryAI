@@ -6,7 +6,11 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.text.DecimalFormat;
-
+/*
+ * TODO
+ * 1. write out classification for each row,
+ * 2. Test neural network
+ */
 public class VectorProcessor {
 	static int vectorSize;
 	private double[] vector = new double[vectorSize];
@@ -57,6 +61,7 @@ public class VectorProcessor {
 			 * vector.length vector[i] = value of current + 1
 			 */
 		}
+	
 		//if ngrams = 4 should only have 4 nums of columns , think need to find way to bail out if it can't be formatted in 4 * 4s
 		int counter = 0;
 		for (int i = ngrams; i < text.length() - ngrams; i += ngrams) {
@@ -70,8 +75,7 @@ public class VectorProcessor {
 			int hashcode = text.substring(i, ngrams + i).hashCode();
 			int index = hashcode % vector.length;
 			//think this maybe wrong
-			vector[Math.abs(index)] = vector[Math.abs(index)] + 1;
-			
+			vector[Math.abs(index)] = vector[Math.abs(index)] + 1;		
 			// write out line to file
 			Utilities.normalize(vector, -1, 1);
 			writer.append(df.format(vector[Math.abs(index)]));
@@ -81,4 +85,6 @@ public class VectorProcessor {
 
 		//writer.append('\n');
 	}
-}
+	//each row should have vector length + #labels  --- labels = number of elements in each row
+	// size of vector + 235
+} 
