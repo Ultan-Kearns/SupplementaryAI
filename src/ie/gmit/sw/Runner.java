@@ -2,6 +2,9 @@ package ie.gmit.sw;
 
 import java.util.Scanner;
 
+import org.encog.ml.data.MLData;
+import org.encog.ml.data.MLDataPair;
+
 public class Runner {
 	public static void main(String[] args) throws Exception{
 		
@@ -36,7 +39,7 @@ public class Runner {
 				System.out.println("Type in a sentence in any language: ");
 				String testData = s.next();
 				NeuralNetwork nn = new NeuralNetwork();
-			
+				 
 			}
 			else if(test == 4)
 			{

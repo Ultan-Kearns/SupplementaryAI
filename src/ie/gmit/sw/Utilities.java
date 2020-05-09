@@ -4,9 +4,9 @@ import java.io.File;
 import java.util.Arrays;
 import org.encog.neural.networks.BasicNetwork;
 import org.encog.persist.EncogDirectoryPersistence;
-
+//code provided by Dr John Healy
 public class Utilities {
-
+	
 	/**
 	 * Normalizes the hash vector of language k-mer / n-grams to values in a given 
 	 * range. The lower and upper bounds should correspond to the activation function(s)

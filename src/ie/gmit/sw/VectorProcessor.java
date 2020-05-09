@@ -59,15 +59,15 @@ public class VectorProcessor {
 		//if ngrams = 4 should only have 4 nums of columns , think need to find way to bail out if it can't be formatted in 4 * 4s
 		int counter = 0;
 		for (int i = ngrams; i < text.length() - ngrams; i += ngrams) {
-			if(counter > 4) {
+			if(counter > NeuralNetwork.inputs * NeuralNetwork.outputs) {
 				break;
 			}
-			if(counter == 4) {
+			if(counter == NeuralNetwork.inputs * NeuralNetwork.outputs) {
 				writer.append('\n');
 				counter = 0;
 			}
 			double hashcode = text.substring(i, ngrams + i).hashCode();
-			vector[i % vector.length] = hashcode;
+			vector[i % vector.length] = hashcode + 1;
 
 			// write out line to file
 			Utilities.normalize(vector, -1, 1);

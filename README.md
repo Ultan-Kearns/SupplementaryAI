@@ -17,6 +17,7 @@ The data is then parsed using the following method:
 		
 This code goes through each line of text and inserts a space after every i characters, in this way the text of the entire file is broken up and then inserted into the vector array which will be used to train the data set.
 	
+The size of the hashing vector is 
 ## N-grams parsing
 I parsed and hashed each ngram into the fixed size vector like so:
 
@@ -28,7 +29,7 @@ I parsed and hashed each ngram into the fixed size vector like so:
 		 		writer.write(df.format(vector[i %vector.length]));
 		 		writer.write(",");
 		 		//newline
-		 		writer.newLine();
+		 		writer.newLine();s
 			}
 I used a bufferedwriter to write each line to the file and the hashcode was computed by taking each ngram out of the string.
 ## Neural Network Topology
