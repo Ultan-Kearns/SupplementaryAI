@@ -48,6 +48,7 @@ public class Runner {
 			else {
 				System.out.println("\nInvalid Command");
 			}
+			s.nextLine();
 		}
 		System.out.println("\nHasta Luego!\n");
 	}

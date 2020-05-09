@@ -51,10 +51,10 @@ public class NeuralNetwork {
 	/*
 	 * This code is based on a video provided by Dr John Healy.
 	 */
-	static int inputs = 10; //Change this to the number of input neurons
-	static int outputs = 10; //Change this to the number of output neurons
+	static int inputs = 234; //Change this to the number of input neurons
+	static int outputs = 234; //Change this to the number of output neurons
 	public NeuralNetwork() {
-		int hidden = 100;
+		int hidden = 20;
 		//Configure the neural network topology. 
 		BasicNetwork network = new BasicNetwork();
 		network.addLayer(new BasicLayer(new ActivationSigmoid(), true, inputs)); //You need to figure out the activation function
@@ -64,7 +64,7 @@ public class NeuralNetwork {
 		network.addLayer(new BasicLayer(new ActivationSigmoid(), true, outputs));
 		network.getStructure().finalizeStructure();
 		network.reset();
-		System.out.println("\nThis neural network consists of 2 input nodes and 2 output node, \nthree layers of neurons 2 sigmoidal for input and output"
+		System.out.println("\nThis neural network consists of " + inputs + " input nodes and " + outputs + " output node, \nthree layers of neurons 2 sigmoidal for input and output"
 				+ " \nand a tanh for the hidden layer which comprises of " + hidden +  " neurons");
 		//Read the CSV file "data.csv" into memory. Encog expects your CSV file to have input + output number of columns.
 		DataSetCODEC dsc = new CSVDataCODEC(new File("data.csv"), CSVFormat.ENGLISH, false, inputs, outputs, false);
@@ -72,7 +72,7 @@ public class NeuralNetwork {
 		MLDataSet trainingSet = mdl.external2Memory();
 		
 		//Use backpropagation training with alpha=0.1 and momentum=0.2
-		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.1, 0.2);
+		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.1, 1);
 		FoldedDataSet folded = new FoldedDataSet(trainingSet);
 		System.out.println(trainer.getTraining());
 		MLTrain train = new ResilientPropagation(network, folded);
