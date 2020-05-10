@@ -84,6 +84,7 @@ public class NeuralNetwork {
 		//get current time for total time trained - taken from labs
 		long start = System.currentTimeMillis();
 		double errorRate = 0;
+		double correct = 0;
 		int counter = 0;
 		do { 
 			cv.iteration(); 
@@ -94,7 +95,9 @@ public class NeuralNetwork {
 		long end = System.currentTimeMillis();
 
 		System.out.println("Network trained in: " + epochs + " epochss\n"
-				+ " Trained in : " + (end - start) /1000.00 +" seconds\nOr approx:"+ Math.round(((end - start) /1000.00) / 60.00) +"minutes\nWith an error rate of: " + (errorRate / epochs));
+				+ " Trained in : " + (end - start) /1000.00 +" seconds\nOr approx:"+ Math.round(((end - start) /1000.00) / 60.00) +"minutes"
+						+ "With a total error rate of " + cv.getError()
+						+ "\nWith a total acc: " + (100.00 - cv.getError()));
 		Utilities.saveNeuralNetwork(network, "./neuralnetwork.nn");
 		
 	}

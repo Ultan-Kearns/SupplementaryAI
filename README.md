@@ -81,7 +81,115 @@ A typical neural network, if you imagine 10 input nodes, 20 hidden nodes and 10 
 <br/>
 The overall topology of the neural network would look like such: imagine a layer of 235 nodes which are not connected to each other, now imagine another layer of nodes which numbers 20 in total and now imagine that the 235 layers of nodes are connected to each of the 20 nodes and each of the 20 nodes are connected to a final layer of 235 nodes.  It is in this way that the neural network functions.  Each node in the hidden layer, which is the layer of 20 nodes, is sent data from the initial 235 nodes, once the hidden layer neurons are sent this data they are trained to recognize patterns in the data through activation functions such as sigmoidal and tanh.  Once the training is complete, the timing of which depends on the amount of training data, number of neurons, epochs etc..., then the final data is sent to the end nodes which will determine the language of the test data passed into the neural network.
 
+### Code used for NeuralNetwork
+		package ie.gmit.sw;
+		
+		import java.io.File;
+		
+		import org.encog.Encog;
+		import org.encog.engine.network.activation.ActivationSigmoid;
+		import org.encog.engine.network.activation.ActivationTANH;
+		import org.encog.ml.MLFactory;
+		import org.encog.ml.data.MLDataSet;
+		import org.encog.ml.data.basic.BasicMLDataSet;
+		import org.encog.ml.data.buffer.MemoryDataLoader;
+		import org.encog.ml.data.buffer.codec.CSVDataCODEC;
+		import org.encog.ml.data.buffer.codec.DataSetCODEC;
+		import org.encog.ml.data.folded.FoldedDataSet;
+		import org.encog.ml.train.MLTrain;
+		import org.encog.neural.networks.BasicNetwork;
+		import org.encog.neural.networks.layers.BasicLayer;
+		import org.encog.neural.networks.training.cross.CrossValidationKFold;
+		import org.encog.neural.networks.training.propagation.back.Backpropagation;
+		import org.encog.neural.networks.training.propagation.resilient.ResilientPropagation;
+		import org.encog.util.csv.CSVFormat;
+		
+		public class NeuralNetwork {
+		
+			/*
+			 * *************************************************************************************
+			 * NB: READ THE FOLLOWING CAREFULLY AFTER COMPLETING THE TWO LABS ON ENCOG AND REVIEWING
+			 * THE LECTURES ON BACKPROPAGATION AND MULTI-LAYER NEURAL NETWORKS! YOUR SHOULD ALSO 
+			 * RESTRUCTURE THIS CLASS AS IT IS ONLY INTENDED TO DEMO THE ESSENTIALS TO YOU. 
+			 * *************************************************************************************
+			 * 
+			 * The following demonstrates how to configure an Encog Neural Network and train
+			 * it using backpropagation from data read from a CSV file. The CSV file should
+			 * be structured like a 2D array of doubles with input + output number of columns.
+			 * Assuming that the NN has two input neurons and two output neurons, then the CSV file
+			 * should be structured like the following:
+			 *
+			 *			-0.385,-0.231,0.0,1.0
+			 *			-0.538,-0.538,1.0,0.0
+			 *			-0.63,-0.259,1.0,0.0
+			 *			-0.091,-0.636,0.0,1.0
+			 * 
+			 * The each row consists of four columns. The first two columns will map to the input
+			 * neurons and the last two columns to the output neurons. In the above example, rows 
+			 * 1 an 4 train the network with features to identify a category 2. Rows 2 and 3 contain
+			 * features relating to category 1.
+			 * 
+			 * You can normalize the data using the Utils class either before or after writing to 
+			 * or reading from the CSV file. 
+			 */
+			/*
+			 * This code is based on a video provided by Dr John Healy.
+			 */
+			 //Since there are 235 languages make inputs and outputs equal
+			static int inputs = 235;
+			static int outputs = 235; 
+			static int epochs = 10;
+			public NeuralNetwork() {
+				int hidden = 20;
+				//Configure the neural network topology. 
+				BasicNetwork network = new BasicNetwork();
+				network.addLayer(new BasicLayer(new ActivationSigmoid(), true, inputs)); //You need to figure out the activation function
+				//network.addLayer(....); //You need to figure out the number of hidden layers and their neurons
+				//network.addLayer(....);
+				network.addLayer(new BasicLayer(new ActivationTANH(),true,hidden));
+				network.addLayer(new BasicLayer(new ActivationSigmoid(), true, outputs));
+				network.getStructure().finalizeStructure();
+				network.reset();
+				System.out.println("\nThis neural network consists of " + inputs + " input nodes and " + outputs + " output node, \nthree layers of neurons 2 sigmoidal for input and output"
+						+ " \nand a tanh for the hidden layer which comprises of " + hidden +  " neurons");
+				//Read the CSV file "data.csv" into memory. Encog expects your CSV file to have input + output number of columns.
+				DataSetCODEC dsc = new CSVDataCODEC(new File("data.csv"), CSVFormat.ENGLISH, false, inputs, outputs, false);
+				MemoryDataLoader mdl = new MemoryDataLoader(dsc);
+				MLDataSet trainingSet = mdl.external2Memory();
+				
+				//Use backpropagation training with alpha=0.1 and momentum=0.2
+				Backpropagation trainer = new Backpropagation(network, trainingSet, 0.1, 1);
+				FoldedDataSet folded = new FoldedDataSet(trainingSet);
+				System.out.println(trainer.getTraining());
+				//may use backpropagation instead
+				MLTrain train = new Backpropagation(network, folded);
+				CrossValidationKFold cv = new CrossValidationKFold(train, 5);
+				//Train the neural network
+				//get current time for total time trained - taken from labs
+				long start = System.currentTimeMillis();
+				double errorRate = 0;
+				int counter = 0;
+				do { 
+					cv.iteration(); 
+					errorRate += cv.getError(); 
+					counter++;
+				}while(counter < epochs); 
+				//while(cv.getError() > 0.01);	
+				long end = System.currentTimeMillis();
+		
+				System.out.println("Network trained in: " + epochs + " epochss\n"
+						+ " Trained in : " + (end - start) /1000.00 +" seconds\nOr approx:"+ Math.round(((end - start) /1000.00) / 60.00) +"minutes\nWith an error rate of: " + (errorRate / epochs));
+				Utilities.saveNeuralNetwork(network, "./neuralnetwork.nn");
+				
+			}
+			 
+		}
+		
+Once trained I output the following stats to the user: Time trained in seconds, time trained in minutes which is an approximation, and the error rate.
+
 ### Error Rate
+When training the neural network with the following data: ngrams = 5, vector size = 235, epochs = 1000 - I was able to achieve an error rate of 0.8553195590121987 and the total time it was trained in : 0.043 seconds.  Overall the training of the network is very fast with a very low incidence of error.
+
 ## Extras
 + Allowed user to enter in the vector size, ngram size & number of epochs
 + Allowed user to enter in the directory for the training data
