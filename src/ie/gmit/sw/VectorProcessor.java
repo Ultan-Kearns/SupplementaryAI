@@ -62,13 +62,15 @@ public class VectorProcessor {
 			 */
 		}
 	
-		//if ngrams = 4 should only have 4 nums of columns , think need to find way to bail out if it can't be formatted in 4 * 4s
+		//if ngrams = 4 should only have 4 nums of columns , think need to find way to bail out if it can't be formatted in 4 * 4
+		// training size is only one for some reason
+		//think issue may be the file
 		int counter = 0;
 		for (int i = ngrams; i < text.length() - ngrams; i += ngrams) {
 			if(counter > NeuralNetwork.inputs * NeuralNetwork.outputs) {
 				break;
 			}
-			if(counter == NeuralNetwork.inputs * NeuralNetwork.outputs) {
+			if(counter == NeuralNetwork.inputs) {
 				writer.append('\n');
 				counter = 0;
 			}
@@ -77,7 +79,7 @@ public class VectorProcessor {
 			//think this maybe wrong
 			vector[Math.abs(index)] = vector[Math.abs(index)] + 1;		
 			// write out line to file
-			Utilities.normalize(vector, -1, 1);
+			//Utilities.normalize(vector, -1, 1);
 			writer.append(df.format(vector[Math.abs(index)]));
 			counter++;
 			writer.append(',');

@@ -2,12 +2,11 @@ package ie.gmit.sw;
 
 import java.io.File;
 
-import org.encog.Encog;
 import org.encog.engine.network.activation.ActivationSigmoid;
 import org.encog.engine.network.activation.ActivationTANH;
-import org.encog.ml.MLFactory;
+import org.encog.ml.data.MLData;
+import org.encog.ml.data.MLDataPair;
 import org.encog.ml.data.MLDataSet;
-import org.encog.ml.data.basic.BasicMLDataSet;
 import org.encog.ml.data.buffer.MemoryDataLoader;
 import org.encog.ml.data.buffer.codec.CSVDataCODEC;
 import org.encog.ml.data.buffer.codec.DataSetCODEC;
@@ -56,13 +55,16 @@ public class NeuralNetwork {
 	static int outputs = 235; 
 	static int epochs = 10;
 	public NeuralNetwork() {
-		int hidden = 20;
+		//40 works good
+		int hidden = 40;
 		//Configure the neural network topology. 
 		BasicNetwork network = new BasicNetwork();
 		network.addLayer(new BasicLayer(new ActivationSigmoid(), true, inputs)); //You need to figure out the activation function
 		//network.addLayer(....); //You need to figure out the number of hidden layers and their neurons
 		//network.addLayer(....);
-		network.addLayer(new BasicLayer(new ActivationTANH(),true,hidden));
+		//for some reason layers are not having an affect, issue with reading file?
+		network.addLayer(new BasicLayer(new ActivationTANH(),true,40));
+   
 		network.addLayer(new BasicLayer(new ActivationSigmoid(), true, outputs));
 		network.getStructure().finalizeStructure();
 		network.reset();
@@ -74,30 +76,56 @@ public class NeuralNetwork {
 		MLDataSet trainingSet = mdl.external2Memory();
 		
 		//Use backpropagation training with alpha=0.1 and momentum=0.2
-		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.1, 1);
+		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.1, 0.2);
 		FoldedDataSet folded = new FoldedDataSet(trainingSet);
 		System.out.println(trainer.getTraining());
 		//may use backpropagation instead
-		MLTrain train = new Backpropagation(network, folded);
+		MLTrain train = new ResilientPropagation(network, folded);
 		CrossValidationKFold cv = new CrossValidationKFold(train, 5);
 		//Train the neural network
 		//get current time for total time trained - taken from labs
-		long start = System.currentTimeMillis();
-		double errorRate = 0;
-		double correct = 0;
+		long start = System.currentTimeMillis();	 
 		int counter = 0;
+		double tp,tn,fn;
+		tp = tn = fn = 0;
+		
 		do { 
+			//need to test sensitivity and specifity across all 5 validations
 			cv.iteration(); 
-			errorRate += cv.getError(); 
 			counter++;
 		}while(counter < epochs); 
+		//taken from labs & refactored
+		double total,correct,error;
+		error = total = correct = 0;
+		//sensitivity (sn)= TP (TP + FN)
+		//§specificity (sP)= TN / (TN + FP)
+		
+		for (MLDataPair pair : trainingSet) {
+			total++;
+			MLData output = network.compute(pair.getInput());
+			//compare actual to ideal
+			int y = (int) Math.round(output.getData(0));
+			int yd = (int) pair.getIdeal().getData(0);
+			if(y == yd) {
+				correct++;
+			}
+			else {
+				error++;
+			}
+			System.out.println(pair.getInput().getData(0) + "," + pair.getInput().getData(1) + ", Y="
+					+ (int) Math.round(output.getData(0)) + ", Yd=" + (int) pair.getIdeal().getData(0));
+		}
+		System.out.println("\nTOTAL CORRECT: " + correct);
+		System.out.println("TRAINING SIZE: " + trainingSet.size());
+		System.out.println("TOTAL " + total);
+		System.out.println("TOTAL WRONG " + error);
 		//while(cv.getError() > 0.01);	
 		long end = System.currentTimeMillis();
-
-		System.out.println("Network trained in: " + epochs + " epochss\n"
+		System.out.println("TOTAL ACC: " + (correct / total) * 100);
+		System.out.println("\nNetwork trained in: " + epochs + " epochs\n"
 				+ " Trained in : " + (end - start) /1000.00 +" seconds\nOr approx:"+ Math.round(((end - start) /1000.00) / 60.00) +"minutes"
-						+ "With a total error rate of " + cv.getError()
-						+ "\nWith a total acc: " + (100.00 - cv.getError()));
+						+ "\nWith a total error rate of " + (error / total) * 100
+						+ "\nWith a total acc: " + (correct / total) * 100 + " TEST " + cv.getError());
 		Utilities.saveNeuralNetwork(network, "./neuralnetwork.nn");
 		
 	}

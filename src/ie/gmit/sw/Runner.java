@@ -27,9 +27,9 @@ public class Runner {
 			else if(test == 2) {
 				System.out.print("\nPlease enter the directory of the file: ");
 				String fileDir = s.next();
-				System.out.print("\nTry 5\nPlease enter the Number of ngrams: ");
+				System.out.print("\nTry 10\nPlease enter the Number of ngrams: ");
 				int ngrams = s.nextInt();
-				System.out.print("\nNote make sure vector size = input neuron size(234)\nPlease enter the vector size: ");
+				System.out.print("\nTry 235\nPlease enter the vector size: ");
 				VectorProcessor.vectorSize = s.nextInt();
 				System.out.print("\nTry 1000\nPlease enter the number of epochs: ");
 				NeuralNetwork.epochs = s.nextInt();
