@@ -82,8 +82,6 @@ public class VectorProcessor {
 			counter++;
 			writer.append(',');
 		}
-
-		//writer.append('\n');
 	}
 	//each row should have vector length + #labels  --- labels = number of elements in each row
 	// size of vector + 235
