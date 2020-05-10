@@ -4,20 +4,10 @@
 
 ## Introduction to Project
 This project was developed in lieu of the final year exam, which was cancelled due to the COVID-19 pandemic, for the module Artificial intelligence.  The objective of this project is to create A Language Detection Neural Network with Vector Hashing.  I will document all pertinent information in this readme.
-## Parsing
-To parse the training data I thought it was a good idea to let the user decide the number of Ngrams in the Runner class and then I used the user specified ngrams to break each language string in the training data up into the specified size.  
-
-The data is then parsed using the following method:
-
-		StringBuffer ngramString = new StringBuffer(text);
-		for(int i = ngrams; i < text.length(); i+= ngrams) {
-			ngramString.insert(i, " ");
-			i++;
-		}
-		
-This code goes through each line of text and inserts a space after every i characters, in this way the text of the entire file is broken up and then inserted into the vector array which will be used to train the data set.
-	
-The size of the hashing vector is 
+## Vector size	
+The size of the hashing vector is determined by the user via the UI and it is suggested that this size would be 235 as their are 234 languages in the training set.
+## Number of Epochs
+The number of epochs is again determined by the user via the UI, it is suggested that the user use 1000 epochs to train the data as this is a good number to ensure that each neuron in the hidden layer is trained with a decent amount of the training data.
 ## N-grams parsing
 I parsed and hashed each ngram into the fixed size vector like so:
 
@@ -31,14 +21,17 @@ I parsed and hashed each ngram into the fixed size vector like so:
 		 		//newline
 		 		writer.newLine();
 			}
-I used a bufferedwriter to write each line to the file and the hashcode was computed by taking each ngram out of the string.
+I used a bufferedwriter to write each line to the file and the hashcode was computed by taking each ngram out of the string.  Once this loop ends the entire text will be parsed into a number of ngrams which will be determined by the user via the UI, I suggest you use 5 or 6 ngrams for this as the odds of two 5 or 6 grams occuring are 0.26 ^ 5 or 0.26 ^ 6 respectively, for those not good at maths like myself this is a very low number.  The odds that an ngram of these sizes occuring more than once is less than 0.01%, that being said you do not want to make the ngram size too  large as there is a limited amount of text in the data set.
 ## Neural Network Topology
 ### Activation Functions
 For the input and output layers I used a sigmoidal activation function and for the hidden layer I used TANH
 
 INCLUDE PICS AND EXPLANATIONS OF SIGMOID + TANH
-### Number of Neurons
+### Number of Neurons & Explanation of topology
 For the input and output layers I decided to use 235 neurons as there are 234 languages and the array starts at 0 so in reality there are 235 pieces of data in the training array.  For the hidden layer I used 20 neurons as it seemed a good number due to the fact it is 1/10th of the entire trainingset and would give each neuron a decent amount of data to learn from.
+
+The overall topology of the neural network would look like such: imagine a layer of 235 nodes which are not connected to each other, now imagine another layer of nodes which numbers 20 in total and now imagine that the 235 layers of nodes are connected to each of the 20 nodes and each of the 20 nodes are connected to a final layer of 235 nodes.  It is in this way that the neural network functions.  Each node in the hidden layer, which is the layer of 20 nodes, is sent data from the initial 235 nodes, once the hidden layer neurons are sent this data they are trained to recognize patterns in the data through activation functions such as sigmoidal and tanh.  Once the training is complete, the timing of which depends on the amount of training data, number of neurons, epochs etc..., then the final data is sent to the end nodes which will determine the language of the test data passed into the neural network.
+
 ### Error Rate
 ## Extras
 + Allowed user to enter in the vector size, ngram size & number of epochs
