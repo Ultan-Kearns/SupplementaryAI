@@ -64,7 +64,9 @@ public class NeuralNetwork {
 		//network.addLayer(....);
 		//for some reason layers are not having an affect, issue with reading file?
 		network.addLayer(new BasicLayer(new ActivationTANH(),true,40));
-   
+		network.addLayer(new BasicLayer(new ActivationTANH(),true,40));
+		network.addLayer(new BasicLayer(new ActivationTANH(),true,20));
+
 		network.addLayer(new BasicLayer(new ActivationSigmoid(), true, outputs));
 		network.getStructure().finalizeStructure();
 		network.reset();
@@ -76,7 +78,7 @@ public class NeuralNetwork {
 		MLDataSet trainingSet = mdl.external2Memory();
 		
 		//Use backpropagation training with alpha=0.1 and momentum=0.2
-		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.1, 0.2);
+		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.9, 0.5);
 		FoldedDataSet folded = new FoldedDataSet(trainingSet);
 		System.out.println(trainer.getTraining());
 		//may use backpropagation instead

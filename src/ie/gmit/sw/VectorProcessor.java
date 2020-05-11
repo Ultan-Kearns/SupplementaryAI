@@ -79,7 +79,7 @@ public class VectorProcessor {
 			//think this maybe wrong
 			vector[Math.abs(index)] = vector[Math.abs(index)] + 1;		
 			// write out line to file
-			//Utilities.normalize(vector, -1, 1);
+			Utilities.normalize(vector, -1, 1);
 			writer.append(df.format(vector[Math.abs(index)]));
 			counter++;
 			writer.append(',');
