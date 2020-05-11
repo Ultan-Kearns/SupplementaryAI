@@ -85,18 +85,19 @@ public class NeuralNetwork {
 		//get current time for total time trained - taken from labs
 		long start = System.currentTimeMillis();	 
 		int counter = 0;
+		//true positives, true negatives and false negatives
 		double tp,tn,fn;
 		tp = tn = fn = 0;
 		double correct,error;
 		error = correct = 0;
-		//sensitivity (sn)= TP (TP + FN)
-		//§specificity (sP)= TN / (TN + FP)
 		do { 
 			//need to test sensitivity and specifity across all 5 validations
 			cv.iteration(); 
+			
 			counter++;
 		}while(counter < epochs); 
 		//taken from labs & refactored
+		//compare y to yd to see if true positive or others
 		for (MLDataPair pair : trainingSet) {
  			MLData output = network.compute(pair.getInput());
 			//compare actual to ideal
@@ -104,24 +105,32 @@ public class NeuralNetwork {
 			int yd = (int) pair.getIdeal().getData(0);
 			if(y == yd) {
 				correct++;
+				if((int) Math.round(output.getData(0)) ==  (int) pair.getIdeal().getData(0))
+					tp++;
 			}
 			else {
 				error++;
+				if((int) Math.round(output.getData(0)) ==  (int) pair.getIdeal().getData(0))
+					fn++;
+				else 
+					tn++;
+				
 			}
 			System.out.println(pair.getInput().getData(0) + "," + pair.getInput().getData(1) + ", Y="
 					+ (int) Math.round(output.getData(0)) + ", Yd=" + (int) pair.getIdeal().getData(0));
 		}
+		System.out.println("TRUE POSTIVES: " + tp + " FALSE NEGATIVES " + fn + " TRUE NEGATIVES " + tn);
 		System.out.println("\nTOTAL CORRECT: " + correct);
 		System.out.println("TRAINING SIZE: " + trainingSet.size());
-		System.out.println("TOTAL " + error + correct);
+		System.out.println("TOTAL " + (error + correct));
 		System.out.println("TOTAL WRONG " + error);
 		//while(cv.getError() > 0.01);	
 		long end = System.currentTimeMillis();
-		System.out.println("TOTAL ACC: " + (correct / total) * 100);
+		System.out.println("TOTAL ACC: " + (correct / (correct + error)) * 100);
 		System.out.println("\nNetwork trained in: " + epochs + " epochs\n"
 				+ " Trained in : " + (end - start) /1000.00 +" seconds\nOr approx:"+ Math.round(((end - start) /1000.00) / 60.00) +"minutes"
-						+ "\nWith a total error rate of " + (error / total) * 100
-						+ "\nWith a total acc: " + (correct / total) * 100 + " TEST " + cv.getError());
+						+ "\nWith a total error rate of " + (error / (correct + error)) * 100
+						+ "\nWith a total acc: " + (correct / (correct + error)) * 100 + " TEST " + cv.getError());
 		Utilities.saveNeuralNetwork(network, "./neuralnetwork.nn");
 		
 	}
