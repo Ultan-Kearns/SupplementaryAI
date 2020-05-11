@@ -67,7 +67,7 @@ public class VectorProcessor {
 		//think issue may be the file
 		int counter = 0;
 		for (int i = ngrams; i < text.length() - ngrams; i += ngrams) {
-			if(counter > NeuralNetwork.inputs * NeuralNetwork.outputs) {
+			if(counter > NeuralNetwork.inputs + NeuralNetwork.outputs) {
 				break;
 			}
 			if(counter == NeuralNetwork.inputs) {

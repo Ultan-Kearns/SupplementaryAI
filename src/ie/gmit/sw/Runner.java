@@ -43,6 +43,7 @@ public class Runner {
 				System.out.println("Type in a sentence in any language: ");
 				String testData = s.next();
 				NeuralNetwork nn = new NeuralNetwork();
+		 
 			}
 			else if(test == 4)
 			{
