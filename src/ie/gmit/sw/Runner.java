@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import org.encog.ml.data.MLData;
 import org.encog.ml.data.MLDataPair;
+import org.encog.neural.networks.BasicNetwork;
 
 public class Runner {
 	public static void main(String[] args) throws Exception{
@@ -48,7 +49,12 @@ public class Runner {
 		 
 			}
 			else if(response == 4) {
-				
+				BasicNetwork nn = Utilities.loadNeuralNetwork("neuralnetwork.nn");
+				System.out.println("Number of Layers: " + nn.getLayerCount());
+				for(int i = 0; i < nn.getLayerCount(); i++) {
+					System.out.println("Activation function for layer "  + i + ": " + nn.getActivation(i).getLabel());
+					System.out.println("layer " + i + " has: " + nn.getLayerNeuronCount(i) + " neurons");
+				}
 			}
 			else if(response == 5)
 			{

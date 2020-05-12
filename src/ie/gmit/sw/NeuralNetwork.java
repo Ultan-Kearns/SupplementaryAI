@@ -142,6 +142,7 @@ public class NeuralNetwork {
 	}
 	public static void process(String file) {
 		BasicNetwork nn = Utilities.loadNeuralNetwork("neuralnetwork.nn");
-	 
+		//read in file break into ngrams and hash maybe?
+		System.out.println("TEST " + nn.getLayerCount());
 	}
 }
