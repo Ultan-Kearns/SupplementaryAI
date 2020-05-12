@@ -16,15 +16,15 @@ public class Runner {
 		*/
 		Scanner s = new Scanner(System.in);
 		while(true) {
-			System.out.println("1. Show Languages\n2. Train\n3. To run the network\n4. To exit\n");
+			System.out.println("1. Show Languages\n2. Train\n3. To classify a file\n4. To report topology of Neural Network\n5. To exit\n");
 			System.out.print("Option: ");
-			int test = s.nextInt();
-			if(test == 1) {
+			int response = s.nextInt();
+			if(response == 1) {
 				for (int i = 0; i < langs.length; i++){
 					System.out.println(i + "-->" + langs[i]);
 				}
 			}
-			else if(test == 2) {
+			else if(response == 2) {
 				System.out.print("\nPlease enter the directory of the file: ");
 				String fileDir = s.next();
 				System.out.print("\nTry 10\nPlease enter the Number of ngrams: ");
@@ -37,15 +37,20 @@ public class Runner {
 				VectorProcessor vp = new VectorProcessor();
 				//set up CSV file
 				vp.go(fileDir,ngrams);
+				//trains network
 				NeuralNetwork nn = new NeuralNetwork();
 			}
-			if(test == 3) {
-				System.out.println("Type in a sentence in any language: ");
-				String testData = s.next();
-				NeuralNetwork nn = new NeuralNetwork();
+			if(response == 3) {
+				System.out.println("Enter File Directory: ");
+				String file = s.nextLine();
+				//read in file to string
+ 				NeuralNetwork.process(file);
 		 
 			}
-			else if(test == 4)
+			else if(response == 4) {
+				
+			}
+			else if(response == 5)
 			{
 				break;
 			}

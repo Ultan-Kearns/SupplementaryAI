@@ -85,39 +85,45 @@ public class NeuralNetwork {
 		//get current time for total time trained - taken from labs
 		long start = System.currentTimeMillis();	 
 		int counter = 0;
-		//true positives, true negatives and false negatives
+		//true positives, true negatives and false negatives - NEED TO TEST ACROSS ALL FIVE VALIDATIONS
 		double tp,tn,fn;
 		tp = tn = fn = 0;
 		double correct,error;
 		error = correct = 0;
 		do { 
-			//need to test sensitivity and specifity across all 5 validations
+ 			//need to test sensitivity and specifity across all 5 validations
 			cv.iteration(); 
 			
 			counter++;
 		}while(counter < epochs); 
 		//taken from labs & refactored
 		//compare y to yd to see if true positive or others
+		counter =0 ;
 		for (MLDataPair pair : trainingSet) {
+			
  			MLData output = network.compute(pair.getInput());
 			//compare actual to ideal
 			int y = (int) Math.round(output.getData(0));
 			int yd = (int) pair.getIdeal().getData(0);
+			//pair.getInput().getData(0) == pair.getInput().getData(1)
 			if(y == yd) {
 				correct++;
-				if((int) Math.round(output.getData(0)) ==  (int) pair.getIdeal().getData(0))
+				System.out.println("TEST " + (int) Math.round(output.getData(0))  + " " +  (int) pair.getIdeal().getData(0));
+				if(pair.getInput().getData(0) ==  pair.getInput().getData(1))
 					tp++;
 			}
 			else {
 				error++;
-				if((int) Math.round(output.getData(0)) ==  (int) pair.getIdeal().getData(0))
+				if(pair.getInput().getData(0) ==  pair.getInput().getData(1))
 					fn++;
 				else 
 					tn++;
 				
 			}
+		
 			System.out.println(pair.getInput().getData(0) + "," + pair.getInput().getData(1) + ", Y="
 					+ (int) Math.round(output.getData(0)) + ", Yd=" + (int) pair.getIdeal().getData(0));
+			counter++;
 		}
 		System.out.println("TRUE POSTIVES: " + tp + " FALSE NEGATIVES " + fn + " TRUE NEGATIVES " + tn);
 		System.out.println("\nTOTAL CORRECT: " + correct);
@@ -134,5 +140,8 @@ public class NeuralNetwork {
 		Utilities.saveNeuralNetwork(network, "./neuralnetwork.nn");
 		
 	}
+	public static void process(String file) {
+		BasicNetwork nn = Utilities.loadNeuralNetwork("neuralnetwork.nn");
 	 
+	}
 }
