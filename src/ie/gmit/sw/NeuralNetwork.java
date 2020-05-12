@@ -77,7 +77,7 @@ public class NeuralNetwork {
 				+ " \nand a tanh for the hidden layer which comprises of " + 40 + " neurons");
 		// Read the CSV file "data.csv" into memory. Encog expects your CSV file to have
 		// input + output number of columns.
-		DataSetCODEC dsc = new CSVDataCODEC(new File("data.csv"), CSVFormat.ENGLISH, false, inputs, outputs, false);
+		DataSetCODEC dsc = new CSVDataCODEC(new File("data.csv"), CSVFormat.ENGLISH, true, inputs, outputs, false);
 		MemoryDataLoader mdl = new MemoryDataLoader(dsc);
 		MLDataSet trainingSet = mdl.external2Memory();
 

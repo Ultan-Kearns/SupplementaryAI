@@ -1,3 +1,4 @@
+
 package ie.gmit.sw;
 
 import java.io.BufferedReader;
@@ -66,14 +67,9 @@ public class VectorProcessor {
 		//need to set language as label of training data
 		int counter = 0;
 		for (int i = ngrams; i < text.length() - ngrams; i += ngrams) {
-			if(counter > NeuralNetwork.inputs + NeuralNetwork.outputs) 
-			{
-				writer.append(language);
-				break;
-			}
 			if(counter == NeuralNetwork.inputs) {
 				writer.append('\n');
-				counter = 0;
+				break;
 			}
 			int hashcode = text.substring(i, ngrams + i).hashCode();
 			int index = hashcode % vector.length;
