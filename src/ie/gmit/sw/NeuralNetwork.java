@@ -66,12 +66,18 @@ public class NeuralNetwork {
 		// and their neurons
 		// network.addLayer(....);
 		// for some reason layers are not having an affect, issue with reading file?
-		network.addLayer(new BasicLayer(new ActivationTANH(), true, 40));
-		network.addLayer(new BasicLayer(new ActivationTANH(), true, 40));
-		network.addLayer(new BasicLayer(new ActivationTANH(), true, 20));
+		network.addLayer(new BasicLayer(new ActivationTANH(), true, 60));
+		network.addLayer(new BasicLayer(new ActivationTANH(), true, 60));
+		network.addLayer(new BasicLayer(new ActivationTANH(), true, 60));
+
 		network.addLayer(new BasicLayer(new ActivationSigmoid(), true, outputs));
 		network.getStructure().finalizeStructure();
 		network.reset();
+		System.out.println("REPORTING NETWORK TOPOLOGY: ");
+		for (int i = 0; i < network.getLayerCount(); i++) {
+			System.out.println("Activation function for layer " + i + ": " + network.getActivation(i).getLabel());
+			System.out.println("layer " + i + " has: " + network.getLayerNeuronCount(i) + " neurons");
+		}
 		System.out.println("\nThis neural network consists of " + inputs + " input nodes and " + outputs
 				+ " output node, \nthree layers of neurons 2 sigmoidal for input and output"
 				+ " \nand a tanh for the hidden layer which comprises of " + 40 + " neurons");
@@ -126,7 +132,6 @@ public class NeuralNetwork {
 					fn++;
 				else
 					tn++;
-
 			}
 
 			System.out.println(pair.getInput().getData(0) + "," + pair.getInput().getData(1) + ", Y="

@@ -1,4 +1,3 @@
-
 package ie.gmit.sw;
 
 import java.io.BufferedReader;
@@ -68,8 +67,9 @@ public class VectorProcessor {
 		int counter = 0;
 		for (int i = ngrams; i < text.length() - ngrams; i += ngrams) {
 			if(counter == NeuralNetwork.inputs) {
+			//writer.append(language);
 				writer.append('\n');
-				break;
+				counter = 0;
 			}
 			int hashcode = text.substring(i, ngrams + i).hashCode();
 			int index = hashcode % vector.length;
