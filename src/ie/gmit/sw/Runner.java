@@ -19,7 +19,7 @@ public class Runner {
 		Scanner s = new Scanner(System.in);
 		while (true) {
 			System.out.println(
-					"1. Show Languages\n2. Train\n3. To classify a file\n4. To report topology of Neural Network\n5. To exit\n");
+					"1. Show Languages\n2. Train\n3. To classify a file\n4. To report topology of trained Neural Network\n5. To exit\n");
 			System.out.print("Option: ");
 			int response = s.nextInt();
 			if (response == 1) {
@@ -59,7 +59,7 @@ public class Runner {
 				}
 				}
 				catch(Exception e) {
-					System.out.println("Train network before running this command.");
+					System.out.println("Train network before running this command. Also trained network must named as neuralnetwork and have file extension .nn");
 				}
 			} else if (response == 5) {
 				break;
