@@ -64,22 +64,20 @@ public class VectorProcessor {
 	
 	 
 		//need to set language as label of training data
-		int counter = 0;
-		for (int i = ngrams; i < text.length() - ngrams; i += ngrams) {
-			if(counter == NeuralNetwork.inputs) {
-			//writer.append(language);
-				writer.append('\n');
-				counter = 0;
-			}
+  
+ 		for (int i = ngrams; i < text.length() - ngrams; i += ngrams) {
+			//need input + output number of columns, no clue how to do this
+	 
 			int hashcode = text.substring(i, ngrams + i).hashCode();
 			int index = hashcode % vector.length;
 			//think this maybe wrong
-			vector[Math.abs(index)] = vector[Math.abs(index)] + 1;		
+			vector[Math.abs(index)] = index + 1;		
 			// write out line to file
 			Utilities.normalize(vector, -1, 1);
 			writer.append(df.format(vector[Math.abs(index)]));
-			counter++;
-			writer.append(',');
+			//write out language number to same row as CSV FILE, say language was 1. then you'd have 254 0s following it then follow with newline
+		
+ 			writer.append(',');
 		}
 	}
 	//each row should have vector length + #labels  --- labels = number of elements in each row

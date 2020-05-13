@@ -47,6 +47,9 @@ For the input and output layers I used a sigmoidal activation function and for t
 ** REFERENCE NOTE ** Rather than reference the same source multiple times I will reference it once here, all information for this chapter was gotten from the sigmoidal wiki page here: [sigmoid][1]
 <br/>
 <br/>
+
+The sigmoidal function is a mathematical function which for this project was used to determine 
+
 The sigmoidal function gradually increases when provided positive results and has an S shaped curve, this can be useful for training a neural network as the accuracy or similarity of data can be trained using a curve so for example, say we had a string of Chinese characters and we were looking to find out which language it was, Japanese would score fairly highly as a lot of Japanese characters are taken from the Chinese alphabet and Chinese would score highly also it is in this way by using the similarity of the language to the training data that the neural network can decipher the language.
 
 #### TANH Function

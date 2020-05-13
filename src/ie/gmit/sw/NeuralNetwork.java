@@ -38,7 +38,9 @@ public class NeuralNetwork {
 	 * columns. Assuming that the NN has two input neurons and two output neurons,
 	 * then the CSV file should be structured like the following:
 	 *
-	 * -0.385,-0.231,0.0,1.0 -0.538,-0.538,1.0,0.0 -0.63,-0.259,1.0,0.0
+	 * -0.385,-0.231,0.0,1.0 
+	 * -0.538,-0.538,1.0,0.0 
+	 * -0.63,-0.259,1.0,0.0
 	 * -0.091,-0.636,0.0,1.0
 	 * 
 	 * The each row consists of four columns. The first two columns will map to the
@@ -55,7 +57,7 @@ public class NeuralNetwork {
 	// Since there are 235 languages make inputs and outputs equal
 	static int inputs = 235;
 	static int outputs = 235;
-	static int epochs = 10;
+	static int epochs;
 
 	public NeuralNetwork() {
 		// Configure the neural network topology.
@@ -67,7 +69,7 @@ public class NeuralNetwork {
 		// network.addLayer(....);
 		// for some reason layers are not having an affect, issue with reading file?
 		network.addLayer(new BasicLayer(new ActivationTANH(), true, 60));
-		network.addLayer(new BasicLayer(new ActivationTANH(), true, 60));
+		network.addLayer(new BasicLayer(new ActivationSigmoid(), true, 60));
 		network.addLayer(new BasicLayer(new ActivationTANH(), true, 60));
 
 		network.addLayer(new BasicLayer(new ActivationSigmoid(), true, outputs));
@@ -98,23 +100,18 @@ public class NeuralNetwork {
 		// get current time for total time trained - taken from labs
 		long start = System.currentTimeMillis();
 		int counter = 0;
-		// true positives, true negatives and false negatives - NEED TO TEST ACROSS ALL
-		// FIVE VALIDATIONS
-		double tp, tn, fn;
+ 		double tp, tn, fn;
 		tp = tn = fn = 0;
 		double correct, error;
 		error = correct = 0;
 		do {
-			// need to test sensitivity and specifity across all 5 validations
-			cv.iteration();
-
+ 			cv.iteration();
 			counter++;
 		} while (counter < epochs);
 		// taken from labs & refactored
 		// compare y to yd to see if true positive or others
 		counter = 0;
 		for (MLDataPair pair : trainingSet) {
-
 			MLData output = network.compute(pair.getInput());
 			// compare actual to ideal
 			int y = (int) Math.round(output.getData(0));
