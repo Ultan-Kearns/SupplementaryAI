@@ -40,6 +40,10 @@ I parsed and hashed each ngram into the fixed size vector like so:
 I used a bufferedwriter to write each line to the file and the hashcode was computed by taking each ngram out of the string.  Once this loop ends the entire text will be parsed into a number of ngrams which will be determined by the user via the UI, I suggest you use 5 or 10 ngrams for this as the odds of two 5 or 10 ngrams occuring are 0.38 ^ 5 or 0.38 ^ 10 respectively, for those not good at maths like myself this is a very low number.  The odds that an ngram of these sizes occuring more than once is less than 0.01%, that being said you do not want to make the ngram size too  large as there is a limited amount of text in the data set.  I also ensured that the CSV file was formatted in a way such that the total number of columns would equal the number of input nodes for the neural network times the number of output nodes, so if we had 2 input and 2 output nodes the total number of columns would be 4.  This data.csv file was then passed into the neural network and the neural network used it as training data.
 
 ## Neural Network Topology
+
+## What is an Artificial Neural Network? 
+An artificial neural network can be considered a weighted graph, that is to say if we imagine a layer of nodes all connected to another layer of N nodes each with a particular weight attached to each node then we have the basics of an artificial neural network.
+
 ### Activation Functions
 For the input and output layers I used a sigmoidal activation function and for the hidden layers I used TANH, I will explain why I used each of these functions below.
 

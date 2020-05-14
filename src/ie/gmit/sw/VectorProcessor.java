@@ -48,7 +48,7 @@ public class VectorProcessor {
 			System.exit(-1);
 		}
 	}
-
+	//should have 235 + 235 coluns 470 total only getting 358
 	public void process(String line, int ngrams) throws Exception {
 	 
 		String[] record = line.split("@");
@@ -62,34 +62,62 @@ public class VectorProcessor {
 		// set vector
 		for (int i = 0; i < vector.length; i++) {
 			vector[i] = 0;
-			/*
-			 * Loop over text for each n gram compute the index as an n gram.hashcode %
-			 * vector.length vector[i] = value of current + 1
-			 */
 		}
 
-		// need to set language as label of training data
+		// Append 0s to data set to ensure columns = outputs + inputs 
+		// only use inputs as 235 is automatically appended due to lang labels
+		// need 235 rows too
+		System.out.println("TT " + text.length());
+		if(text.length() < NeuralNetwork.inputs)
+		{
+			System.out.println("IN " + text.length());
+			StringBuffer s = new StringBuffer(text);
+			for(int i = s.length(); i < NeuralNetwork.inputs; i++) {
+				System.out.println("TRUE " + i);
+				s.append('1');
+		
+			}
+			text = s.toString();
+			//text.len should = 235 issue is here
+			System.out.println("LENGTH " + text.length());
 
+		}
+		else if(text.length() > NeuralNetwork.inputs)
+		{
+			System.out.println("IN GREATER " + text.length());
+			StringBuffer s = new StringBuffer(text);
+			s.delete(NeuralNetwork.inputs, s.length());
+			text = s.toString();
+			//text.len should = 235
+	 
+
+		}
 		for (int i = ngrams; i < text.length() - ngrams; i += ngrams) {
-			// need input + output number of columns, no clue how to do this and follow it up with the language label
 			int hashcode = text.substring(i, ngrams + i).hashCode();
 			int index = hashcode % vector.length;
 			// think this maybe wrong
 			vector[Math.abs(index)] = index + 1;
 			// write out line to file
-			Utilities.normalize(vector, -1, 1);
+			//Utilities.normalize(vector, -1, 1);
 			writer.append(df.format(vector[Math.abs(index)]));
 			writer.append(",");
 		}
-		// write out language label
-		for (int j = 0; j < lang.length - 1; j++) { 
-			if (lang[counter].equals(lang[j])) {
+		// write out language label - this will fill in 235 values - don't know if it's working
+		for (int j = 0; j <= lang.length - 1; j++) { 
+			System.out.println("LANGUAGE "+ j);
+			if (lang[counter - 1].equals(lang[j])) {
 				writer.append('1');
 			} else {
 				writer.append('0');
 			}
+			if(j == lang.length - 1) {
+				writer.append("\n");
+
+				break;
+			}
 			writer.append(',');
 		}
+		
 	}
 	// each row should have vector length + #labels --- labels = number of elements
 	// in each row

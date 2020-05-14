@@ -2,7 +2,9 @@ package ie.gmit.sw;
 
 import java.io.File;
 
+import org.encog.engine.network.activation.ActivationReLU;
 import org.encog.engine.network.activation.ActivationSigmoid;
+import org.encog.engine.network.activation.ActivationSoftMax;
 import org.encog.engine.network.activation.ActivationTANH;
 import org.encog.ml.data.MLData;
 import org.encog.ml.data.MLDataPair;
@@ -68,11 +70,10 @@ public class NeuralNetwork {
 		// and their neurons
 		// network.addLayer(....);
 		// for some reason layers are not having an affect, issue with reading file?
-		network.addLayer(new BasicLayer(new ActivationTANH(), true, 60));
-		network.addLayer(new BasicLayer(new ActivationSigmoid(), true, 60));
-		network.addLayer(new BasicLayer(new ActivationTANH(), true, 60));
-
-		network.addLayer(new BasicLayer(new ActivationSigmoid(), true, outputs));
+		network.addLayer(new BasicLayer(new ActivationSoftMax(), true, 60));
+		network.addLayer(new BasicLayer(new ActivationReLU(), true, 60));
+		network.addLayer(new BasicLayer(new ActivationReLU(), true, 60));
+		network.addLayer(new BasicLayer(new ActivationSoftMax(), true, outputs));
 		network.getStructure().finalizeStructure();
 		network.reset();
 		System.out.println("REPORTING NETWORK TOPOLOGY: ");
