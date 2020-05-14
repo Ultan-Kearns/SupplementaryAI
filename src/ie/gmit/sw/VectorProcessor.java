@@ -89,9 +89,8 @@ public class VectorProcessor {
 			s.delete(NeuralNetwork.inputs, s.length());
 			text = s.toString();
 			//text.len should = 235
-	 
-
 		}
+		//issue with NGRAMS, since the number is smaller not sure about hashcode honestly very hard to figure this thing out
 		for (int i = ngrams; i < text.length() - ngrams; i += ngrams) {
 			int hashcode = text.substring(i, ngrams + i).hashCode();
 			int index = hashcode % vector.length;
@@ -112,7 +111,6 @@ public class VectorProcessor {
 			}
 			if(j == lang.length - 1) {
 				writer.append("\n");
-
 				break;
 			}
 			writer.append(',');
