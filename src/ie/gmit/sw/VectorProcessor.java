@@ -52,7 +52,6 @@ public class VectorProcessor {
 
 	// should have 235 + 235 coluns 470 total only getting 358
 	public void process(String line, int ngrams) throws Exception {
-
 		String[] record = line.split("@");
 		if (record.length > 2)
 			return; // get rid of bad lines
@@ -69,16 +68,16 @@ public class VectorProcessor {
 		// should only be 235 in here
 		if(text.length() < 235) {
 			StringBuffer s = new StringBuffer(text.length());
-			for(int i = text.length(); i < NeuralNetwork.inputs; i++) {
+			for(int c = text.length(); c < NeuralNetwork.inputs; c++) {
 				s.append("0");
 			}
 			text += s.toString();
 			System.out.println("TTTTTTTTTT" + text.length());
 		}
-		for (int i = ngrams; i < NeuralNetwork.inputs; i += ngrams) {
+		//issue here? issue with last line of file maybe it's > 235
+		for (int i = ngrams; i < vector.length - ngrams; i += ngrams) {
 			System.out.println(i);
-			if(i >= NeuralNetwork.inputs)
-				break;
+	 
 			int hashcode = text.substring(i, ngrams + i).hashCode();
 			int index = hashcode % vector.length;
 			// think this maybe wrong
