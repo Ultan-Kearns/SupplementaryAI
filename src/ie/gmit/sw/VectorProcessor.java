@@ -68,7 +68,7 @@ public class VectorProcessor {
 		// should only be 235 in here
 		if(text.length() < 235) {
 			StringBuffer s = new StringBuffer(text.length());
-			for(int c = text.length(); c < NeuralNetwork.inputs; c++) {
+			for(int i = text.length(); i < NeuralNetwork.inputs; i++) {
 				s.append("0");
 			}
 			text += s.toString();
@@ -94,12 +94,12 @@ public class VectorProcessor {
 		if(vector.length >= NeuralNetwork.inputs) {
 			System.out.println("VECTOR LENGTH " + vector.length);
 		}
-		// use a counter to determine language of file so you can label it
-		if (!language.equalsIgnoreCase(lang[counter].toString()) && counter < 234) {
+		// use a counter to determine language of file so you can label it - issue may be with counter
+		if (!language.equalsIgnoreCase(lang[counter].toString()) && counter < 235) {
 			counter++;
 			// write out language label - this will fill in 235 values - don't know if it's
 			// working
-			for (int j = 0; j <= lang.length - 1; j++) {
+			for (int j = 0; j <= lang.length; j++) {
 				System.out.println("LANGUAGE " + j);
 				if (lang[counter - 1].equals(lang[j])) {
 					writer.append('1');
