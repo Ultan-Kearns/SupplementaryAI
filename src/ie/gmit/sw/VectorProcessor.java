@@ -74,8 +74,8 @@ public class VectorProcessor {
 			text += s.toString();
 			System.out.println("TTTTTTTTTT" + text.length());
 		}
-		//issue here? issue with last line of file maybe it's > 235
-		for (int i = ngrams; i < vector.length - ngrams; i += ngrams) {
+		//issue here? issue with last line of file maybe it's > 235 - ngrams from length maybe?
+		for (int i = 0; i < vector.length; i += ngrams) {
 			System.out.println(i);
 	 
 			int hashcode = text.substring(i, ngrams + i).hashCode();
@@ -95,13 +95,13 @@ public class VectorProcessor {
 			System.out.println("VECTOR LENGTH " + vector.length);
 		}
 		// use a counter to determine language of file so you can label it - issue may be with counter
-		if (!language.equalsIgnoreCase(lang[counter].toString()) && counter < 235) {
-			counter++;
+		if (!language.equalsIgnoreCase(lang[counter].toString()) && counter < 234) {
+		
 			// write out language label - this will fill in 235 values - don't know if it's
 			// working
 			for (int j = 0; j <= lang.length; j++) {
 				System.out.println("LANGUAGE " + j);
-				if (lang[counter - 1].equals(lang[j])) {
+				if (lang[counter].equals(lang[j])) {
 					writer.append('1');
 				} else {
 					writer.append('0');
@@ -112,6 +112,7 @@ public class VectorProcessor {
 				}
 				writer.append(',');
 			}
+			counter++;
 		}
 	}
 
