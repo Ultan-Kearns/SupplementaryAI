@@ -51,18 +51,20 @@ public class Runner {
 				NeuralNetwork.process(file);
 
 			} else if (response == 4) {
-				//loads in the neural network and reports topology or displays error msg if file doesn't exist...
+				// loads in the neural network and reports topology or displays error msg if
+				// file doesn't exist...
 				try {
-				BasicNetwork nn = Utilities.loadNeuralNetwork("neuralnetwork.nn");
-				System.out.println("Number of Layers: " + nn.getLayerCount());
-				for (int i = 0; i < nn.getLayerCount(); i++) {
-					System.out.println("Activation function for layer " + i + ": " + nn.getActivation(i).getLabel());
-					System.out.println("layer " + i + " has: " + nn.getLayerNeuronCount(i) + " neurons");
-				}
-				System.out.println("\n");
-				}
-				catch(Exception e) {
-					System.out.println("Train network before running this command. Also trained network must named as neuralnetwork and have file extension .nn");
+					BasicNetwork nn = Utilities.loadNeuralNetwork("neuralnetwork.nn");
+					System.out.println("Number of Layers: " + nn.getLayerCount());
+					for (int i = 0; i < nn.getLayerCount(); i++) {
+						System.out
+								.println("Activation function for layer " + i + ": " + nn.getActivation(i).getLabel());
+						System.out.println("layer " + i + " has: " + nn.getLayerNeuronCount(i) + " neurons");
+					}
+					System.out.println("\n");
+				} catch (Exception e) {
+					System.out.println(
+							"Train network before running this command. Also trained network must named as neuralnetwork and have file extension .nn");
 				}
 			} else if (response == 5) {
 				s.close();

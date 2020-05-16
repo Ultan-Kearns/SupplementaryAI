@@ -1,3 +1,4 @@
+
 package ie.gmit.sw;
 
 import java.io.BufferedReader;
@@ -77,7 +78,7 @@ public class VectorProcessor {
 		//issue here? issue with last line of file maybe it's > 235 - ngrams from length maybe?
 		for (int i = 0; i < vector.length * ngrams; i += ngrams) {
 			System.out.println(i);
-	 
+			try {
 			int hashcode = text.substring(i, ngrams + i).hashCode();
 			int index = hashcode % vector.length;
 			// think this maybe wrong
@@ -88,6 +89,12 @@ public class VectorProcessor {
 			writer.append(",");
 			System.out.println("TEST of vector : " + i);
 			System.out.println("INDEX: " + index);
+			}
+			catch(Exception e) {
+				writer.append('0');
+				writer.append(',');
+			}
+			
  
 
 		}

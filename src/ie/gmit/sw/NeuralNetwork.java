@@ -64,15 +64,13 @@ public class NeuralNetwork {
 	public NeuralNetwork() {
 		// Configure the neural network topology.
 		BasicNetwork network = new BasicNetwork();
-		network.addLayer(new BasicLayer(new ActivationSigmoid(), true, inputs)); // You need to figure out the
-																					// activation function
+		network.addLayer(new BasicLayer(new ActivationSoftMax(), true, inputs)); // You need to figure out activation function
 		// network.addLayer(....); //You need to figure out the number of hidden layers
 		// and their neurons
 		// network.addLayer(....);
 		// for some reason layers are not having an affect, issue with reading file?
-		network.addLayer(new BasicLayer(new ActivationSoftMax(), true, 60));
 		network.addLayer(new BasicLayer(new ActivationReLU(), true, 60));
-		network.addLayer(new BasicLayer(new ActivationReLU(), true, 60));
+		network.addLayer(new BasicLayer(new ActivationReLU(), true, 40));
 		network.addLayer(new BasicLayer(new ActivationSoftMax(), true, outputs));
 		network.getStructure().finalizeStructure();
 		network.reset();
@@ -90,8 +88,8 @@ public class NeuralNetwork {
 		MemoryDataLoader mdl = new MemoryDataLoader(dsc);
 		MLDataSet trainingSet = mdl.external2Memory();
 
-		// Use backpropagation training with alpha=0.9 and momentum=0.5
-		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.9, 0.5);
+		// Use backpropagation training with alpha=0.1 and momentum=0.2
+		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.1, 0.2);
 		FoldedDataSet folded = new FoldedDataSet(trainingSet);
 		System.out.println(trainer.getTraining());
 		// may use backpropagation instead
