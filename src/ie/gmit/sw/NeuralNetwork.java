@@ -157,7 +157,8 @@ public class NeuralNetwork {
 			BasicNetwork nn = Utilities.loadNeuralNetwork("neuralnetwork.nn");
 			// read in file break into ngrams and hash maybe?
 			System.out.println("TEST " + nn.getLayerCount());
-			MLDataSet data = new BasicMLDataSet();
+			MLDataSet data;
+			
  		} catch (Exception e) {
 			System.out.println(
 					"no file could be found for neural network, please try to train neural network before running this command");

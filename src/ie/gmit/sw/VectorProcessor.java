@@ -66,16 +66,16 @@ public class VectorProcessor {
 		// issue with NGRAMS, since the number is smaller not sure about hashcode
 		// honestly very hard to figure this thing out
 		// should only be 235 in here
-		if(text.length() < 235) {
+		if(text.length() < 235 * ngrams) {
 			StringBuffer s = new StringBuffer(text.length());
-			for(int i = text.length(); i < NeuralNetwork.inputs; i++) {
+			for(int i = text.length(); i < NeuralNetwork.inputs * ngrams; i++) {
 				s.append("0");
 			}
 			text += s.toString();
 			System.out.println("TTTTTTTTTT" + text.length());
 		}
 		//issue here? issue with last line of file maybe it's > 235 - ngrams from length maybe?
-		for (int i = 0; i < vector.length; i += ngrams) {
+		for (int i = 0; i < vector.length * ngrams; i += ngrams) {
 			System.out.println(i);
 	 
 			int hashcode = text.substring(i, ngrams + i).hashCode();

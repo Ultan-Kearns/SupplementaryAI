@@ -17,11 +17,12 @@ public class Runner {
 		 * maps to Achinese, i.e. langs[0].
 		 */
 		Scanner s = new Scanner(System.in);
+		int response;
 		while (true) {
 			System.out.println(
 					"1. Show Languages\n2. Train\n3. To classify a file\n4. To report topology of trained Neural Network\n5. To exit\n");
 			System.out.print("Option: ");
-			int response = s.nextInt();
+			response = s.nextInt();
 			if (response == 1) {
 				for (int i = 0; i < langs.length; i++) {
 					System.out.println(i + "-->" + langs[i]);
@@ -29,9 +30,9 @@ public class Runner {
 			} else if (response == 2) {
 				System.out.print("\nPlease enter the directory of the file: ");
 				String fileDir = s.next();
-				System.out.print("\nTry 10\nPlease enter the Number of ngrams: ");
+				System.out.print("\nTry 1 - 5\nPlease enter the Number of ngrams: ");
 				int ngrams = s.nextInt();
-				System.out.print("\nTry 500\nPlease enter the vector size: ");
+				System.out.print("\nTry 235\nPlease enter the vector size: ");
 				VectorProcessor.vectorSize = s.nextInt();
 				System.out.print("\nTry 1000\nPlease enter the number of epochs: ");
 				NeuralNetwork.epochs = s.nextInt();
@@ -64,6 +65,7 @@ public class Runner {
 					System.out.println("Train network before running this command. Also trained network must named as neuralnetwork and have file extension .nn");
 				}
 			} else if (response == 5) {
+				s.close();
 				break;
 			} else {
 				System.out.println("\nInvalid Command");
