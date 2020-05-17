@@ -58,6 +58,7 @@ public class NeuralNetwork {
 	static int inputs = 235;
 	static int outputs = 235;
 	static int epochs;
+	private static Language[] lang = Language.values();
 
 	public NeuralNetwork() {
 		// Configure the neural network topology.
@@ -166,9 +167,10 @@ public class NeuralNetwork {
 		int ngrams = s.nextInt();
 		System.out.println("FILE NAME: " + file);
 		double[] testData = vp.testData(file, ngrams);
- 		MLData data = new BasicMLData(testData);
- 
-		System.out.println("CLASSIFICATION " + nn.classify(data));
-		s.close();
+		MLData data = new BasicMLData(testData);
+		System.out.println("COMPUTER " + nn.compute(data));
+		System.out.println("CLASSIFICATION - Language index: " + nn.classify(data) + " file is written in: "
+				+ lang[nn.classify(data)]);
+
 	}
 }
