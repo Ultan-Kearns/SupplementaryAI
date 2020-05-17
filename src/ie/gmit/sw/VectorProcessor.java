@@ -20,7 +20,7 @@ import org.encog.ml.data.versatile.VersatileMLDataSet;
  */
 public class VectorProcessor {
 	static int vectorSize;
-	private double[] vector = new double[vectorSize];
+	private double[] vector = new double[235];
 	private DecimalFormat df = new DecimalFormat("###.###");
 	private Language[] lang = Language.values();
 	int counter = 0;
@@ -39,7 +39,7 @@ public class VectorProcessor {
 			// everytime process is called new file is created
 			writer = new BufferedWriter(new FileWriter(output, false));
 			while ((line = br.readLine()) != null) {
-				process(line, ngrams,writer);
+				process(line, ngrams, writer);
 			}
 
 			br.close();
@@ -56,7 +56,7 @@ public class VectorProcessor {
 	}
 
 	// should have 235 + 235 coluns 470 total only getting 358
-	public void process(String line, int ngrams,BufferedWriter bw) throws Exception {
+	public void process(String line, int ngrams, BufferedWriter bw) throws Exception {
 		String[] record = line.split("@");
 		if (record.length > 2)
 			return; // get rid of bad lines
@@ -71,43 +71,42 @@ public class VectorProcessor {
 		// issue with NGRAMS, since the number is smaller not sure about hashcode
 		// honestly very hard to figure this thing out
 		// should only be 235 in here
-		if(text.length() < 235 * ngrams) {
+		if (text.length() < 235 * ngrams) {
 			StringBuffer s = new StringBuffer(text.length());
-			for(int i = text.length(); i < NeuralNetwork.inputs * ngrams; i++) {
+			for (int i = text.length(); i < NeuralNetwork.inputs * ngrams; i++) {
 				s.append("0");
 			}
 			text += s.toString();
 			System.out.println("TTTTTTTTTT" + text.length());
 		}
-		//issue here? issue with last line of file maybe it's > 235 - ngrams from length maybe?
+		// issue here? issue with last line of file maybe it's > 235 - ngrams from
+		// length maybe?
 		for (int i = 0; i < vector.length * ngrams; i += ngrams) {
 			System.out.println(i);
 			try {
-			int hashcode = text.substring(i, ngrams + i).hashCode();
-			int index = hashcode % vector.length;
-			// think this maybe wrong
-			vector[Math.abs(index)] = index + 1;
-			// write out line to file
-			Utilities.normalize(vector, -1, 1);
-			bw.append(df.format(vector[Math.abs(index)]));
-			bw.append(",");
-			System.out.println("TEST of vector : " + i);
-			System.out.println("INDEX: " + index);
-			}
-			catch(Exception e) {
+				int hashcode = text.substring(i, ngrams + i).hashCode();
+				int index = hashcode % vector.length;
+				// think this maybe wrong
+				vector[Math.abs(index)] = index + 1;
+				// write out line to file
+				Utilities.normalize(vector, -1, 1);
+				bw.append(df.format(vector[Math.abs(index)]));
+				bw.append(",");
+				System.out.println("TEST of vector : " + i);
+				System.out.println("INDEX: " + index);
+			} catch (Exception e) {
 				bw.append('0');
 				bw.append(',');
 			}
-			
- 
 
 		}
-		if(vector.length >= NeuralNetwork.inputs) {
+		if (vector.length >= NeuralNetwork.inputs) {
 			System.out.println("VECTOR LENGTH " + vector.length);
 		}
-		// use a counter to determine language of file so you can label it - issue may be with counter
+		// use a counter to determine language of file so you can label it - issue may
+		// be with counter
 		if (!language.equalsIgnoreCase(lang[counter].toString()) && counter < 234) {
-		
+
 			// write out language label - this will fill in 235 values - don't know if it's
 			// working
 			for (int j = 0; j <= lang.length; j++) {
@@ -126,16 +125,50 @@ public class VectorProcessor {
 			counter++;
 		}
 	}
-	public double[] testData(String input,int ngrams) throws Exception {
+
+	public double[] testData(String input, int ngrams) throws Exception {
 		BufferedReader br = new BufferedReader(new FileReader(input));
 		String line = null;
-		// everytime process is called new file is created
-		File test = new File(outputName);
-		writer = new BufferedWriter(new FileWriter(test, false));
- 		while ((line = br.readLine()) != null) {
-			process(line, ngrams,writer);
+		// can't use this method
+		while ((line = br.readLine()) != null) {
+			processTestFile(line, ngrams);
 		}
 		br.close();
 		return vector;
+	}
+
+	public void processTestFile(String line,int ngrams) {
+		String text = line.toLowerCase();
+ 		// break line into ngrams
+		// set vector
+		for (int i = 0; i < NeuralNetwork.inputs; i++) {
+			vector[i] = 0;
+		}
+		// issue with NGRAMS, since the number is smaller not sure about hashcode
+		// honestly very hard to figure this thing out
+		// should only be 235 in here
+		if (text.length() < 235 * ngrams) {
+			StringBuffer s = new StringBuffer(text.length());
+			for (int i = text.length(); i < NeuralNetwork.inputs * ngrams; i++) {
+				s.append("0");
+			}
+			text += s.toString();
+			System.out.println("TTTTTTTTTT" + text.length());
+		}
+		for (int i = 0; i < vector.length * ngrams; i += ngrams) {
+			System.out.println(i);
+			try {
+				int hashcode = text.substring(i, ngrams + i).hashCode();
+				int index = hashcode % vector.length;
+				// think this maybe wrong
+				vector[Math.abs(index)] = index + 1;
+				// write out line to file
+				Utilities.normalize(vector, -1, 1);
+ 				System.out.println("TEST of vector : " + i);
+				System.out.println("INDEX: " + index);
+			} catch (Exception e) {
+ 			}
+
+		}
 	}
 }

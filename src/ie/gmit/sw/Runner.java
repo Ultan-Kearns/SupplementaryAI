@@ -46,9 +46,8 @@ public class Runner {
 			}
 			if (response == 3) {
 				System.out.println("Enter File Directory: ");
-				String file = s.nextLine();
-				VectorProcessor vp = new VectorProcessor();			 
-				NeuralNetwork.process(file);
+				String file = s.next();
+ 				NeuralNetwork.process(file);
 
 			} else if (response == 4) {
 				// loads in the neural network and reports topology or displays error msg if

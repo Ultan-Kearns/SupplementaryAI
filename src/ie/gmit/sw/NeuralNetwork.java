@@ -8,6 +8,7 @@ import org.encog.engine.network.activation.ActivationSoftMax;
 import org.encog.ml.data.MLData;
 import org.encog.ml.data.MLDataPair;
 import org.encog.ml.data.MLDataSet;
+import org.encog.ml.data.basic.BasicMLData;
 import org.encog.ml.data.buffer.MemoryDataLoader;
 import org.encog.ml.data.buffer.codec.CSVDataCODEC;
 import org.encog.ml.data.buffer.codec.DataSetCODEC;
@@ -61,7 +62,8 @@ public class NeuralNetwork {
 	public NeuralNetwork() {
 		// Configure the neural network topology.
 		BasicNetwork network = new BasicNetwork();
-		network.addLayer(new BasicLayer(new ActivationSoftMax(), true, inputs)); // You need to figure out activation function
+		network.addLayer(new BasicLayer(new ActivationSoftMax(), true, inputs)); // You need to figure out activation
+																					// function
 		// network.addLayer(....); //You need to figure out the number of hidden layers
 		// and their neurons
 		// network.addLayer(....);
@@ -96,12 +98,12 @@ public class NeuralNetwork {
 		// get current time for total time trained - taken from labs
 		long start = System.currentTimeMillis();
 		int counter = 0;
- 		double tp, tn, fn;
+		double tp, tn, fn;
 		tp = tn = fn = 0;
 		double correct, error;
 		error = correct = 0;
 		do {
- 			cv.iteration();
+			cv.iteration();
 			counter++;
 		} while (counter < epochs);
 		// taken from labs & refactored
@@ -147,28 +149,26 @@ public class NeuralNetwork {
 
 	}
 
-	public static void process(String file) {
+	public static void process(String file) throws Exception {
+		BasicNetwork nn = null;
 		try {
-		
-			BasicNetwork nn = Utilities.loadNeuralNetwork("neuralnetwork.nn");
-			Scanner scan = new Scanner(System.in);
-			// read in file break into ngrams and hash maybe?
-			System.out.println("TEST " + nn.getLayerCount());
-			VectorProcessor vp = new VectorProcessor();
-			System.out.println("Enter the input file: ");
-			String input = scan.next();
-			System.out.println("Enter the number of ngrams for file: ");
-			int ngrams = scan.nextInt();
-	        double[] testData = vp.testData(input, ngrams);
- 	        MLData data = null;
-	        for(int i = 0; i < 235; i++) {
-	        	data.add(i, testData[i] );
-	        }
-	        nn.classify(data);
-
- 		} catch (Exception e) {
+			nn = Utilities.loadNeuralNetwork("neuralnetwork.nn");
+		} catch (Exception e) {
 			System.out.println(
-					"no file could be found for neural network, please try to train neural network before running this command");
+					"no file could be found for neural network, please try to train neural network before running this command\nerror: "
+							+ e.toString());
 		}
+		Scanner s = new Scanner(System.in);
+		// read in file break into ngrams and hash maybe?
+		System.out.println("TEST " + nn.getLayerCount());
+		VectorProcessor vp = new VectorProcessor();
+		System.out.println("Enter the number of ngrams for file: ");
+		int ngrams = s.nextInt();
+		System.out.println("FILE NAME: " + file);
+		double[] testData = vp.testData(file, ngrams);
+ 		MLData data = new BasicMLData(testData);
+ 
+		System.out.println("CLASSIFICATION " + nn.classify(data));
+		s.close();
 	}
 }
