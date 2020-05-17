@@ -6,8 +6,12 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.List;
+
+import org.encog.ml.data.MLDataSet;
+import org.encog.ml.data.versatile.VersatileMLDataSet;
 
 /*
  * TODO
@@ -35,7 +39,7 @@ public class VectorProcessor {
 			// everytime process is called new file is created
 			writer = new BufferedWriter(new FileWriter(output, false));
 			while ((line = br.readLine()) != null) {
-				process(line, ngrams);
+				process(line, ngrams,writer);
 			}
 
 			br.close();
@@ -52,7 +56,7 @@ public class VectorProcessor {
 	}
 
 	// should have 235 + 235 coluns 470 total only getting 358
-	public void process(String line, int ngrams) throws Exception {
+	public void process(String line, int ngrams,BufferedWriter bw) throws Exception {
 		String[] record = line.split("@");
 		if (record.length > 2)
 			return; // get rid of bad lines
@@ -85,14 +89,14 @@ public class VectorProcessor {
 			vector[Math.abs(index)] = index + 1;
 			// write out line to file
 			Utilities.normalize(vector, -1, 1);
-			writer.append(df.format(vector[Math.abs(index)]));
-			writer.append(",");
+			bw.append(df.format(vector[Math.abs(index)]));
+			bw.append(",");
 			System.out.println("TEST of vector : " + i);
 			System.out.println("INDEX: " + index);
 			}
 			catch(Exception e) {
-				writer.append('0');
-				writer.append(',');
+				bw.append('0');
+				bw.append(',');
 			}
 			
  
@@ -109,21 +113,29 @@ public class VectorProcessor {
 			for (int j = 0; j <= lang.length; j++) {
 				System.out.println("LANGUAGE " + j);
 				if (lang[counter].equals(lang[j])) {
-					writer.append('1');
+					bw.append('1');
 				} else {
-					writer.append('0');
+					bw.append('0');
 				}
 				if (j == lang.length - 1) {
-					writer.append("\n");
+					bw.append("\n");
 					break;
 				}
-				writer.append(',');
+				bw.append(',');
 			}
 			counter++;
 		}
 	}
-
-	// each row should have vector length + #labels --- labels = number of elements
-	// in each row
-	// size of vector + 235
+	public double[] testData(String input,int ngrams) throws Exception {
+		BufferedReader br = new BufferedReader(new FileReader(input));
+		String line = null;
+		// everytime process is called new file is created
+		File test = new File(outputName);
+		writer = new BufferedWriter(new FileWriter(test, false));
+ 		while ((line = br.readLine()) != null) {
+			process(line, ngrams,writer);
+		}
+		br.close();
+		return vector;
+	}
 }

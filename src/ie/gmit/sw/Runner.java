@@ -47,7 +47,7 @@ public class Runner {
 			if (response == 3) {
 				System.out.println("Enter File Directory: ");
 				String file = s.nextLine();
-				// read in file to string
+				VectorProcessor vp = new VectorProcessor();			 
 				NeuralNetwork.process(file);
 
 			} else if (response == 4) {

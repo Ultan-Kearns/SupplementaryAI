@@ -1,20 +1,19 @@
 package ie.gmit.sw;
 
 import java.io.File;
+import java.util.Scanner;
 
 import org.encog.engine.network.activation.ActivationReLU;
-import org.encog.engine.network.activation.ActivationSigmoid;
 import org.encog.engine.network.activation.ActivationSoftMax;
-import org.encog.engine.network.activation.ActivationTANH;
 import org.encog.ml.data.MLData;
 import org.encog.ml.data.MLDataPair;
 import org.encog.ml.data.MLDataSet;
-import org.encog.ml.data.basic.BasicMLData;
-import org.encog.ml.data.basic.BasicMLDataSet;
 import org.encog.ml.data.buffer.MemoryDataLoader;
 import org.encog.ml.data.buffer.codec.CSVDataCODEC;
 import org.encog.ml.data.buffer.codec.DataSetCODEC;
 import org.encog.ml.data.folded.FoldedDataSet;
+import org.encog.ml.data.versatile.VersatileMLDataSet;
+import org.encog.ml.model.EncogModel;
 import org.encog.ml.train.MLTrain;
 import org.encog.neural.networks.BasicNetwork;
 import org.encog.neural.networks.layers.BasicLayer;
@@ -40,9 +39,7 @@ public class NeuralNetwork {
 	 * columns. Assuming that the NN has two input neurons and two output neurons,
 	 * then the CSV file should be structured like the following:
 	 *
-	 * -0.385,-0.231,0.0,1.0 
-	 * -0.538,-0.538,1.0,0.0 
-	 * -0.63,-0.259,1.0,0.0
+	 * -0.385,-0.231,0.0,1.0 -0.538,-0.538,1.0,0.0 -0.63,-0.259,1.0,0.0
 	 * -0.091,-0.636,0.0,1.0
 	 * 
 	 * The each row consists of four columns. The first two columns will map to the
@@ -152,11 +149,23 @@ public class NeuralNetwork {
 
 	public static void process(String file) {
 		try {
+		
 			BasicNetwork nn = Utilities.loadNeuralNetwork("neuralnetwork.nn");
+			Scanner scan = new Scanner(System.in);
 			// read in file break into ngrams and hash maybe?
 			System.out.println("TEST " + nn.getLayerCount());
-			MLDataSet data;
-			
+			VectorProcessor vp = new VectorProcessor();
+			System.out.println("Enter the input file: ");
+			String input = scan.next();
+			System.out.println("Enter the number of ngrams for file: ");
+			int ngrams = scan.nextInt();
+	        double[] testData = vp.testData(input, ngrams);
+ 	        MLData data = null;
+	        for(int i = 0; i < 235; i++) {
+	        	data.add(i, testData[i] );
+	        }
+	        nn.classify(data);
+
  		} catch (Exception e) {
 			System.out.println(
 					"no file could be found for neural network, please try to train neural network before running this command");
