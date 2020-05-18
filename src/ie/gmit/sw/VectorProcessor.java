@@ -20,7 +20,7 @@ import org.encog.ml.data.versatile.VersatileMLDataSet;
  */
 public class VectorProcessor {
 	static int vectorSize;
-	private double[] vector = new double[235];
+	private double[] vector = new double[vectorSize];
 	private DecimalFormat df = new DecimalFormat("###.###");
 	private Language[] lang = Language.values();
 	int counter = 0;

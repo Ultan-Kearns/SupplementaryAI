@@ -70,7 +70,9 @@ public class NeuralNetwork {
 		// network.addLayer(....);
 		// for some reason layers are not having an affect, issue with reading file?
 		network.addLayer(new BasicLayer(new ActivationReLU(), true, 60));
-		network.addLayer(new BasicLayer(new ActivationReLU(), true, 40));
+		network.addLayer(new BasicLayer(new ActivationReLU(), true, 60));
+		network.addLayer(new BasicLayer(new ActivationReLU(), true, 60));
+
 		network.addLayer(new BasicLayer(new ActivationSoftMax(), true, outputs));
 		network.getStructure().finalizeStructure();
 		network.reset();
@@ -162,13 +164,16 @@ public class NeuralNetwork {
 		Scanner s = new Scanner(System.in);
 		// read in file break into ngrams and hash maybe?
 		System.out.println("TEST " + nn.getLayerCount());
-		VectorProcessor vp = new VectorProcessor();
-		System.out.println("Enter the number of ngrams for file: ");
+		System.out.print("Enter the number of ngrams for file: ");
 		int ngrams = s.nextInt();
+		System.out.print("Enter Vector size: ");
+		VectorProcessor.vectorSize = s.nextInt();
 		System.out.println("FILE NAME: " + file);
+		VectorProcessor vp = new VectorProcessor();
 		double[] testData = vp.testData(file, ngrams);
 		MLData data = new BasicMLData(testData);
-		System.out.println("COMPUTER " + nn.compute(data));
+		System.out.println("COMPUTER " + nn.compute(data).size());
+
 		System.out.println("CLASSIFICATION - Language index: " + nn.classify(data) + " file is written in: "
 				+ lang[nn.classify(data)]);
 
