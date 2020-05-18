@@ -3,8 +3,11 @@ package ie.gmit.sw;
 import java.io.File;
 import java.util.Scanner;
 
+import org.encog.engine.network.activation.ActivationBiPolar;
 import org.encog.engine.network.activation.ActivationReLU;
+import org.encog.engine.network.activation.ActivationSigmoid;
 import org.encog.engine.network.activation.ActivationSoftMax;
+import org.encog.engine.network.activation.ActivationTANH;
 import org.encog.ml.data.MLData;
 import org.encog.ml.data.MLDataPair;
 import org.encog.ml.data.MLDataSet;
@@ -69,10 +72,9 @@ public class NeuralNetwork {
 		// and their neurons
 		// network.addLayer(....);
 		// for some reason layers are not having an affect, issue with reading file?
-		network.addLayer(new BasicLayer(new ActivationReLU(), true, 60));
-		network.addLayer(new BasicLayer(new ActivationReLU(), true, 60));
-		network.addLayer(new BasicLayer(new ActivationReLU(), true, 60));
-
+		network.addLayer(new BasicLayer(new ActivationReLU(), true, 100));
+		network.addLayer(new BasicLayer(new ActivationReLU(), true,50));
+ 
 		network.addLayer(new BasicLayer(new ActivationSoftMax(), true, outputs));
 		network.getStructure().finalizeStructure();
 		network.reset();
@@ -81,9 +83,6 @@ public class NeuralNetwork {
 			System.out.println("Activation function for layer " + i + ": " + network.getActivation(i).getLabel());
 			System.out.println("layer " + i + " has: " + network.getLayerNeuronCount(i) + " neurons");
 		}
-		System.out.println("\nThis neural network consists of " + inputs + " input nodes and " + outputs
-				+ " output node, \nthree layers of neurons 2 sigmoidal for input and output"
-				+ " \nand a tanh for the hidden layer which comprises of " + 40 + " neurons");
 		// Read the CSV file "data.csv" into memory. Encog expects your CSV file to have
 		// input + output number of columns.
 		DataSetCODEC dsc = new CSVDataCODEC(new File("data.csv"), CSVFormat.ENGLISH, true, inputs, outputs, false);
@@ -91,7 +90,7 @@ public class NeuralNetwork {
 		MLDataSet trainingSet = mdl.external2Memory();
 
 		// Use backpropagation training with alpha=0.1 and momentum=0.2
-		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.1, 0.2);
+		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.2, 0.6);
 		FoldedDataSet folded = new FoldedDataSet(trainingSet);
 		System.out.println(trainer.getTraining());
 		// may use backpropagation instead

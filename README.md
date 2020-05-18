@@ -12,32 +12,77 @@ The size of the hashing vector is determined by the user via the UI and it is su
 The number of epochs is again determined by the user via the UI, it is suggested that the user use 1000 epochs to train the data as this is a good number to ensure that each neuron in the hidden layer is trained with a decent amount of the training data.
 ## N-grams parsing
 I parsed and hashed each ngram into the fixed size vector like so:
+ 		public void process(String line, int ngrams, BufferedWriter bw) throws Exception {
+		String[] record = line.split("@");
+		if (record.length > 2)
+			return; // get rid of bad lines
 
-		//if ngrams = 4 should only have 4 nums of columns , think need to find way to bail out if it can't be formatted in 4 * 4s
-		int counter = 0;
-		for (int i = ngrams; i < text.length() - ngrams; i += ngrams) {
-			if(counter > NeuralNetwork.inputs * NeuralNetwork.outputs) {
-				break;
+		String text = record[0].toLowerCase();
+		String language = record[1];
+		// break line into ngrams
+		// set vector
+		for (int i = 0; i < NeuralNetwork.inputs; i++) {
+			vector[i] = 0;
+		}
+		// issue with NGRAMS, since the number is smaller not sure about hashcode
+		// honestly very hard to figure this thing out
+		// should only be 235 in here
+		if (text.length() < 235 * ngrams) {
+			StringBuffer s = new StringBuffer(text.length());
+			for (int i = text.length(); i < NeuralNetwork.inputs; i++) {
+				s.append("1");
 			}
-			if(counter == NeuralNetwork.inputs * NeuralNetwork.outputs) {
-				writer.append('\n');
-				counter = 0;
+			text += s.toString();
+			System.out.println("TTTTTTTTTT" + text.length());
+		}
+		// issue here? issue with last line of file maybe it's > 235 - ngrams from
+		// length maybe? * Ngrams for both this and above
+		for (int i = 0; i < vector.length * ngrams; i += ngrams) {
+			System.out.println(i);
+			try {
+				int hashcode = text.substring(i, ngrams + i).hashCode();
+				int index = hashcode % vector.length;
+				// think this maybe wrong
+				vector[Math.abs(index) + 1] = index;
+				// write out line to file
+				Utilities.normalize(vector, -1, 1);
+				bw.append(df.format(vector[Math.abs(index)]));
+				bw.append(",");
+				System.out.println("TEST of vector : " + i);
+				System.out.println("INDEX: " + index);
+			} catch (Exception e) {
+				bw.append('0');
+				bw.append(',');
 			}
-			int hashcode = text.substring(i, ngrams + i).hashCode();
-			int index = hashcode % vector.length;
-			//think this maybe wrong
-			vector[Math.abs(index)] = vector[Math.abs(index)] + 1;		
-			// write out line to file
-			Utilities.normalize(vector, -1, 1);
-			writer.append(df.format(vector[Math.abs(index)]));
+
+		}
+		if (vector.length >= NeuralNetwork.inputs) {
+			System.out.println("VECTOR LENGTH " + vector.length);
+		}
+		// use a counter to determine language of file so you can label it - issue may
+		// be with counter
+		if (!language.equalsIgnoreCase(lang[counter].toString()) && counter < 234) {
+
+			// write out language label - this will fill in 235 values - don't know if it's
+			// working
+			for (int j = 0; j <= lang.length; j++) {
+				System.out.println("LANGUAGE " + j);
+				if (lang[counter].equals(lang[j])) {
+					bw.append('1');
+				} else {
+					bw.append('0');
+				}
+				if (j == lang.length - 1) {
+					bw.append("\n");
+					break;
+				}
+				bw.append(',');
+			}
 			counter++;
-			writer.append(',');
 		}
 	}
-
-<br/>
-
-I used a bufferedwriter to write each line to the file and the hashcode was computed by taking each ngram out of the string.  Once this loop ends the entire text will be parsed into a number of ngrams which will be determined by the user via the UI, I suggest you use 5 or 10 ngrams for this as the odds of two 5 or 10 ngrams occuring are 0.38 ^ 5 or 0.38 ^ 10 respectively, for those not good at maths like myself this is a very low number.  The odds that an ngram of these sizes occuring more than once is less than 0.01%, that being said you do not want to make the ngram size too  large as there is a limited amount of text in the data set.  I also ensured that the CSV file was formatted in a way such that the total number of columns would equal the number of input nodes for the neural network times the number of output nodes, so if we had 2 input and 2 output nodes the total number of columns would be 4.  This data.csv file was then passed into the neural network and the neural network used it as training data.
+I will explain the code below:
+I utilized a buffred reader
 
 ## Neural Network Topology
 
