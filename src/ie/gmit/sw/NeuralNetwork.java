@@ -162,10 +162,9 @@ public class NeuralNetwork {
 		}
 		Scanner s = new Scanner(System.in);
 		// read in file break into ngrams and hash maybe?
-		System.out.println("TEST " + nn.getLayerCount());
-		System.out.print("Enter the number of ngrams for file: ");
+		System.out.print("Enter the number of ngrams for file, try 1 - 5, recommend 5: ");
 		int ngrams = s.nextInt();
-		System.out.print("Enter Vector size: ");
+		System.out.print("Enter Vector size, try 235: ");
 		VectorProcessor.vectorSize = s.nextInt();
 		System.out.println("FILE NAME: " + file);
 		VectorProcessor vp = new VectorProcessor();

@@ -32,9 +32,9 @@ public class Runner {
 				String fileDir = s.next();
 				System.out.print("\nTry 1 - 5\nPlease enter the Number of ngrams: ");
 				int ngrams = s.nextInt();
-				System.out.print("\nTry 235\nPlease enter the vector size: ");
+				System.out.print("\nTry 235 - 500, must be > 235\nPlease enter the vector size: ");
 				VectorProcessor.vectorSize = s.nextInt();
-				System.out.print("\nTry 1000\nPlease enter the number of epochs: ");
+				System.out.print("\nTry 10\nPlease enter the number of epochs: ");
 				NeuralNetwork.epochs = s.nextInt();
 				System.out.println("Neural network will be trained with File: " + fileDir
 						+ "  and number of ngrams will equal: " + ngrams);
