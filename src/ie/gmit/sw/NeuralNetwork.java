@@ -4,9 +4,7 @@ import java.io.File;
 import java.util.Scanner;
 
 import org.encog.engine.network.activation.ActivationReLU;
-import org.encog.engine.network.activation.ActivationSigmoid;
 import org.encog.engine.network.activation.ActivationSoftMax;
-import org.encog.engine.network.activation.ActivationTANH;
 import org.encog.ml.data.MLData;
 import org.encog.ml.data.MLDataPair;
 import org.encog.ml.data.MLDataSet;
@@ -20,7 +18,6 @@ import org.encog.neural.networks.BasicNetwork;
 import org.encog.neural.networks.layers.BasicLayer;
 import org.encog.neural.networks.training.cross.CrossValidationKFold;
 import org.encog.neural.networks.training.propagation.back.Backpropagation;
-import org.encog.neural.networks.training.propagation.resilient.ResilientPropagation;
 import org.encog.util.csv.CSVFormat;
 
 public class NeuralNetwork {
@@ -69,7 +66,7 @@ public class NeuralNetwork {
 		// and their neurons
 		// network.addLayer(....);
 		// for some reason layers are not having an affect, issue with reading file?
-		network.addLayer(new BasicLayer(new ActivationReLU(), true, 150));
+		network.addLayer(new BasicLayer(new ActivationReLU(), true, 90));
 		network.addLayer(new BasicLayer(new ActivationSoftMax(), true, outputs));
 		network.getStructure().finalizeStructure();
 		network.reset();
@@ -83,13 +80,13 @@ public class NeuralNetwork {
 		DataSetCODEC dsc = new CSVDataCODEC(new File("data.csv"), CSVFormat.ENGLISH, true, inputs, outputs, false);
 		MemoryDataLoader mdl = new MemoryDataLoader(dsc);
 		MLDataSet trainingSet = mdl.external2Memory();
-
+		// 5 235 100
 		// Use backpropagation training with alpha=0.1 and momentum=0.2
 		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.01, 0.4);
 		FoldedDataSet folded = new FoldedDataSet(trainingSet);
 		System.out.println(trainer.getTraining());
 		// may use backpropagation instead
-		MLTrain train = new ResilientPropagation(network, folded);
+		MLTrain train = new Backpropagation(network, folded);
 		CrossValidationKFold cv = new CrossValidationKFold(train, 5);
 		// Train the neural network
 		// get current time for total time trained - taken from labs
@@ -99,7 +96,7 @@ public class NeuralNetwork {
 		tp = tn = fn = 0;
 		double correct, error;
 		error = correct = 0;
-		//train for epochs
+		// train for epochs
 		System.out.println("Training.....");
 		do {
 			cv.iteration();
@@ -139,11 +136,12 @@ public class NeuralNetwork {
 		System.out.println("TOTAL WRONG " + error);
 		// while(cv.getError() > 0.01);
 		long end = System.currentTimeMillis();
-		//print out stats here:
+		// print out stats here:
 		System.out.println("Percentage Correct: " + (correct / (correct + error)) * 100);
 		System.out.println("\nNetwork trained in: " + epochs + " epochs\n" + " Trained in : " + (end - start) / epochs
-				+ " seconds\nOr approx:" + Math.round(((end - start) / epochs) / 60.00) + "minutes"
-				+ "\nTotal wrong " + (error / (correct + error)) * 100 +" Total error: " +  (cv.getError() / epochs)+ "\nTEST: " + (100 - cv.getError()) + "%");
+				+ " seconds\nOr approx:" + Math.round(((end - start) / epochs) / 60.00) + "minutes" + "\nTotal wrong "
+				+ (error / (correct + error)) * 100 + " Total error: " + (cv.getError() / epochs) + "\nTEST: "
+				+ (100 - cv.getError()) + "%");
 		Utilities.saveNeuralNetwork(network, "./neuralnetwork.nn");
 
 	}
@@ -161,23 +159,22 @@ public class NeuralNetwork {
 		Scanner s = new Scanner(System.in);
 		// read in file break into ngrams and hash maybe?
 		try {
-		System.out.print("Enter the number of ngrams for file, try 1 - 5, recommend 5: ");
-		int ngrams = s.nextInt();
-		System.out.print("Enter Vector size, try 235: ");
-		VectorProcessor.vectorSize = s.nextInt();
-		System.out.println("FILE NAME: " + file);
-		System.out.println("ANALYZING FILE.............");
+			System.out.print("Enter the number of ngrams for file, try 1 - 5, recommend 5: ");
+			int ngrams = s.nextInt();
+			System.out.print("Enter Vector size, try 235: ");
+			VectorProcessor.vectorSize = s.nextInt();
+			System.out.println("FILE NAME: " + file);
+			System.out.println("ANALYZING FILE.............");
 
-		VectorProcessor vp = new VectorProcessor();
-		double[] testData = vp.testData(file, ngrams);
-		
-		MLData data = new BasicMLData(testData);
-		System.out.println("COMPUTER " + nn.compute(data).size());
+			VectorProcessor vp = new VectorProcessor();
+			double[] testData = vp.testData(file, ngrams);
 
-		System.out.println("CLASSIFICATION - Language index: " + nn.classify(data) + " file is written in: "
-				+ lang[nn.classify(data)]);
-		}
-		catch(Exception e) {
+			MLData data = new BasicMLData(testData);
+			System.out.println("COMPUTER " + nn.compute(data).size());
+
+			System.out.println("CLASSIFICATION - Language index: " + nn.classify(data) + " file is written in: "
+					+ lang[nn.classify(data)]);
+		} catch (Exception e) {
 			System.out.println("NO FILE FOUND!");
 			Runner r = new Runner();
 		}

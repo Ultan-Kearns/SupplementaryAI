@@ -2,8 +2,6 @@ package ie.gmit.sw;
 
 import java.util.Scanner;
 
-import org.encog.ml.data.MLData;
-import org.encog.ml.data.MLDataPair;
 import org.encog.neural.networks.BasicNetwork;
 
 public class Runner {
@@ -29,13 +27,13 @@ public class Runner {
 				}
 			} else if (response == 2) {
 				try {
-				System.out.print("\nPlease enter the directory of the traiining data file: ");
-				String fileDir = s.next();
-				System.out.print("\nTry 1 - 5\nPlease enter the Number of ngrams: ");
-				int ngrams = s.nextInt();
-				System.out.print("\nTry 235 - 500, must be > 235\nPlease enter the vector size: ");
-				VectorProcessor.vectorSize = s.nextInt();
-				System.out.print("\nTry 100\nPlease enter the number of epochs: ");
+					System.out.print("\nPlease enter the directory of the traiining data file: ");
+					String fileDir = s.next();
+					System.out.print("\nTry 1 - 5\nPlease enter the Number of ngrams: ");
+					int ngrams = s.nextInt();
+					System.out.print("\nTry 235 - 500, must be > 235\nPlease enter the vector size: ");
+					VectorProcessor.vectorSize = s.nextInt();
+				System.out.print("\nTry 50\nPlease enter the number of epochs: ");
 				NeuralNetwork.epochs = s.nextInt();
 				System.out.println("Neural network will be trained with File: " + fileDir
 						+ "  and number of ngrams will equal: " + ngrams);

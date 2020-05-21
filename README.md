@@ -2,8 +2,6 @@
 ## Produced as part of the GMIT 4th Year Module: Artificial Intelligence 
 ### Under the supervision of Dr. John Healy
 
-**IMPORTANT NOTE - ALL REFERENCES WILL BE INCLUDED AT THE TOP OF EACH SECTION TO AVOID REFERENCING MULTIPLE TIMES, A COMPLETE LIST OF REFERENCES IS AVAILABLE FROM THE END OF THIS DOCUMENT WHEN THE MARKDOWN SOURCE IS VIEWED, THANK YOU**
-
 ## Introduction to Project
 This project was developed in lieu of the final year exam, which was cancelled due to the COVID-19 pandemic, for the module Artificial intelligence.  The objective of this project is to create A Language Detection Neural Network with Vector Hashing.  I will document all pertinent information in this readme.  This final goal of this project is to create and train a neural network using a test data provided from the WILI dataset and to use it to detect languages.
 ## Vector size	
@@ -83,9 +81,9 @@ I parsed and hashed each ngram into the fixed size vector like so:
 	}
 I will explain the code below:
 
-I utilized a buffred reader to read in the file line by line then I passed the line, ngrams and the writer to the process function, from here I initialized the vecto to equal all zeros.  Then I checked the length of the text to ensure that the line was large enough to be stored into the vector.  Once all this was finished I read in each ngram using the substring method on the line and hashed each ngram into the vector index and incremented said index by one.  I also let the user decide how many ngrams they want to parse the line into, I suggested 5 as it is very unlikely that the same 5 ngram will appear more than once, it is about (0.26 ^ 5)% likely to occur twice which is an extremely low number.  I also allow the user to choose the vector size which I suggest is kept at 235 as there are 235 languages. My reasoning for keeping the vector size at 235 simply boils down to the processing time and the fact there are 235 languages, the larger the vector the longer it will take to fill up and to process.
+I utilized a buffred reader to read in the file line by line then I passed the line, ngrams and the writer to the process function, from here I initialized the vector to equal all zeros. Once all this was finished I read in each ngram using the substring method on the line and hashed each ngram into the vector index and incremented said index by one.  If the text < then the vector length I append 0s to make it equal to the vector length.  I also let the user decide how many ngrams they want to parse the line into, I suggested 5 as it is very unlikely that the same 5 ngram will appear more than once, it is about (0.26 ^ 5)% likely to occur twice which is an extremely low number.  I also allow the user to choose the vector size which I suggest is kept at 235 as there are 235 languages. My reasoning for keeping the vector size at 235 simply boils down to the processing time and the fact there are 235 languages, the larger the vector the longer it will take to fill up and to process.  I ensured that the text was formatted correctly for Encog by ensuring that the csv file was formatted as follows: 235 columns and 235 rows.  I only allowed 235 ngram hashcodes for the first part of the CSV row and the rest was filled with the language label which was a 1 for the language postion in the array followed by 235 zeros for the languages which were not the current language.
 
-When reading in the Test file I basically did the same thing as I did when reading in the test file, excluding writing out the language number or making the text equal a certain number.
+When reading in the Test file I basically did the same thing as I did when reading in the test file, excluding writing out the language label or making the text equal a certain number.
 
 ## Neural Network Topology
 
@@ -93,29 +91,11 @@ When reading in the Test file I basically did the same thing as I did when readi
 An artificial neural network can be considered a weighted graph, that is to say if we imagine a layer of nodes all connected to another layer of N nodes each with a particular weight attached to each node then we have the basics of an artificial neural network.
 
 ### Activation Functions
-For the input and output layers I used a sigmoidal activation function and for the hidden layers I used TANH, I will explain why I used each of these functions below.
+For the input and output layers I used a Softmax activation function and for the hidden layers I used RELU(Rectified Linear) as I found that this combination worked best for my neural network.
 
-#### Sigmoidal Function
-** REFERENCE NOTE ** Rather than reference the same source multiple times I will reference it once here, all information for this chapter was gotten from the sigmoidal wiki page here: [sigmoid][1]
-<br/>
-<br/>
-
-The sigmoidal function is a mathematical function which for this project was used to determine 
-
-The sigmoidal function gradually increases when provided positive results and has an S shaped curve, this can be useful for training a neural network as the accuracy or similarity of data can be trained using a curve so for example, say we had a string of Chinese characters and we were looking to find out which language it was, Japanese would score fairly highly as a lot of Japanese characters are taken from the Chinese alphabet and Chinese would score highly also it is in this way by using the similarity of the language to the training data that the neural network can decipher the language.
-
-My reasoning for using the sigmoidal function for this neural network is that it works very will in classifying information.
-
-#### TANH Function
-
-### Number of Neurons & Explanation of topology
-For the input and output layers I decided to use 235 neurons as there are 234 languages and the array starts at 0 so in reality there are 235 pieces of data in the training array.  For the hidden layer I used 3 layers of TANH neurons the first two layers have 40 and the last layer has 20, I experimented a lot with different levels of neurons and found that this works the best.
- 
-The overall topology of the neural network would look like such: imagine a layer of 235 nodes which are not connected to each other, now imagine another two layers of nodes which numbers 40 for each layer and another layer of 20 and now imagine that the 235 layers of nodes are connected to the first layer and all the neurons in the second layer are connected to the third layer and all the neurons in the third layer are connected to a final layer of 235.  
-
-The reason I chose two layers of 40 neurons and a final layer of 20 is that 40 seems like a decent number of neurons for a fairly large data set and the reason why I chose to have a final layer of 20 neurons is to limit the error rate as the first two layers will have learned much from the input data set.  The overall result was fairly good and the neural network is trained in approximately 30 seconds depending on the data provided by the user(number of epochs, vector size, etc...)
-
-### Statistics for Neural Network
+### Number of Neurons & Explanation of topology & Network overall
+ For the input and output layers I decided to use 235 neurons as there are 234 languages and the array starts at 0 so in reality there are 235 languages.  I then connected these to a hidden layer which had 90 neurons. Then once the topology was established I fed in the data to the neural network, to get the accuracy I compared the actual data to the neural networks ideal data, the percentage correct was 99.57446808510639% in the end and the only wrong answer comes from the dodgy line at the bottom of the CSV file.  The neural network seems to be overfitted and has a hard time determing different language files, I tried my best to get the neural network to be as accurate as possible but with the limited dataset and my limited experience with encog I found that it was incredibly hard to get it to predict information accurately.
+### results from Neural Network
 
 ### Code used for NeuralNetwork
 		package ie.gmit.sw;
