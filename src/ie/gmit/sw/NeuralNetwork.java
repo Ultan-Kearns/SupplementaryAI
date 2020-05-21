@@ -4,7 +4,9 @@ import java.io.File;
 import java.util.Scanner;
 
 import org.encog.engine.network.activation.ActivationReLU;
+import org.encog.engine.network.activation.ActivationSigmoid;
 import org.encog.engine.network.activation.ActivationSoftMax;
+import org.encog.engine.network.activation.ActivationTANH;
 import org.encog.ml.data.MLData;
 import org.encog.ml.data.MLDataPair;
 import org.encog.ml.data.MLDataSet;
@@ -67,9 +69,8 @@ public class NeuralNetwork {
 		// and their neurons
 		// network.addLayer(....);
 		// for some reason layers are not having an affect, issue with reading file?
-		network.addLayer(new BasicLayer(new ActivationReLU(), true, 10));
-		network.addLayer(new BasicLayer(new ActivationReLU(), true,20));
- 
+		network.addLayer(new BasicLayer(new ActivationReLU(), true, 60));
+		network.addLayer(new BasicLayer(new ActivationReLU(), true, 30));
 		network.addLayer(new BasicLayer(new ActivationSoftMax(), true, outputs));
 		network.getStructure().finalizeStructure();
 		network.reset();
@@ -85,7 +86,7 @@ public class NeuralNetwork {
 		MLDataSet trainingSet = mdl.external2Memory();
 
 		// Use backpropagation training with alpha=0.1 and momentum=0.2
-		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.1, 1);
+		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.01, 0.4);
 		FoldedDataSet folded = new FoldedDataSet(trainingSet);
 		System.out.println(trainer.getTraining());
 		// may use backpropagation instead
@@ -99,6 +100,8 @@ public class NeuralNetwork {
 		tp = tn = fn = 0;
 		double correct, error;
 		error = correct = 0;
+		//train for epochs
+		System.out.println("Training.....");
 		do {
 			cv.iteration();
 			counter++;
@@ -137,11 +140,11 @@ public class NeuralNetwork {
 		System.out.println("TOTAL WRONG " + error);
 		// while(cv.getError() > 0.01);
 		long end = System.currentTimeMillis();
-		System.out.println("TOTAL ACC: " + (correct / (correct + error)) * 100);
-		System.out.println("\nNetwork trained in: " + epochs + " epochs\n" + " Trained in : " + (end - start) / 1000.00
-				+ " seconds\nOr approx:" + Math.round(((end - start) / 1000.00) / 60.00) + "minutes"
-				+ "\nWith a total error rate of " + (error / (correct + error)) * 100 + "\nWith a total acc: "
-				+ (correct / (correct + error)) * 100 + " TEST " + cv.getError());
+		//print out stats here:
+		System.out.println("Percentage Correct: " + (correct / (correct + error)) * 100);
+		System.out.println("\nNetwork trained in: " + epochs + " epochs\n" + " Trained in : " + (end - start) / epochs
+				+ " seconds\nOr approx:" + Math.round(((end - start) / epochs) / 60.00) + "minutes"
+				+ "\nTotal wrong " + (error / (correct + error)) * 100 +" Total error: " +  (cv.getError() / epochs)+ "\nTEST: " + (100 - cv.getError()) + "%");
 		Utilities.saveNeuralNetwork(network, "./neuralnetwork.nn");
 
 	}
@@ -154,6 +157,7 @@ public class NeuralNetwork {
 			System.out.println(
 					"no file could be found for neural network, please try to train neural network before running this command\nerror: "
 							+ e.toString());
+			Runner r = new Runner();
 		}
 		Scanner s = new Scanner(System.in);
 		// read in file break into ngrams and hash maybe?

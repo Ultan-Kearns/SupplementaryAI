@@ -228,6 +228,7 @@ When training the neural network with the following data: ngrams = 5, vector siz
 + Allowed user to enter in the directory for the training data
 + reported network topology to user via the CLI
 + Gave hints to user on which size to use for vector, ngrams + epochs
-
++ Has error handling
++ Did a small CLI loading bar
  
-[1]: https://en.wikipedia.org/wiki/Sigmoid_function
+ 

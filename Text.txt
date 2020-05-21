@@ -1,2122 +1,910 @@
+The Project Gutenberg EBook of Coinneach Odhar, by D. B. Blair
 
-DU MÊME AUTEUR
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.net
 
 
-  =Les Farces de mon ami Jacques.= (1re série de la _Vie pour
-  rire_.)
+Title: Coinneach Odhar
+       Am Fiosaiche
 
-  =Les Malheurs du commandant Laripète.= (2e série de la _Vie pour
-  rire_.)
+Author: D. B. Blair
 
-  =Le Filleul du Docteur Trousse-Cadet=, suivi des =Nouveaux
-  Malheurs du Commandant Laripète=. (3e série de la _Vie pour
-  rire_.)
+Release Date: May 29, 2009 [EBook #28995]
 
-  =Les Mémoires d’un Galopin=, suivis de =Petite Histoire
-  naturelle=. (4e série de la _Vie pour rire_.)
+Language: Gaelic
 
-  =Madame Dandin et Mademoiselle Phryné.= (5e série de la _Vie pour
-  rire_.)
 
-  =Les Bêtises de mon Oncle.= (6e série de la _Vie pour rire_.)
+*** START OF THIS PROJECT GUTENBERG EBOOK COINNEACH ODHAR ***
 
-  =Les merveilleux Récits de l’amiral Le Kelpudubec.= (7e série de
-  la _Vie pour rire_.)
 
-  =Les veillées de Saint-Pantaléon.= (8e série de la _Vie pour
-  rire_.)
+
+
+Produced by dragonhelmuk
+
+
+
+
+
+
+
+
+Coinneach Odhar,
+
+AM FIOSAICHE
+
+Leis an Urr. D. B. Blair, D. D. nach maireann.
+
+SYDNEY, C. B.:
+"MAC-TALLA" OFFICE
+1900
+
+
+[Ath-Sgrìobhadh an leabhar seo do leabhar-d le Lee Ramsay
+<l.c.ramsay.07@aberdeen.ac.uk> anns an Chèitean '09. 'S docha gu bhiel
+na loidnichean beagan diofraichte, ach tha àireamh na duilleagan ceart
+gu leòr.--'S ann anns na braicaidean no air am mullach a' duilleige a
+tha iad.]
+
+ROIMH-RADH
+
+Cha 'n eil ach duin' ainneamh am measg nan Gàidheal nach cuala bheag
+no mhór mu Choinneach Odhar, ach tha ùine cho fada o'n bha e ann--mu
+dha cheud gu leth bliadhna--'s gu bheil eachdraidh a bheatha agus na
+fiosachdan a rinn e a dol ann an tomhas mor á cuimhne. Chuir an sàr
+Ghàidheal, Alasdair Mac Coinnich, a mach leabhar beag Beurla mu
+thimchioll an fhiosaiche ainmeil so anns a bhliadhna 1877,--leabhar a
+fhuair deagh ainm aig an àm, agus a bha air a chur an clò uair no dha
+an deigh sin. Tha an eachdraidh ghorid a th' anns an leabhran so o
+pheann an Urr. D. B. Blair, D.D., nach maireann, aon de na sgoilearan
+Gàilig a b' fhearr a bha riamh anns an dùthaich so. Bha i air a
+clo-bhualadh anns a MHAC-TALLA 'sa bhliadhna 1893, 'nuair a bha 'm
+paipear sin air ùr-thòiseachadh. Thatar ga 'cur a mach anns a chruth so
+an dràsda an dòchas gu 'n taitinn i ris na Gàidheil aig am bheil gràdh
+do chainnt agus do eachdraidh an sinnsear; agus ma nochdas iad an tlachd
+de 'n oidheirp le bhi ceannach an leabhrain, gabhar misneach gu
+leabhraichean Gàilig eile a chur a mach o àm gu àm.
+
+{1}
+
+Coinneach Odhar,
+Am Fiosaiche.
+------
+Anns an àm a chaidh seachad b' àbhaist do na Gàidheil agus do
+mhuinntir eile a bhi creidsinn gu mor ann an "Taibhsearachd," no an
+"Da shealladh," mar a theireadh iad. Bho cheann tri fichead bliadhna
+agus a deich, nuair a bha an sgriobhadair so 'na ghiullan beag, ann am
+Mùideart, ann an Gleann-Alladail, a' fuireach anns an taigh far an do
+chaidil Prionnsa Tearlach, nuair a bha e air a thurus gu
+Gleann-Fhionghain, far an do chuir e suas a' bhratach ri crann anns a'
+bhliadhna 1745, is iomad sgiala agus beulradh a chual' e mu dheibhinn
+taibhsearachd; oir, bha taibhsearan ann am Mùid-eart glé lionmhor aig
+an àm sin. Ann an {2} Lochabar, an deidh dha Mùideart fhàgail, bu tric
+a chual e iomradh air Coinneach Odhar, am Fiosaiche,--Taibhsear
+ainmeil a bha bho shean ann an taobh tuath na h-Alba. Theagamh nach
+cuala moran de na Gàidheil a rugadh anns an dùthaich so mu thimchioll;
+agus air son fiosrachaidh dhaibhsan, faodar beagan aithris an so, a
+réir a' chùnntais a chuir Mr. Alastair Mac Coinnich a mach mu
+dheibhinn anns an leabhar a sgriobh e uime.
+
+Rugadh Coinneach Mac Coinnich, no Coinneach Odhar, ann am
+Baile-na-Cille, an Sgireachd Uig, an Eilean Leodhais, mu thoiseach na
+seachdamh linn diag, mu 'n àm anns an robh Seumas-a-sia bho Albainn,
+no Seumas-a-h-aon air Sassun, 'na righ air Breatuinn, agus air Eirinn
+us Manainn. Cha 'n 'eil a bheag sam bith air chuimhne mu laithean
+'òige, ach a mhàin nuair a bha e anns na deugan, mu 'n robh e fichead
+bliadhna dh' aois, gu 'n d' fhuair e Clach na Fiosachd, leis am
+b'urrainn da innseadh ciod a thachradh san àm ri tighinn. Fhuair e a'
+chlach air an dòigh so, mar their cuid:--Bha {3} a' mhàthair feasgar
+àraid, a reir a' bheulraite, a' buachailleachd a' chruidh air an
+àiridh, air leacuinn aonaich ris an abairteadh Cnoc-Eothail, os cionn
+cladh Baile-na-Cille, an Uig. Mu mharbh mheadon oidhche chunnaic i a
+h-uile uaigh sa' chladh a' fosgladh, agus dòmhlas mor sluaigh ag
+eiridh as na h-uaighibh, beag us mor, sean us og, bho 'n naoidhean gus
+an sean-athair liath, agus a' falbh gach rathad as a' chladh. An ceann
+uarach de thim thill iad air an ais, agus chaidh iad a staigh do na
+h-uaighibh a rithist, agus dhùin gach uaidh mar a bha i roimhe. Thainig
+màthair Choinnich am fagus do 'n chladh, agus thug i fainear aon uaigh
+a bha fosgailte fhathast. A chionn gu 'm bu bhoirionnach dalma,
+smioral i, chuir i roimpe gum biodh fios aice c'arson a bha an uaigh
+so fosgailte nuair a dhùineadh càch. Ruith i agus chuir i a' Chuigeal
+tarsuinn air beul na h-uaghaich (oir chual i nach b' urrainn do 'n
+spiorad dol air ais a steach do 'n uaigh, cho fhad 's a bhiodh a'
+chuigeal tarsuinn oirre). An ceann beagan ùine thainig rìbhinn àluinn,
+a' snamh {4} troimh 'n iarmailt bho thuath, a dh' ionnsuidh a'
+chlaidh. Air teachd dhi thubhairt i ris a' mhnaoi, "Tog do chuigeal
+bharr m' uaigh, agus leig dhomh dol air m' ais gu m' àros." "Ni mi
+sin," Arsa an te eile, "ma dh' innseas tu dhomh ciod e a chum thu air
+dheireadh air càch." Fhreagair an taibhse, "Innsidh mi sin duit gun
+dàil. Bha mo thuras na b' fhaide na turais chàich; oir bha agam ri
+dhol do Lochluinn-a-Tuath (Norway). Is mise nighean Righ Lochluinn;
+bhàthadh mi nuair a bha mi 'gam fhairigeadh san tir sin; thainig mo
+chorp gu tir air a' chladach so sios fodhainn, agus thiodhlaiceadh mi
+anns an uaigh so. Mar chuimhneachan ormsa, agus mar dhuais dhuit fhèin
+airson do threun-mhisnich, bheir mi dhuit falachan sonruichte
+luachmhor,--falbh agus sir, us gheibh thu anns an loch ud thall clach
+bheag, chruinn, ghorm; thoir i sin do d' mhac, Coinneach, agus leatha
+innsidh esan nithean a thacras an deidh an àm so." Rinn i mar a dh'
+iarraidh oirre, fhuair i a' chlach, agus thug i seachad i do
+Choinneach a mac. Cha bu luaithe fhuair e a' {5} chlach na thainig
+feart na fiosachd uige, agus sgaoileadh a chliù mar fhiosaiche air
+feadh na dùthcha. Bhiodh uaislean us islean a' taghal air agus a'
+tighinn thuige air son fiosachd.
+
+Ach tha iomad beulraite eile mu 'n dòigh anns an d' fhuair Coinneach
+a' chlach. Tha aon ag radh, gun robh e 'na sheirbhiseach aig
+tuathanach, agus gun robh diumb aig bean an tuathanaich ris air son a
+bhriathran beurra, sgeigeil. Air latha sònruichte bha e a' gearradh
+mòine leis an torraisgein fada bho 'n tigh, agus b' eigin an dinneir a
+chur thuige; chur bean an tuathanaich puinnsean anns an dinneir gu cur
+as da. Ach mu 'n d' thainig an dinneir shuidh e leigeil analach agus
+thuit e 'na chadal. Dhùisgeadh e le cabhaig; oir dh' fhairich e rud
+fuar air a bhroilleach. Chuir e làmh air, agus fhuair e clach bheag,
+gheal, agus toll 'na teis-meadhain. Sheall e troimh 'n toll agus
+chunnaic e sealladh air ais-innleachd na bana-mhaighstir. Thug e an
+dinneir do 'n chù, agus fhuair an cù am bàs gu dòruinneach.
+
+Tha beulraite eile ag radh gun robh e a' {6} gearradh mòine, agus gun
+do shuidh e gu anail a leigeil a' feitheamh gus an tigeadh a bhean
+fèin d'a ionnsuidh leis an dinneir. Thuit e 'na chadal, agus nuair a
+dhùisg e dh' fhairich e rud cruaidh f'a cheann; fhuair e an sin clach
+bheag, chruinn, agus toll troimh a meadhon. Thog e i agus sheall e
+troimh an toll; chunnaic e a' bhean aige fhèin a' tighinn d'a
+ionnsuidh le dinneir cabhruich agus bainne, air a puinnseanachadh, gun
+fhios di-se, le a bana-mhaighstir. Ach ged a fhuair Coinneach feart na
+fiosachd leis a' chloich, chaill e sealladh na sùla leis an d' amhairc
+e troimh an toll, agus bha e riamh tuilleadh cam, no aon-suileach, an
+deigh sin.
+
+Tha Aoidh no Uisdean Muillear ag radh anns an leabhar aige, "Scenes
+and Legends," gun d' thainig a bhana-mhaighstir d'a ionnsuidh le
+dinneir phuinnseanaichte; fhuair i e 'na chadal air mullach sithein,
+agus an aite dhùsgadh, chaill i a misneach; dh' fhàg i am meadar, no
+a' mhias, ri a thaobh, agus thill i dhachaidh. Dhùisg esan; ach mu 'n
+do ghabh e an dinneir dh' fhairich e rud cruaidh 'na {7} bhroilleach:
+chuir e làmh air agus thug e mach clachag chruinn, boidheach, leis an
+d' fhuair e fios mu 'n droch cleas a rinn a bhana-mhaighstir air.
+
+A reir gach ràite tha e coltach gun robh a' chlach ann, agus gun robh
+Coinneach 'ga cleachdadh gu bhi toirt a chreidsinn air an t-sluagh
+fiosachd a bhi aige. Cha'n 'eil sinne a' creidsinn gun robh feart
+fiosachd air bith anns a' chloich, ged a dh' fhaodadh i bhi 'na cloich
+mhìn, bhòidhich, ghorm-gheil, agus toll innte cuideachd, coltach ri
+clachan bòidheach a chunnaic sinn air cladach I-Challum-Chille, agus
+Eilean Mhuile.
+
+Nuair a fhuair Coinneach clach na fiosachd, sgaoileadh a chliù feadh
+na tire mar fhiosaiche, agus bhiodh feadhainn a' tighinn thuige as
+gach àite air son fios fhaotainn mu thimchioll na teachd-ùine. Mu
+thimchioll ciad gu leth bliadhna mu 'n do rinneadh an t-slighe-uisge,
+no an caolas-cladhaichte, eadar Inbhear-Nis agus Inbhear-Lòchaidh, (an
+Caledonian Canal,) thuirt Coinneach, "Ged is ioghnadh leibhse an diugh
+e, thig an latha, 's cha 'n 'eil {8} e fad as, anns am faicear
+làraichean Sasunnach ('s e sin longan) air an tarruing le srianan
+còrcaich seachad air cul Tom-na-h-Iuraich." Thuirt e mar an ciadna,
+"Thig an latha anns am bi rathad mor troimh bheanntan Rois, o mhuir gu
+muir agus drochaid air gach allt," no "Ribean air gach cnoc agus drochaid
+air gach alltan." Mar an ciadna, "Thig an latha anns an lion na caoraich
+mhora an tir, gus am buail iad a' mhuir gu tuath." "Bidh muileann air gach
+abhuinn, agus taigh geal air gach cnocan." "Bidh criosan guaille tarsuinn
+air gach sliabh." "Thig bo mhaol odhar a stigh an t-Aite mor, agus leigidh
+i geum aiste a chuireas na sia beannagan dhe an Taigh-Dhige." Saoilear
+gur bàta-smùid a tha e ciallachadh. So fiosachd eile, "Thig an latha
+anns an cur peirceall nan caorach mora an crann air an fharadh. Nuair
+bhios na caoirich mhor cho lionmhor us gun cluinnear mèilich an dara
+té dhiubh leis an té eile, bho Chonachra, ann an Loch-Aillse, gu
+Bun-da-Loch, an Ceann-Taile, bidh iad aig an àirde 'nam pris, agus an
+deigh sin theid {9} iad air an ais gus am falbh iad uile as an t-sealladh,
+agus theid iad air diochuimhne cho mor as nach aithnichear peirceall
+caorach a gheibhear air carn, no ciod am beathach d' am buineadh e.
+Falbhaidh na seann Tighearnan as an tir, agus thig ceannaichean Gallda
+'nan àite, agus bidh a' hàidhealtachd uile gu léir 'na h-aon fhrith mhor
+fhiadh. Bhidh an dùthaich cho gann de shluagh, agus cho fàs, as nach
+cluinnear gairm coilich gu tuath air Druim Uachdair. Theid an sluagh air
+imrich gu eileanaibh cian, nach fhaicear an diugh, ach a gheibhear a mach
+anns a' Chuan Mhor. An deigh sin sgriosar agus bathar na féidh, agus
+na fiadh bheistean eile leis na siantan dubha. Thig an sluagh an sin
+air an ais agus gabhaid iad seilbh air fearann an sinnsearach."
+Fiosachd eile, "Theid na Gàidheil gu America, ach thig iad air an ais
+fhathast gus an tir fhéin." Mu thimchioll Mhic Leòid Rathasaidh so
+fiosachd, "Nuair a thig Mac Dhomhnuill Duibh ban, Mac Shimidh
+ceann-dearg, Siosalach claon ruadh, Mac Coinnich mor bodhar, agus Mac
+Gille-Challum cam-chasach, {10} iad ogha Iain bhig a Ruigeath, se sin
+am Mac Gille-Challum a's miosa thainig na thig; cha bhi mi ann ri a
+linn, 's cha 'n fhear leam air a bhith." Thachair an ni so; oir b'e am
+Mac Gille-Challum so, iar-ogha Iain bhig a Ruigeath, agus bha e cho
+strudheasach us gun do chaith e oighreachd a shinnsirean; agus bha na
+Tigh-earnan eile chaidh ainmeachadh, 'nan comhaoisean do Mhac
+Gille-Challum so, leis na comharan orra a dh' innis am fiosaiche.
+
+So fiosachd eile, "Nuair a thraoghas abhainn na Manachinn tri uairean,
+agus a ghlacar Bradan Sligeach air grunnd na h-aibhne, is ann an sin a
+bhitheas an diachainn ghoirt." Thiormaich abhainn na Manachainn cheana
+da uair,--an uair mu dheireadh air a' bhliadhna 1826, nuair a bha
+tiormachd mhor ann; chaidh a' choile 'na teine ann am Miramichi, agus
+loisgeadh moran thaighean ann mar an ciadna; agus bho cheann sia
+bliadhna diag ghlacadh 'Bradan Sligeach,' no Stirean no Stiorrach
+(Sturgeon) ann an grunnd na h-aibhne. "Fàsaidh an sluagh cho {11} tais
+us gun teich iad as an dùthaich roimh armailt chaorach." Chuireadh an
+tir fo chaoirich, agus dh' fhalbh an sluagh.
+
+Rinn Coinneach fiosachd chomharraichte mu thimchioll Clann Choinnich
+an Uillt-Bhoidhich (Fairburn), agus Caisteal no Tur an Uillt-Bhoidhich
+(Fairburn Tower). "Thig an latha anns an caill Clann Choinnich an
+Uillt-Bhoidhich am fearann uile, agus theid am meur sin de 'n fhine as
+an t-sealladh gus nach fàgar duine dhiubh air aghaidh na talmhainn.
+Bidh an caisteal fàs, air a threigsinn, gun duine 'ga aiteachadh no
+gabhail comhnuidh ann; agus beiridh bo laogh ann an seomar uachdrach
+an Tùir." Thachair na nithean so uile do reir na fiosachd. Chaill an
+teaghlach sin de Chloinn Choinnich an seilbhean gu h-iomlan; agus rug
+a bhò an laogh mar a dh' innseadh, san t-seomar uachdrach. Bho cheann
+beagan bhliadhnachan chaidh an Tùr fhagail na fhàsaich; ghrod na
+dorsan agus thuit iad dheth, fear an deigh fir, gus mu dheireadh nach
+robh dorus idir air an staidhir mhoir shniomhain a bha ruigsinn bho 'n
+bhonn gu mhullach. {12} Bha 'n staidhir so de chlioch agus mar sin
+seasmhach, maireannach. Bho cheann beagan ùine thaisg an tuathanach
+aig an robh a' gabhail fodar ann an seòmar uachdrach an Tùir. Thuit
+pàirt de 'n fhodar air an staidhir mar a bha iad 'ga ghiùlan an àird.
+Thainig te de 'n chrodh air latha àraid a dh' ionnsuidh dorus an Tùir,
+agus air do 'n dorus a bhi fosgailte, chaidh i staigh agus thòisich i
+air trusadh agus itheadh nan sraibhlean a bha sgapte thall 's a bhos
+air an staidhir. Lean i mar so a' dol air a h-adhart bho cheum gu ceum
+de 'n staidhir gus an d' rainig i am mullach,--chaidh i staigh do 'n
+t-seòmar ag itheadh nan sraibhlean roimpe, agus air dhi bhi trom le
+laogh cha b' urrainn i tearnadh air a h-ais; uime sin dh' fhàg iad i
+anns an t-seòmar gus an do rub i an laogh, a bha 'na chreutar fallain,
+bòidheach. Dh'fhàg iad a' bho agus an laogh car ùine shònruichte anns
+an t-seòmar agus chaidh iomadh neach a mach á Inbhirnis gus am
+faicinn. Mar so bha faisneachd Choinnich air a coilionadh gus an
+dearbh litir.
+
+{13}
+
+Thuirt Coinneach "Beirear nighean mhaol dubh air cùl Eaglais
+Ghearrloch." Thachair so; aig cruinneachadh sluaigh, saothair-chloinne
+gu h-obann air mnaoi òig, a bha anns an éisdeachd aig cùl na
+h-Eaglais, agus mum b' urrainn dhaibh a giùlan air falbh as an àite,
+rug i an "nighean mhaol dhubh." Tha sliochd na h-ighinn maoile dhuibhe
+so ri fhaicinn, agus ri fhaotainn, gus an latha an diugh ann an
+Gearrloch; agus mar so tha fiosachd Choinnich air teachd gu crich.
+
+Rinn Coinneach fiosachd mu Mhac Leòid Dhun-bheagain: "Nuair a gheibh
+Tormaid nan Tri Tormaid, mac na mnatha caoile cruaidhe Sasunnaich, bàs
+le sgiorradh; nuair a reicear Maighdeannan Mhic Leòid ri fear de na
+Caimbeulaich; nuair a bheireas galla-shionnaich cuain chuilean ann an
+aon de bhinneanaibh a' chaisteil; agus nuair a bheirear air lom a
+Bhratach Shith an uair mu dheireadh, siùbhlaidh greadhnachas Mhic
+Leòid air falbh; reicear a' mhor chuid de 'n oighreachd ri coigrich;
+bidh am fine cho tearc us gun giùlain {14} 'curach beag' thairis air
+Loch Dhunbheagain na bhios ann de dh' uaislibh de'n chinneadh. Ach
+ùine mhor, fhada an deigh sin thig 'Iain Breac' eile, agus aisigidh e
+an oighreachd, agus bidh cliù an taighe na 's àirde na bha e riamh."
+Thachair cuid de'n fhiosachd so. Mharbhadh Tormaid nan Tri Tormaid,
+nuair a shèideadh suas le fùdar an long-chogaidh an Queen Charlotte,
+air an robh e 'na oifeach. Reiceadh na creagan d' am b' ainm "Na
+Maighdeannan" ri Aonghas Caimbeul, agus tha iad fhathast aig ogha dha
+mar sheilibh. Bha peata sionnaich aig Caiptean Mac Gilleain, a bha
+fuireach ann am mullach a' Chaisteil, agus rug i cuain chuilean; agus
+chunnaic agus laimhsich Dr. Mach Leòid, Tormaid mor Gaidhealach an
+Teachdaire, na cuileanan, air a bhliadhna 1799, air dha bhi ann an
+Caisteal Dhunn-bheagain, 'san Eilean Sgiathanach. Chunnaic e mar an
+ciadna aig an àm sin "Bratach Shith" Mhic Leòid 'ga toirt air lom as
+a' chist iaruinn san robh i an tasgadh, air a dùnadh suas ann am bocsa
+fiodha chùbhraidh, deagh-bholtrach. Bha {15} 'bhratach na mir
+ceithir-chearnach de shioda luachmhor air fhigheadh le croisean tarsuinn
+de shnàthuinnibh òir. Tha chuid eile de 'n fhàisneachd ri tighinn, ma
+thig i idir.
+
+Bheir sinn fainear a nis mar a thainig crioch a bheatha air Coinneach
+Odhar. Ri linn Righ Tearlach II., an deidh dha bhi air aiseag a chum
+a' chrùin agus na righ-chathrach, chaidh Iarla Shi-phort, Coinneach,
+an treas Iarla, air teachdaireachd gu Paris, baile mor na Frainge,
+agus dh' fhàg e a' Bhan-Iarla aig an taigh ann an Caisteal Bhrathainn.
+Dh' fhuraich an t-Iarla ùine fhada ann am Paris, agus thòisich a'
+Bhan-Iarla air gabhail fadail agus iogh-naidh nach robh e a' tighinn
+dachaidh. Ma dheireadh thall chaill i a foighidinn agus chuir i fios
+air Coinneach Odhar gus an innseadh e rud-eigin di mu thimchioll an
+Iarla. Thainig Coinneach a dh'ionnsuidh Caisteal Bhrathainn, agus
+dh'fhoighneachd a'Bhan-Iarla dheth am b'urrainn da innseadh cia dhiubh
+a bha an t-Iarla beò no marbh. Chuir Coinneach Clach na Fiosachd ri
+shùil, agus le àrd ghàireachdaich {16} labharr, thuirt e ris a' Bhan
+Iarla, "Na biodh eagal sam bith ort mu thimchioll an Iarla' tha e
+slàn, fallain, tearuinte, cridheil, mireagach, sùnndach." Dh'
+fheòraich a' Bhan-Iarla an sin ciod a bha e deanamh agus co bha
+timchioll air. Thubhairt Coinneach rithe,--"Gu ma leòr" leat na chaidh
+innseadh; na farraidh ceist air bith; bi toilichte le fios gum bheil
+am morair slàn agus sùnndach." "Ach," ars' ise, "cait am bheil e? Co
+leis a tha e? agus am bheil e deanamh deisealachd air son tighinn
+dachaidh?" Thubhairt am fiosaiche, "Tha am morair ann an seòmar mor
+greadhnach, ann am measg cuideadhd grinn, agus ri aighear 'us mire,
+ionnus nach 'eil guth aige air baile mor na Frainge fhagail aig an àm
+so." Ach cha bu leòr am freagradh so leis a' Bhan-Iarla; chuir i
+thuige Coinneach gus an innseadh e an t-iomlan mu thimchioll a fir.
+Ghuidh i le griosadan, thairg i duaisean, agus mhaoidh i air le
+bagraidh, gus an innseadh e na b'aithne dha. Air do Choinneach e fhéin
+a chaisleachadh agus a chloimhdeachadh, thubhairt e rithe, "Bho 'n is
+àill leat {17} fios fhaotainn air na dh' fhagas mi thoilichte thu, is
+eiginn domh an fhirinn innseadh dhuit. Is beag smuain a tha aig Morair
+Mac Coinnich ort fhéin, no air a chlainn, no air a dhachaidh anns a'
+Ghàidhealtachd. Chunnaic mis' e ann an seòmar òraichte, air a
+chòmhdach le bhelbheid, sioda agus aodach òir; bha e air a ghlùinean
+air beulaobh ribhinn mhaisich, a làmh timchioll air a cneas, agus a
+làmh-se air a bhilean." Nuair a chual' a Bhan-Iarla so las i le feirg,
+agus dh' at i suas le h-àrdan. An fhearg a bha nàdurra gu leor an
+aghaidh an Iarla, thionndaidh i gu h-eucorach an aghaidh an
+fhiosaiche. Ghabh i oirre nach robh i creidsinn na fiosachd, agus
+chuir i roimpe am fiosaiche a chur gu bàs. Thubhairt i ri Coinneach
+"Labhair thu toibheum mu àrd-inbhe, mhaslaich thu maithean na tire,
+thug thu tàmailt do cheann-feadhna mor an làthair a chinnidh. Thug thu
+tàir dhòmhsa agus do'n chaisteal, agus labhair thu gu sgainnealach mu
+'n mhorair ann an lùchairt mhoir a shinnsear; air an aobhar sin, is
+eigin domhsa do chur gu bàs." Ghabh {18} Coinneach iongantas agus
+uamhas nuair a chual' e na briathran a labhair a Bhan-Iarla, a bha na
+bain-diabhul  cruaidh-chridheach, an-iochdmhor, gun tròcair. Shaoil
+leis an fhiosaiche gur h-ann a gheibheadh e duais air son 'fhiosachd,
+ach b'e an duais a fhuair e am bàs. Dh' òrduich am boirionnach
+mallaichte a thoirt a mach gu bhi air a losgadh ann am baraille tearra
+aig a' Chananaich, le òrdugh Easbuig Rois, dhe 'n Eaglais Easbuighich
+Albannaich.
+
+Tha beulraite eile a' tabhairt cunntais eadar-dhealaichte mu aobhar
+feirge na Ban-Iarla ri Coinneach Odhar. Aig àm àraid, a reir an
+iomraidh, bha cuirm mhòr agus cruinneachadh lionmhor a dh' uaislean
+ann an caisteal Bhrathainn. Bha òigridh nan àrd uaislean 'gan cluich
+fhéin air a' bhlàr a muigh, air an àilean ghorm, timchioll a'chaisteil
+Thubhairt cuideigin ann an èisdeachd Choinnich, gum b' ainneamh a
+chiteadh tional cho lionmhor de chlainn dhaoine uaisle. Fhreagair
+Coinneach gu sgallaiseach, "Is mo a th' ann de chlainn ghillean-bùird,
+agus de {19} chlainn ghillean-stàpuill, na th' ann de chlainn dhaoin'
+uaisle." Tha beulraite eile ag radh, gur h-ann a bha an òigridh a'
+dannsadh ann an lùchairt mhoir a' chaisteil an àite bhi 'gan cluich
+air an àilean, nuair a labhair Coinneach gu fanaideach umpa.
+Dh'aithriseadh briathran Choinnnich do 'n Bhan-Iarla, agus ghabh i
+fhéin 's na baintighearnan eile fearg ris, air son a bhi cur an
+amharus deagh-bheusan agus teistealachd mhnathan uaisle Rois, agus a'
+toirt mi-chliù follaiseach orra mar sud. Dh' òrduich i am fiosaiche a
+ghlacadh gun dàil; agus ged a theich e gu fhalach féin car tamuill,
+fhuaradh a mach mu dheireadh far an robh e. Nuair a chunnaic e nach
+robh dol as aige bho a naimhdidh, chuir e clach na fiosachd ri shùil
+agus thubhairt e, "Chi mi fada romham, agus is leur dhomh am
+breitheanas a thig air sliochd mo luchd-sàrachaidh. Bidh seann
+teaghlach Iarla Shi-phort air an ditheachadh gu tur, mun teid moran
+linnean seachad. Chi mi ceann-feadhna, am fear mu dheireadh d'a
+theaghlach, araon bodhar agus balbh. Bidh ceathrar mhac àluinn aige,
+{20} ach theid iad uile roimhe fhèin do'n uaigh. Caithidh e a bheatha
+gu h-iomaguineach, agus gheibh e am bàs gu brònach, a' caoidh gum bi
+sliochd a shinnsear air an dubhadh a mach gu bràth, agus nach bi Mac
+Coinnich tuilleadh ri fhaotainn 'na Thighearna air Caisteal
+Bhrathainn, no air Ceann-Tàile. An deigh dha bròn a dheanamh air son
+an fhir mu dheireadh d'a chuid mac, am fear bu taitniche dhiubh,
+siubhlaidh e fhéin, a' dol do 'n eug, agus bidh an oighreachd aige air
+a' sealbhachadh le caileag air am bi currachd bàn, a thig bho 'n àirde
+'n ear, d' am bi e 'n dàn a piuthar a mharbhadh. Mar chomharra gun
+tachair so, bidh ceathrar thighearnan air am bi suaicheantas 'nan
+comh-aoisean do Iarla Shi-phort mu dheireadh, a bhios bodhar, agus
+balbh; se sin Tighearna Storach (Stor fhiaclach) Ghearrloch, an
+Siosalach le milleadh-maighich, an Granndach Gorach, agus
+Mac-Gille-Chalum Gagach no manndach. Nuair a chi Mac Coinnich Bhrathainn
+a cheathrar so, tuigear leis gum bheil am bàs an dàn d'a chuid mac; gun
+teid an oighreachd gu coigrich {21} agus gun dubhar as a theaghlach gu
+siorruidh, gun fhirionnach d'a shliochd a thogas 'ainm."
+
+Nuair a chriochnaich am fiosaiche an fhaisneachd so, thilg e clach na
+fiosachd ann an lochan uisge, no mar a their cuid, ann an lorg coise
+mairt a bha làn uisge, agus thubhairt e, "Co sam bith a gheibh a'
+chlach sin, bidh feart na fiosachd aige mar an ciadna." Thubhairt e a
+bharr air sin, mar tha cuid ag radh, "Beirear leanabh le da imleig, no
+le ceithir meòir fhichead a reir cuid, gheibh e a' chlach so ann am
+broinn geadais, agus leis a' chloich thig buaidh na fiosachd thuige."
+Nuair a thugadh a mach Coinneach gus a losgadh, thuit a' Bhan Iarla
+ris nach rachadh e do Fhlaitheanas gu siorruidh. Thionndaidh e mun
+cuairt agus thubhairt e rithe, "Theid mise do Fhlaitheanas; ach cha
+teid thusa ann gu siorruidh. So dhuit comharradh leis am faigh thu
+fios ciod e mo chor san t-saoghal ri teachd. Thig caluman agus
+fitheach an coinneamh a cheile bho dha thaobh an athair, gus an seas
+iad os ceann agus an laidh iad air {22} luaithre mo chuirp. Ma thig am
+fitheach an toiseach labhair thusa an fhirinn, ach ma thig an caluman
+an toiseach labhair thu breugan, agus tha mo dhochas air deagh
+bhunait."
+
+Dh' òrduich a' Bhan-Iarla Coinneach a ghlacadh, 's a cheangal, eadar
+lamhan 'us chasan, agus a ghiulan gu Rugha na Cananaich, far an do
+thilgeadh e an coinneamh a chinn ann am baraille tearra bha
+dearg-losgadh, agus air an robh a thaobh a stigh lan spicean fada
+iaruinn, biorach, geur, a bhuaileadh troimhe bho 'n taobh muigh.
+Rinneadh an ni eagallach so le ùghdarras Easbuig Rois, agus cléir na
+h-Eaglais Easbuigich, a bha air a suidheachadh aig an àm ud, mar
+Eaglais na Rioghachd an Albainn, le Righ Tearlach a Dha. Air an dearbh
+latha air an do chuireadh Coinneach air falbh bho Chaisteal Bhrathainn
+thainig Iarla Shi-phort dhachaidh as an Fhraing, agus dh' innis iad da
+air ball an ni a rinn a' Bhan-Mhorair mu Choinneach, agus gun robh e nis
+air a thurus a dh' ionnsuidh na Cananaich le òrdugh na Cléire, gu bhi
+air a losgadh.{23} Bha deagh fhios aig a' Mhorair air nàdur
+dioghaltach, ain-iochdmhor na Ban-Iarla. Chreid e gun robh an sgeula
+fior, seadh tuilleadh us fior. Cha d' iarr 's cha do ghabh e biadh no
+deoch; cha do ghairm e air sgalaig no gille stapuill, ach chaidh e
+fhein le cabhaig a dh' ionnsuidh an stapuill, chuir e diollaid air an
+each a b' fhearr a bha 'na ghreigh, leum e air a mhuin, agus dh'
+fhalbh e leis an each 'na dheann-ruith, 'g a ghreasad cho luath 's a
+b' urrainn da, an dùil gun ruigeadh e Rugha na Cananaich mun rachadh
+an t-innleachd diabhlaidh a dheilbh a Bhan-Iarla agus a' chléir
+Easbuigeach a chur gu buil; cha do mharcaich Iarla Shi-phort riamh
+roimhe cho luath no cho dian. Ann am beagan ùine bha e am fagus do 'n
+Chananaich, agus chunnaic e smùid dhubh thiugh ag éirigh suas bho 'n
+Rugha gu h-iosal. Thainig gairisinn na fheòil, bhrùchd am fallus fuar
+a mach troimh a chorp, chuir e spuir ris an each a bha cheana an impis
+toirt thairis, a chum gun ruigeadh e an t-àite bàis, gu beatha an
+fhiosaiche a shàbhaladh. Mar uighe beagan shlat bho 'n {24} àite far
+an robh an smùid ag éirigh, thuit an t-each air an làr agus thug e
+suas a deò, oir cha b' urrainn da a' chruaidh-spàirn a sheasamh na
+b'fhaide leis mar a bha an t-Iarla 'ga chur thuige 's ga sporadh air
+adhart. Nuair a chaill e an t-each, ruith an t-Iarla gu dian air a'
+chois, ag eigheach a mach le àirde a ghuth, ris an t-sluagh a bha
+cruinn air an Rugha, iad a thearnadh beatha an fhiosaiche. Ach mo
+thruaighe! bha e tuilleadh us anmoch. Cia dhiu a chuala no nach cuala
+an sluagh glaodhaich àrd an Iarla, bha Coinneach Odhar air a thilgeadh
+anns a' bharaille loisgeach beagan mhoinaidean mun do rainig Iarla
+Shi-phort an t-àite gus a theasairginn.
+
+Air an doigh so chriochnaicheadh beatha an fhiosaiche, agus cha 'n
+'eil e coltach gun rachadh an sgeula ud a dheilbh mu 'bhàs mur
+tachradh an ni mar a chaidh aithris. Nan d' fhuair Coinneach bàs
+nàdurra 'na leabaidh, cha ghabh e creidsinn gun rachadh an sgeula
+truagh ud a dheilbh no chur air chois. Ach ciod a their sinn mu
+luchd-dreuchd Eaglais a {25} thug gnùis da leithid sud de ghniomh
+oillteil, agus a dh' aontaich ris? Bha iad air son a' Bhan-Iarla a
+thoileachadh gu cinnteach, ach anns na linnibh dorcha sin bha e 'na
+chleachdadh a bhi losgadh nam buitseach agus nam fiosaichean, agus is
+iomadh creutair truagh a chuireadh gu bas fo 'n chùis-dhitidh so, aig
+nach robh tuilleadh buitseachd na tha aig an lair-ghlais, Bheir sinn
+cùnntas a nise mar a thainig faisneachd Choinnich Uidhir gu teachd mu
+thimchioll teaghlaich Iarla Shi-phort, faisg air ciad gu leth bliadhna
+an deigh bhi air a labhairt.
+
+Chunnaic sinn mar a thachair do'n fhiosaiche. Rachamaid a nise agus
+faiceamaid ciod a thainig gu buil de 'n fhiosachd mu dheibhinn Mhic
+Coinnich Bhrathainn. Fhuair an t-Iarla a bha ann ri linn Choinnich am
+bas air a' bhliadhna 1678; fhuair a mhac, an ceathramh Iarla, am bas;
+chaill an coigeamh Iarla, mac an fhir so, an oighreachd agus an tiodal
+chionn gun d' éirich e ann an aobhar Sheumais air a' bhliadhna 1715.
+Ach dh' aisigeadh an oighreachd dha air a' bhliadhna 1726, agus {26}
+air a' bhliadhna 1771 fhuair a mhac an tiodal Iarla Shi-phort.
+Gidheadh bhàsaich an tiodal leis fhéin air a' bhliadna 1781. Nuair a
+bhàsaich e cha robh oighre aige, ach fhuair ogha bràthar a shean-athar
+an oighreachd, a mheal e re dha bhliadhna, oir chaidh a mharbhadh 's
+na h-Innseachaibh an Ear air a' bhliadhna 1783. Thainig a bhràthair na
+'àite, am Mac Coinnich mu dheireadh a bha ann am Brathainn, anns an do
+choilionadh faisneachd an fhiosaiche.
+
+Rugadh Fraing Mac Coinnich so air a' bhliadhna 1764. Bha uile bhuadhan
+agus cheud-faithean a chuirp agus 'inntinn aige gun deireas nuair a
+rugadh e, ach chaill e a chlaistneachd agus dh' fhas e bodhar leis an
+Teasaich Scarlaid nuair a bha e 'na ghiullan òg a' dol do 'n sgoil sia
+bliadhna deug a dh'aois. Nuair a dh' fhàs e mor agus a fhuair e
+oighreachdan Bhrathainn an deidh bàis a bhràthar, chuir e reiseamaid
+air a cois a chogadh ri Bonapart, air a' bhliadhna 1807, agus fhuair e
+bhi na Sheanalair air a' bhliadhna 1808. Bha ceathrar mhac aige, ach
+fhuair fear dhiubh bàs na {27} òige. Dh' fhàs an triuir eile gu bhi
+nan daoinibh, ach fhuair iad bàs fear an deigh fir, gus nach d'fhàgadh
+a h-aon diubh beò. Bha am fear mu dheireadh 'na òganach maiseach,
+gealltanach, aig an robh buadhan inntinn taitneach, ach bhuail eucail
+throm e, agus chaidh e gu taobh deas Shasuinn air son a shlàinte, far
+an d' fhuair e bàs. Nuair a fhuair seann Mhac Coinnich sgeula bàis a'
+mhic cha do labhair e riabh tuilleadh agus dh' fhàs e balbh, oir cha
+labhradh e facal, cia dhiubh a bha e neo-chomasach no mi-thoileach air
+bruidhinn. Fhuair e am bàs air an aonamh latha deug de Ianuaraidh,
+1813, am fear mu dheireadh de a theaghlach.* Thainig an nighean bu
+shine dhiubhsan a bha beò an àite a h-athar gu seilbh air oighreachd
+Bhrathainn. Bha i pòsda ris an Ard-mharaiche, Sir Samuel Hood,
+ceann-feadhna cahbhlaich Bhreatuinn anns na h-Innseachaibh an Iar 's an
+Ear; ach fhuair e am bàs san airde 'n Ear 'na dhuine òg; agus mar sin bha
+a bhean 'na {28} bantraich oig nuair a dh' eug a h-athair. Agus, thainig
+i dhachaidh as na h-Innseachan le Currachd Ban na bantraich air a
+ceann, agus b'e Hood a b'ainm dhi. An deigh sin phòs i Mr. Stiùbhart,
+ogha do Iarla Ghalloway, agus ghabh esan ainm Mhic Coinnich an
+co-thaice ri anim fein; agus mar sin theirteadh Stiubhart Mac Coinnich
+ris. Air an dòigh so chaidh oighreachd Bhrathainn thairis bho shliochd
+nam firionnach ann an seann teaghlach Chinn-Tàile. An deigh sin reic
+Mr. agus Mrs. Stiùbhart Mac Coinnich eilean Leòdhais ri Sir Seumas
+Mathanaich. Air latha àraid bha Mrs. Stiùbhart Nic Coinnich ann an
+carbad sealltaidh no carbad ponaidh. Ghabh na sealltaidhean eagal agus
+ruith iad air falbh nan still, 's nan deannaibh. Cha b' urrainn a
+Bhain-tighearna an casg, agus thilgeadh i fhéin agus a piuthar a mach
+as a' charbad. Chaidh an ciùrradh agus am bruthadh gu goirt: ach
+leighiseadh a' bhaintighearn ann an ceann beagan ùine, gidheadh fhuair
+a piuthar a b' òige am bàs leis an dochann a rinneadh oirre. Mar so
+thainig fàisneachd Choinnich gu {29} crich, agus dh'aobharaich
+Baintighearna Bhrathainn bàs a peathar, ged nach robh coire aice ris.
+Bha na ceithir tighearnan eile 'nan comh-aoisibh do Mhac Coinnich, Sir
+Eachann Ghearrloch, an tighearna storach, an Siosalach, air an robh
+milleadh maighich, tighearna Ghrannda bha 'na amadan, agus
+Mac-Gille-Challuim gagach.
+
+Tha sinn a nise toirt na h-eachdraidh ghoirid so gu crich. Chaidh, gun
+teagamh sam bith, moran de dh' fhiosachdan Choinnich a choilionadh gu
+litireil, agus tha daoine ann a tha dhe 'n bharail gu 'm bi tuilleadh
+dhiubh air an coilionadh fhatast, Biodh sin mar a bhitheas, theid
+iomadh bliadhna 's linn seachad mu 'n sguirear a bhi 'g aithris, am
+measg nan Gàidheal, gach fiosachd iongantach a rinn e, am bàs
+uamhasach a dh' fhuiling e, agus mar a thainig an caluman 's a laidh e
+air a luaithre--an ni a thubhairt Coinneach fhéin a bha gu tachairt,
+mar chomharradh air gu robh 'anam air a ghiùlan gu Flaitheanas.
+
+A'CHRIOCH
+
+(duilleag 27)
+* Tha Sir Walter Scott ag radh,
+
+   "Cha ghabh fironnach faotainn air strath no air aird,
+   Thogas suas ainm Mhic Coinnich, ceann-cinnidh Chinn-Tail."
+
+
+
+
+
+
+
+
+End of the Project Gutenberg EBook of Coinneach Odhar, by D. B. Blair
+
+*** END OF THIS PROJECT GUTENBERG EBOOK COINNEACH ODHAR ***
+
+***** This file should be named 28995-8.txt or 28995-8.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/2/8/9/9/28995/
+
+Produced by dragonhelmuk
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.net/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.net
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.net),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.net
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
 
-  Tous droits de traduction et de reproduction réservés pour tous
-  les pays, y compris la Suède et la Norvège.
-
-  S’adresser, pour traiter, à M. PAUL OLLENDORFF, éditeur, 28
-  _bis_, rue de Richelieu, Paris.
-
-
-
-
-                           ARMAND SILVESTRE
-
-                               Le Petit
-                              Art d’Aimer
-
-                         EN QUATORZE CHAPITRES
-
-                     _Vignettes de LUCIEN MÉTIVET_
-
-                          [Logo de l'éditeur]
-
-                                 PARIS
-                       PAUL OLLENDORFF, ÉDITEUR
-                 _28 bis_, RUE DE RICHELIEU, _28 bis_
-
-                                 1897
-                         Tous droits réservés.
-
-
-
-
-    IL A ÉTÉ TIRÉ A PART
-    _25 exemplaires sur papier vélin, numérotés à la presse._
-
-    CHACUN DE CES EXEMPLAIRES COMPREND
-    _Une suite des dessins hors texte aquarellés
-    par LUCIEN MÉTIVET_
-
-
-
-
-    A MON AMI
-    GEORGES HECQ
-
-    _Son dévoué et son reconnaissant_,
-
-    _A. S._
-
-
-
-
-                                   I
-
-                               DU CHOIX
-                                 D’UN
-                                 AMANT
-
-
-
-
-_Du choix d’un amant_
-
-
-I
-
-Ce n’est pas la première fois qu’une des aimables personnes qui me
-veulent bien poser des cas d’esthétique amoureuse, me confie que la
-solitude lui est pesante et qu’elle souhaiterait d’avoir un amant. Il
-fut un temps où j’aurais trouvé une réponse immédiate à ce genre de
-lettre, et sans avoir besoin de tremper ma plume dans mon écritoire.
-Je n’ai plus la fatuité de croire aujourd’hui qu’on me demande une
-réponse purement mimée et que c’est tout bonnement une entrée en
-relations qu’on me propose. C’est une idée qui ne viendrait plus à une
-demoiselle simplement sensée. Je ne vais plus en ville après y avoir
-été beaucoup--pas assez encore, puisque c’est le meilleur temps de la
-vie que celui qu’on passe en ces villégiatures du cœur.--En ce temps-là
-j’écrivais seulement quand j’étais fatigué de mes visites. L’amour
-était la pièce, et la littérature n’en était que les entr’actes. Encore
-me bornais-je, pour faire œuvre d’écrivain, à réunir en volume les vers
-que j’avais faits pour mes bonnes amies. Maintenant la pièce c’est la
-littérature, et l’amour c’est les entr’actes. Mon spectacle dans un
-fauteuil--et même sur un canapé--y a beaucoup perdu. Mais pourquoi
-récriminerais-je? J’aime encore la femme de la même passion sans le lui
-prouver par la même éloquence. J’ai beau mettre, comme Démosthène, des
-cailloux dans ma bouche, il est certain que mon défaut de prononciation
-s’aggrave de jour en jour. Mais je ne bégaye pas encore. Tout au plus
-zézayé-je un peu. Ce n’est vraiment pas la peine de m’exposer à avaler
-des cailloux.
-
-[Illustration]
-
-Donc, maintenant, c’est sans y chercher un bénéfice personnel que je
-réponds, aussi sérieux qu’un candidat qu’on étrille, aux interrogations
-du genre de celle qui m’est posée aujourd’hui encore, avec une
-franchise à laquelle je veux rendre hommage avant tout. Vous n’y allez
-pas par quatre chemins, Madame. Vous me confessez que vous trouvez
-votre lit trop large et que vous y voulez un compagnon. C’est à la fois
-limpide et perspicace. Mais vous me demandez comment il faut choisir
-celui-ci, et cela n’est pas aussi aisé que vous le semblez croire. Je
-conviens cependant que votre cas est un des plus simples du monde,
-puisque vous êtes seule intéressée dans cette délicate aventure, et
-que vous n’avez pas à satisfaire les goûts d’un mari en même temps
-que les vôtres, ce qui rend la chose difficile quelquefois. Car les
-couples se mettent rarement d’accord, en cette matière, sur un idéal
-commun. Certains hommes tiennent absolument à être faits cocus suivant
-certains rites et d’une certaine façon, c’est-à-dire seulement par des
-gens qui leur conviennent à eux-mêmes,--ce qui est bien le moins--qui,
-par exemple, fassent, tous les soirs, leur whist ou leur domino, ou
-bien les mènent gratuitement au spectacle, ou encore leur donnent
-quelque argent pour leurs menus plaisirs et leurs déplacements. Mais
-laissons de côté ces sybarites ou ces indélicats, et ne pensons qu’à
-vous, Madame. Vous êtes libre, me dites-vous, et je ne saurais vraiment
-trop vous en féliciter. C’est une condition adorable pour se forger
-d’agréables chaînes. Car la Liberté, dont les politiciens veulent
-faire une force, est tout simplement un milieu, comme la Foi qui n’est
-qu’un fait et dont les chrétiens veulent faire une vertu. C’est l’air
-respirable et l’espace ouvert devant nos mouvements, voilà tout. C’est
-l’atmosphère viable du caprice et de la fantaisie, seuls biens que
-nous ayons au monde. La Liberté, c’est cette forme de la sagesse qui
-nous permet de faire une bêtise. Je vais vous y aider de mon mieux, ô
-créature libre et confiante.
-
-
-II
-
-Apprenez d’abord, Madame, si vous ne le savez déjà, qu’au point de
-vue de l’Amour les hommes se peuvent classer en deux catégories--non
-pas ceux qui le paient et ceux qui ne le paient pas, car j’en veux
-laisser de côté le point de vue commercial--mais ceux pour qui l’Amour
-est l’unique chose de la vie, le _summum omnino bonum_ du moine A.
-Kempis (excusez, Madame, ce latin de sainteté, mais vous n’êtes pas,
-je l’espère, libre-penseuse), et ceux pour qui il n’est qu’une aimable
-distraction, un passe-temps comme le loto et le billard. Des Grieux,
-si vous voulez, d’un côté; et l’empereur Napoléon, de l’autre, qui en
-faisait un simple intermède entre deux victoires. Tous deux furent
-trompés; mais Des Grieux était, du moins aimé, ce qui est bien une
-consolation... Je n’ai pas besoin de vous dire que la seconde série,
-celle du vainqueur d’Austerlitz, ne mérite même pas votre attention;
-car votre désir ne me paraît pas précisément d’être impératrice. Ce
-n’est pas au trône d’Occident que vous pensez, mais à votre lit, sur
-lequel nous avons infiniment plus de chance, d’ailleurs, de nous
-rencontrer. Car, moi non plus, je ne tiens pas pour l’aigle et la
-couronne, et lui préfère un bon cent de baisers de telles lèvres
-que je sais bien. Reste donc à reconnaître les élus qui constituent
-la première classe, les seuls que ma conscience me permette de vous
-recommander. Énumérons-en donc les signes de race.
-
-[Illustration]
-
-Au physique tout d’abord. Eh bien! ce sera un certain air négligé qui,
-si je ne vous mettais pas en garde contre vous-même, préviendrait
-d’abord, contre eux, vos penchants raffinés et vos goûts naturellement
-délicats.
-
-Celui qui aime vraiment la femme et qui l’aime uniquement--seule façon
-de l’aimer--ne se préoccupe jamais d’être, lui-même, joli. C’est
-parfaitement illogique de sa part, puisqu’il perd ainsi un moyen de
-plaire à un tas de péronnelles et de charmantes bêtes qu’il est tout
-prêt à trouver spirituelles: mais c’est ainsi.
-
-[Illustration]
-
-L’abnégation est au fond de tout culte sincère. Pour ceux que la beauté
-de la femme affole vraiment, tout disparaît, au monde, devant elle,
-et eux-mêmes par-dessus le marché. Leur idéal est plus haut qu’eux,
-purement objectif, et ils ne demandent qu’à être une poussière vivante
-sur le chemin que foulent les pas adorés. Vous pouvez m’en croire,
-Madame: le Monsieur, séduisant d’ailleurs et bénéolent, qui aura passé
-quatre heures à sa toilette avant de paraître devant vous, n’est pas
-votre fait. Mais le malhonnête qui ne l’aurait pas faite du tout ne
-l’est pas non plus. Car si la contemplation intérieure de sa belle ne
-permet pas, à l’amant parfait que je vous souhaite, de se regarder
-soi-même, le respect lui interdit de se présenter, devant elle, dans
-une tenue qui lui fasse horreur. Les femmes bien organisées sont,
-avant tout, des êtres de juste milieu--je n’en dirai pas autant des
-hommes!--Montrez votre perspicacité en cette matière, Madame, et aussi
-votre juste milieu, en en prenant et en en laissant ce que je vous dis.
-
-
-III
-
-Passons au moral, maintenant, s’il vous plaît.
-
-Là, par exemple, j’ai mon sentiment absolu et je vous donne, comme
-certain, mon diagnostic. L’amour n’a ici-bas qu’un ennemi sérieux:
-l’amour-propre. C’est contre lui que vous devez diriger toutes les
-épreuves auxquelles vous soumettez le néophyte avant de l’admettre dans
-le temple (je crois que l’image est noblement tournée) ou de prononcer
-le: _Dignus, dignus es intrare!_ de la comédie, soit pour citer
-heureusement Molière. Proposez-lui de faire, hardiment, pour obtenir
-de vous une faveur--oh! mon Dieu, la moindre!--une faveur grande comme
-votre petit doigt, la plus petite des faveurs! une fleur, par exemple,
-qui sera tombée de votre corsage et que votre joli pied aura meurtrie,
-proposez-lui de faire, dis-je, un acte de stupidité écrasante et qui
-doive le rendre grotesque aux yeux de l’Univers tout entier. S’il
-hésite un seul instant, flanquez-le à la porte. Il y en a, tous les
-jours, qui n’hésitent pas, et ce sont les vrais amants!
-
-Tout ceci est pour le côté sérieux des biens que vous attendez du
-vôtre. Mais n’allez pas négliger les côtés plus purement aimables de la
-question. Gardez-vous précieusement d’un amant jaloux. Contrairement à
-l’avis général, ce n’est pas l’Amour que prouve la jalousie, mais son
-plus implacable ennemi, l’Amour-propre. C’est le fait des tempéraments
-égoïstes et avares. J’ai vu très sérieusement jalouses de leurs maris
-des femmes qui les trompaient à la journée--car ce n’est que les amants
-qu’on trompe à la nuit--en vertu de ce monstrueux sentiment, très
-commun chez la femme, que tout lui est dû et qu’elle ne doit rien au
-reste de l’humanité, même des excuses pour nous avoir fait mettre à la
-porte du Paradis! Mais il est aussi des hommes de cette farine. Il les
-faut fuir comme la peste. Prenez-moi un brave être doux et confiant et
-qui ne croie pas que l’Infini se partage, et qui a joliment raison. Car
-tous nous pouvons dire à la femme que nous avons aimée, avec le poète:
-
-    Ce que j’aimais en vous, c’était ma propre ivresse!
-
-Et cette ivresse-là, toutes les infidélités du monde ne sauraient nous
-la voler. A celui à qui vous donnez, Madame, l’immense joie de l’Amour,
-qui pourrait se flatter d’en voler quelque chose, puisque ce bonheur
-est fait d’impressions qui lui sont absolument personnelles et que la
-femme est comme un instrument d’où chacun tire l’air qu’il lui plaît?
-
-[Illustration]
-
-Ne prenez pas davantage un gourmand qu’un jaloux. La bonne chère est
-aussi une ennemie de l’Amour. La robustesse passionnelle est aux sobres
-et aux tempérants. C’est une vieille sottise accréditée, par les
-chansons, que Bacchus et Vénus font bon ménage. L’amant ayant quelque
-ferveur se veut appliquer tout entier à la possession consciente de la
-maîtresse aimée; entre elle et lui, il ne veut pas de vaines fumées,
-mais que seulement monte, vers elle, l’encens qui brûle dans son cœur.
-
-[Illustration]
-
-Mais par-dessus tout, Madame, ne prenez pas non plus pour amant un
-politicien. Vous me reviendriez avant huit jours si cruellement
-désenchantée qu’il me faudrait me remettre à l’œuvre, et franchement je
-ne puis passer tout mon temps à meubler votre couche. Un politicien,
-pauvre femme! Dieu vous garde de cette déplaisante bête particulière
-au temps où nous vivons, de ce hanneton bourdonnant qui n’a pas même
-la circonstance atténuante de n’être d’une seule saison. Conservez,
-pour les sonores abeilles du baiser, vos floraisons épanouies et bonne
-chance, maintenant!
-
-[Illustration]
-
-
-
-
-                                  II
-
-                               QUI AIME
-                                LE PLUS
-
-
-
-
-_Qui aime le plus_
-
-
-I
-
-Il me faudrait citer, dans son entier, pour y bien répondre, la
-lettre qui m’inspire cette glose nouvelle sur le seul sujet qui m’ait
-intéressé dans la vie. Aussi bien le lecteur n’y perdrait rien. Car,
-ainsi qu’il en pourra juger par quelques passages, elle est de forme
-bien française, claire et élégante, très précise, d’ailleurs, dans ses
-questions. Celle qui l’a écrite y dialogue, avec son amant, sur des
-subtilités amoureuses empruntées à leur propre tendresse. Je me méfie
-un peu d’une passion qui philosophe. Il s’agit de savoir lequel aime
-l’autre davantage. Je vais vous le dire tout de suite, Mademoiselle.
-C’est celui qui, le premier, interrompt cette dissertation, en fermant,
-de ses lèvres, les lèvres de son interlocuteur et en l’étreignant
-de ses bras. Le véritable et unique langage de l’Amour, c’est le
-baiser. Rien n’est moins bavard que les gens vraiment épris. Les
-lassitudes nécessaires que la possession nous impose, les vrais amants
-les occupent plutôt par de muettes contemplations et des adorations
-silencieuses que par de jolis discours. Celui de vous deux qui aime le
-plus est celui qui se dérobe le premier à ces conversations inutiles.
-
-[Illustration]
-
-Je cite maintenant: «Il me dit: tu m’accuses d’aimer moins que toi
-parce que je te montre les dangers de notre liaison secrète, dangers
-que je méprise à force d’amour, mais que je connais et que je mesure...
-Le jeune soldat, ignorant du péril, qui se précipite dans la mêlée,
-est-il aussi méritant que le vieux brave qui marche au feu, sachant
-bien qu’on y reçoit des blessures et qu’on y meurt quelquefois. Je sais
-aussi que les amours les plus ardentes ont la fragilité de toutes les
-choses d’ici-bas et qu’un jour viendra fatalement où nous chérirons
-moins.--A ceci je réponds:--Mon amour est plus grand puisqu’il
-m’empêche de voir le danger; je ne le veux point connaître et j’en
-détourne les yeux lorsque tu cherches à me faire apercevoir son noir
-fantôme et jamais la pensée cruelle d’une fin ne hante douloureusement
-mes rêves.»
-
-Vous auriez pu lui répondre encore, Mademoiselle--: «Je t’aime plus
-parce que le danger que tu évoques et, qu’au demeurant nous bravons
-tous les deux, n’existe, en réalité, que pour moi.» Quand une liaison
-secrète se découvre, l’homme y peut perdre un peu de sa tranquillité;
-mais la jeune fille y perd certainement son honneur et le respect
-de toute sa vie. Le jeu n’est vraiment pas égal et un Monsieur qui
-parle de ses risques personnels, en telle occurrence, prête quelque
-peu à rire. A moins qu’il ne soit de telle conscience et de telle
-probité intime que le plus grand malheur qu’il redoute soit d’avoir
-compromis une autre destinée que la sienne. Mais ceux-là sont rares,
-et encore ont-ils pris leurs précautions pour ne rien décliner de leur
-responsabilité et se sacrifier, au besoin, à leur tour. Car les actes
-sont indifférents, en morale intime, et le seul crime, vis-à-vis de
-nous-même, est la lâcheté qui en fuit les conséquences prévues. Il
-n’y a rien à dire à un homme qui, séduisant une fille, est résolu à
-l’épouser sans aucun motif d’intérêt; qui, faisant un enfant, est prêt
-à l’élever; qui, tuant, est prêt lui-même à mourir.
-
-L’argument de votre amoureux me touche davantage quand il parle
-du courage qu’il faut pour aimer encore, quand on a aimé déjà,
-c’est-à-dire mesuré les abîmes grands ouverts que laisse au cœur
-l’amour après soi, compté les larmes qu’il coûte et ce grand
-effeuillement d’illusions qu’il emporte comme une tempête. Mais cela
-n’est que spécieux. Car, s’il a appris que l’amour n’est pas une chose
-éternelle, il sait aussi que l’amour est la seule chose qui vaille
-qu’on brave tout pour elle et, sans laquelle, vivre n’est plus possible
-quand on a aimé. Alors le beau mérite de l’affronter encore quand on
-ne s’en pourrait plus passer! C’est comme un homme qui se croirait
-héroïque parce qu’il respire, bien que l’air nous donne quelquefois des
-fluxions de poitrine!
-
-    Après avoir souffert, il faut souffrir encore.
-    Il faut aimer encore après avoir aimé!
-
-s’est écrié un des poètes qui ont le plus et le plus mal souffert de
-l’Amour. Subis donc la fatalité que tu sais inexorable, sans prendre
-pour cela des airs de matamore, ô toi qui sais bien que tu ne saurais
-te dérober au combat où tu es, par avance, vaincu! Ne te compare pas au
-bouillant Ajax pour te ruer encore en une mêlée où les flèches sont à
-la pointe rose des seins nus et les blessures à la pourpre des lèvres
-pâmées. Je t’en flanquerai de l’héroïsme, mon gaillard, à ce prix-là!
-C’est vous qui avez raison, Mademoiselle, et l’homme même, souvent
-déçu, n’aime vraiment que lorsqu’il a oublié sa propre expérience,
-s’imagine que, cette fois-ci, ça durera toujours, que tout ce qu’il a
-vécu n’était que les préludes de sa vie et croit aimer naïvement pour
-la première fois. Ah! celui-là aime vraiment plus que la maîtresse,
-moins savante, dont le mérite est moins grand à ne pas se souvenir.
-Mais ce n’est pas le cas de votre amoureux, puisqu’il doute.
-
-[Illustration]
-
-
-II
-
-Je continue à citer: «Tu me reproches d’aimer moins que toi, dit encore
-mon amant, parce que je me débats dans les liens qui m’enserrent
-davantage; qui font peu à peu, du caprice du début, un sentiment
-profond où se prend tout mon cœur, où se perdra ma raison... J’avais
-juré de me soustraire toujours à un amour puissant, et me voilà portant
-des chaînes que je devrais briser et dont je ne peux et ne veux, hélas!
-me dégager. Tu vois bien que c’est moi qui aime le plus et le mieux,
-puisque, en désirant t’oublier, je t’adore davantage!--N’est-ce pas,
-dis-je à mon tour, aimer moins déjà que de sentir l’esclavage de notre
-amour? Ma tendresse, à moi, n’est-elle pas plus forte, puisque ses
-chaînes ne me pèsent point et que l’étroite prison, dans laquelle
-je me suis volontairement claustrée, me semble un paradis dont je ne
-voudrais jamais être chassée!»
-
-[Illustration]
-
-Je vous répondrai, Mademoiselle, par un petit bout de mauvais latin
-tiré d’un livre où vous avez lu peut-être quelquefois, au temps de vos
-puretés virginales, l’_Imitation de Jésus-Christ_. On y lit ces mots:
-_Magna res est amor, magnum omnino bonum quod leve facit omne onerosum.
-Nam onus sine onere portat._ Je traduis: l’Amour est la grande chose,
-la plus grande de toutes; car il rend léger tout ce qui est pesant et
-ne sent pas le poids des fardeaux. J’avoue que ce texte est pour vous
-donner absolument raison. Et vous n’avez pas cependant raison tout à
-fait. Peu galamment, un peu cyniquement même, à mon avis, votre amant
-vous avoue que vous n’avez été, pour lui, au début, qu’un caprice. Ce
-n’était pas assez pour lui céder, Mademoiselle, si vous aviez quelque
-souci de votre vertu. On ne se lance pas dans une liaison secrète, et,
-paraît-il, dangereuse, pour aussi peu. Je suis sûre que vous méritiez
-davantage et l’auriez certainement trouvé. Enfin, ce brave garçon a
-la franchise, d’ailleurs parfaitement inutile, de vous le dire, et
-qu’il n’entendait vous compromettre que pour une simple amourette.
-Dans ce cas, il est fort illogique de lui dire qu’il aime déjà moins,
-parce qu’il sent son esclavage. Au contraire, il commence seulement
-à aimer et il l’oubliera seulement le jour où il aimera davantage
-encore. Quant au serment qu’il s’était fait à lui-même de se soustraire
-toujours à un amour véritable, il est d’un homme beaucoup moins savant
-dans la vie qu’il ne croit l’être. Je puis même vous affirmer qu’il n’y
-entend rien et en sait beaucoup moins que vous. Sans cette ignorance,
-il se serait aperçu que, dans le monde passionnel, on ne se soustrait à
-rien du tout, que tout y est fatalité, et que se jurer qu’on n’aimera
-plus est pour faire s’esclaffer les ivrognes eux-mêmes qui connaissent
-le néant de ces paroles-là. On n’aime pas quand on le veut seulement;
-et c’est votre excuse, à vous qui me semblez avoir aimé un peu à la
-légère. C’est une loi qu’on subit et qu’on aurait tort d’accuser.
-Car elle est douce. Vous avez tort, Monsieur, de vouloir «briser vos
-chaînes». Celles que les bras blancs des femmes nouent autour des
-nôtres sont ce que je sais de meilleur dans la vie, et l’invisible
-filet, dont nous enlace leur chevelure, fait une lente et subtile
-caresse de cet emprisonnement délicieux.
-
-
-III
-
-[Illustration]
-
-Je cite encore: «Et, pour finir, quel est le sentiment qui a le plus
-de valeur? Son amour, avec toutes ses ardeurs, mais ses raisonnements,
-sa petite pointe de scepticisme voulu, que donne l’expérience... ou
-le mien, avec les infinis abandons, les aveugles et reconnaissantes
-tendresses d’un premier amour qui, de la froide jeune fille d’hier,
-a fait aujourd’hui la femme au cœur tout vibrant de sensations
-délicieusement nouvelles et inconnues?» Il faut être un rude orfèvre,
-Mademoiselle, pour doser le titre d’un sentiment et en apprécier «la
-valeur». Je crois cependant que nos sentiments valent d’autant plus
-que l’égoïsme y est plus étranger et qu’il y entre une plus grande
-part de sacrifice. La moralité des actes m’a toujours paru pouvoir se
-définir par le rapport entre ce qu’ils nous donnent de satisfaction et
-ce qu’ils en sacrifient à un idéal plus haut que nous-mêmes. Lequel
-de vous deux apporte le plus de désintéressement dans sa tendresse?
-Voilà ce qu’il faudrait savoir pour vous répondre. Actuellement vous
-y trouvez, tous les deux, votre compte. Vous, jeune fille d’hier,
-en savourant l’ivresse de «sensations délicieusement nouvelles et
-inconnues». Vous, jeune homme d’autrefois, en exhalant comiquement les
-plaintes d’un martyre dont vous ne voudriez, pour rien au monde, être
-soulagé. Car c’est de charmants instruments de supplice qu’une bouche
-rose et fraîche qui vous baise, qu’un épanouissement de tendresses
-ingénues qui vous étreignent, qu’une floraison de caresses qui s’ouvre
-pour vous seul et vous ouvre le ciel. On envie plus qu’on ne plaint
-ceux qui sont suppliciés de cette façon et vous avez choisi là un genre
-de mort intermittente qui fait tout à fait honneur à votre goût. Tant
-que vous en serez à cet échange d’enchantements, je ne vous dirai pas
-ce que vaut votre amour, à l’un et à l’autre. J’attends que quelque
-traverse y mette à l’épreuve vos deux cœurs. Alors je saurai ce que
-pèse ce scepticisme, faux peut-être, et ce que cette reconnaissance,
-actuellement toute sensuelle, a de vivace. Vous n’en êtes encore qu’au
-jeu de l’amour. Son grand combat vous attend où se mesurent vraiment
-les âmes. Les dangers que celui-ci brave avec quelque ostentation
-puérile, que celle-là oublie par enfantillage peut-être plus que par
-passion, se feront réalités. Celui qui aime le plus est celui qui
-apportera, à la lutte, le plus de courage et surtout d’abnégation,
-celui qui sera fidèle à la douleur comme à la joie, celui qui sera
-heureux de souffrir plutôt que d’oublier!
-
-[Illustration]
-
-
-
-
-                                  III
-
-                               CE QU’IL
-                                 FAUT
-                               ENTENDRE
-                              PAR LE CŒUR
-
-
-
-
-_Ce qu’il faut entendre par le cœur_
-
-
-I
-
-    Ces chérubins nous font voir dans leurs poses
-        Ce que Boufflers intitule le cœur,
-
-dit une chanson plus que légère. Ce n’est pas de celui-là
-certainement que vous me parlez, Madame, vous qui m’écrivez une lettre
-dont je devine à merveille le sentiment, mais dont les expressions un
-peu troublantes, dans leur vague, me rendent la réponse difficile.
-Il est clair que vous me plaignez de mes préoccupations trop
-exclusivement plastiques, en amour, et m’y voudriez voir mêler quelques
-éléments de morale. Vous pensez, je crois, que l’estime est nécessaire
-en amour. Baudelaire vous aurait répondu, avec sa géniale brutalité:
-
-    Maudit soit à jamais le rêveur inutile
-    Qui voulut, le premier, dans sa stupidité,
-    S’éprenant d’un problème insoluble et stérile,
-    Aux choses de l’amour mêler l’honnêteté!
-
-Il est juste que vous ajoutez n’entendre parler que de «l’amour
-_vrai_». Vous me ferez bien plaisir en me disant quel est l’autre?
-L’amour dont on souffre, l’amour dont on meurt est-il vrai? Croyez-vous
-que l’amour d’Antoine pour Cléopâtre, celui de Des Grieux pour
-Manon--car les personnages de l’histoire et du roman sont pareils
-devant la synthèse passionnelle--fussent des amours vrais? Il ne me
-semble pas qu’ils aient eu précisément pour fondement l’estime. Vous
-me reprochez aussi visiblement «d’envisager» le Beau toujours «par le
-même côté». C’est qu’en amour le Beau, comme le Vrai, ne me semble
-sujet à aucune méprise. Il est ou il n’est pas. Je vous concéderai
-qu’il peut être quelquefois dans la physionomie autant que dans la
-régularité des traits. Mais c’est seulement pour quelques élus. Et
-puis cette physionomie elle-même, que vous considérez comme un fidèle
-miroir de l’Ame, peut être menteuse. Je tiens donc que le plus sûr
-est l’harmonie plastique des formes et du visage, la splendeur des
-chairs, l’opulence des cheveux, le beau dessin des lèvres et de la
-gorge, toutes choses qui ne sont pas sujettes à mentir. Le regard et
-le sourire peuvent être imposteurs, non pas la couleur des yeux et la
-courbe de la bouche.
-
-[Illustration]
-
-Mais il est entendu que vous cherchez, pour aimer, au delà de la
-Beauté. Je vous trouve difficile et je me demande où vous trouvez cet
-au-delà. Car la Beauté me semble le dernier mot, la suprême raison de
-tout ce qui existe. Ce qu’il vous faut, c’est «le cœur».
-
-[Illustration]
-
-Voilà le mot qui m’inquiète. En amour je n’en vois pas d’autre
-définition que celle que je vous donnais tout à l’heure. Le «cœur»,
-c’est par quoi l’on souffre. Or, le choix en nous, de cette souffrance
-divine, n’est pas libre et nous n’avons pas à en approfondir les
-fatalités. Que vous feriez étroite et mesquine la grande loi
-passionnelle qui régit l’humanité, depuis l’origine des âmes, en la
-restreignant à des sélections volontaires, en l’abaissant aux scrupules
-de la raison et aux révoltes de la conscience! Vous lui ôteriez
-vraiment tout ce qu’elle a de divin et de mystérieux et nous, les vrais
-amants, nous repousserions cette souffrance qui ne nous viendrait pas
-de plus haut que nous, du sommet même des autels où les encens païens
-fument toujours, rouges encore du sang des victimes humaines aux pieds
-du spectre immortel de l’unique Beauté! Ah! laissez-nous, du moins,
-la grandeur douloureuse du plus sublime de ces rêves, à nous qui ne
-cherchons, dans les caresses, que les délices de l’anéantissement.
-
-
-II
-
-Vous dites encore: la femme qui est seulement belle... Seulement! C’est
-cruel à dire: mais seulement celle-là a une raison d’être, même au
-point de vue de la dignité des races, dans la reproduction. Il faudrait
-que toutes les mères de famille fussent belles pour que l’humanité ne
-déchût pas! Leur ventre ne doit pas être seulement un sillon où le
-grain germe, mais un moule auguste où le cerveau prend son empreinte,
-où se modèlent les muscles pour les rudes travaux de la vie. Vous
-voyez donc que celui-là est un vertueux et un sage qui recherche la
-beauté noblement physique dans la femme. Ne demandez pas à une autre
-cause le prestige des mariages d’amour, devant la conscience obscure,
-mais au fond sagace des foules et le mépris, insuffisant à mon gré,
-qui s’attache aux mariages d’argent. Car ceux-là sont des malfaiteurs
-qui jettent des avortons par le monde, même habillés de soie et de
-velours. Ils crachent dans les sources de la vie où viennent boire
-toutes les forces de l’avenir. Aimer la femme pour sa beauté est le
-premier des devoirs, Madame. L’Amour qui s’attache aux splendeurs
-plastiques est tout simplement le sauveur de la souche humaine et en
-retarde l’abâtardissement. Ah! vous êtes généreuse en convenant que «la
-femme seulement belle peut inspirer de la Passion»! Mais vous avez tort
-d’ajouter qu’elle ne saurait inspirer l’Amour vrai, et de corroborer
-cette monstruosité par le commentaire suivant: «C’est pour cela que des
-femmes de cœur ne se donnent pas, dans la crainte de n’être aimées que
-pour des charmes fragiles et sujets à passer avec l’âge.»
-
-[Illustration]
-
-Oh! Madame, comme je trouve que la vraie morale est de mon côté!
-Sous le prétexte que vos charmes sont fragiles, vous en refusez
-la joie à qui vous aime et, parce qu’ils passeront, vous jugez
-inutile d’en user dans leur fleur. Vous êtes, à la fois, égoïste
-pour les autres et cruelle pour vous-même. Est-ce donc une folie de
-respirer aujourd’hui la rose parce qu’elle ne sera demain qu’un
-effeuillement, et ignorez-vous le délicieux parfum que gardent encore
-les roses défleuries? Ainsi, pour qui vous a aimées, ô femmes, dans
-l’épanouissement de votre jeunesse et de votre beauté, un arome subtil
-de vos charmes défunts demeure un aveuglement très doux où s’effacent
-vos rides, où vos lèvres reprennent les carmins longuement baisés
-d’autrefois! Le souvenir est un magicien dont vous ignorez le pouvoir
-et les ingénieux mensonges. Mais, en dehors même des amants passés,
-pour les amants des autres et qui passent seulement, mais qui ont
-au cœur des ferveurs pareilles, la femme qui a été vraiment belle
-conserve un prestige indélébile, un glorieux stigmate devant lesquels
-s’agenouillent tous les respects. J’oserai dire qu’une femme qui a
-été vraiment belle l’est toujours. C’est même à cela que se mesure la
-véritable beauté. Ne soyez donc pas si économe, Madame, de ce qui ne
-s’use pas d’ailleurs autant que vous le croyez. Vous ignorez l’essence
-même de l’amour, si vous ne savez pas qu’elle est dans l’abandon, dans
-le sacrifice incessant de tout son être, dans le désir de s’abîmer
-éperdument en un être plus beau, en l’idéal vivant que dresse devant
-nous la Beauté! La femme qui aime vraiment craint toujours, au
-contraire de vous, de ne se pas donner assez. Elle ne se voudrait plus
-belle encore que pour accorder davantage, davantage et à jamais. Car ce
-n’est pas aimer que de se garder pour d’autres amours.
-
-
-III
-
-Ah! le cœur. Ce cœur dont vous parlez tant; ce cœur qu’il vous faut,
-pour l’amour vrai que vous souhaitez, mais il est fait de ces tortures
-que vous repoussez par un souci impie de votre tranquillité. Il est
-fait de ces terreurs et de ces désespoirs devant l’irrémédiable néant
-humain, mais aussi du courage joyeux dont on les savoure et dont on les
-brave. Il est fait des battements dont l’approche du bien-aimé ou de
-l’amante emplit notre poitrine, et le sang qui le soulève, en rythmes
-tumultueux, est celui dont nous voudrions rougir les pieds divins de la
-Beauté.
-
-Ceux-là ont aimé vraiment qui ont aimé ainsi, dans le rêve d’une mort
-très douce parce qu’elle réchauffait, pour ainsi parler, une autre
-vie et que le dernier souffle en était bu par des lèvres adorées. Si
-vous n’avez été jaloux de ce qui meurt pour celle que vous aimez,
-vous ignorez de quels désirs éperdus, monstrueux et fous, est fait le
-véritable amour, celui sous lequel la splendeur plastique nous écrase,
-envieux de l’insecte qu’un pied de femme foule dans le sable!
-
-[Illustration]
-
-Les sens! vous appelez cela: les sens! Mais trouvez-moi donc d’autres
-moyens de vivre, c’est-à-dire d’aimer, que par et pour eux! Nous
-sommes en cela dupes de la grossièreté des méthodes qui ne nous en
-reconnaissent que cinq, quand tout prouve aujourd’hui que nous en
-possédons une infinité d’absolument subtils, défiant le temps et
-l’espace. C’est de ceux-là que s’entretiennent, sans doute, les
-mouvements de notre cœur. Car il est une certaine immatérialité de la
-matière indéniable maintenant. Mais demeurons dans le domaine de la
-philosophie pure, celle que nous enseignent l’exemple des autres hommes
-et nos propres tourments. Vous abaissez l’amour, Madame, en croyant le
-grandir par je ne sais quels soucis d’estime et de moralité. Il est
-fort au-dessus de nos honnêtetés humaines et est cependant susceptible
-d’une honnêteté supérieure à toutes les autres: celle par laquelle on
-se donne tout entier et sans rien retenir de soi-même. Sa grandeur
-réside dans l’absolu de cet abandon, dans cette abnégation sublime de
-tous les intérêts, dans cette immolation sans merci. Ce fut la loi
-des plus glorieux amants et ce sera celle de tous les amants à venir
-dignes de ce nom. Mais n’en cherchez pas ailleurs la sanction que dans
-le pouvoir infini de la Beauté, source de toutes les joies, absolution
-de tous les crimes, culte éternel de toutes les grandes âmes! [Blank
-Page]
-
-
-
-
-                                  IV
-
-                                LE JEU
-                               DANGEREUX
-
-
-
-
-_Le jeu dangereux_
-
-
-I
-
-Sur l’oreiller mouillé des doubles larmes du repentir et du pardon, les
-deux têtes, exsangues de plaisir se cherchent encore des lèvres, et ces
-baisers ébauchés y meurent sans se rencontrer, cependant que, jusqu’au
-bout des doigts inertes, passe le frisson des chairs absentes, et
-qu’entre les yeux aussi, se dresse une barrière, un voile impénétrable
-où se brise le vol trop court des regards. C’est l’anéantissement
-délicieux qui suit les jouissances trop fortes, ce semblant de mort qui
-nous jette au seuil du Paradis. Il semble qu’elle ne se soit jamais
-si bien donnée, dans un abandon plus complet; que jamais ses caresses
-n’aient eu cette acuité désespérée; qu’on ait franchi la porte d’un
-monde nouveau de caresses inconnues. Ce n’a pas été seulement le
-plaisir que la possession donnait toujours, mais un plaisir doublé
-par la cessation d’une douleur. De tout ce qu’on a souffert, par le
-doute ou par quelque autre cause, s’est accrue l’immense joie, et
-l’impression de monter plus haut nous est venue de monter du fond d’un
-abîme. Tout ce qui n’était plus qu’un écroulement s’est relevé comme
-un palais de féerie, avec des ombres plus douces et plus fraîches.
-L’immense contraste entre l’état douloureux où l’âme était plongée
-et l’extase d’où elle sort nous écrase, comme un excès de bonheur. Si
-la jalousie--et c’est le cas le plus fréquent--avait été le motif de
-la querelle, la jouissance s’est exaspérée encore d’une impression
-malsaine, des piqûres d’un aiguillon infâme et c’est comme la félicité
-féroce de l’avare qui a retrouvé son trésor. Quoi qu’il en soit, tous
-ceux qui ont pardonné ont passé par cette extase farouche d’un moment
-où les facultés d’aimer physiquement sont incontestablement décuplées.
-Aussi ai-je entendu bien des femmes dire qu’il était bon de se fâcher
-quelquefois, pour les joies infinies de la réconciliation, et j’en
-sais même qui amènent volontairement des bouderies pour le plaisir du
-rapprochement qui les suit.
-
-[Illustration]
-
-Fâcheuse méthode, en amour, et dont je veux ici signaler les dangers.
-
-
-II
-
-Il est certain qu’en amour nous arrivons, l’un à l’autre, avec une
-certaine somme d’illusions réciproques. Entendons-nous à ce sujet. Il
-ne s’agit pas d’illusions sur la somme de plaisir que nous recevrons
-l’un de l’autre. J’estime, qu’en cette matière, le rêve est souvent
-très inférieur à la réalité. La possession de l’être longtemps
-souhaité, dont la beauté a dompté, en nous, tout autre désir, est un
-bonheur d’une essence si absolue, si parfaite, que tout ce qu’on a pu
-imaginer nous semble ordinairement n’avoir été rien. Cela tient à la
-raison bien simple que nous sommes les vrais ouvriers de notre propre
-joie et que celle que nous tentons d’y associer, dans une communauté de
-corps et d’âme, n’en est jamais que l’occasion. C’est ce que j’ai fait
-observer déjà, en montrant le néant de la jalousie, puisqu’un étranger
-ne saurait rien nous prendre, au fond, de notre bonheur intime, pas
-plus qu’un musicien ne vole Beethoven en jouant un morceau de sa
-composition sur un violon lui ayant appartenu. Ce que nous aimons,
-c’est l’amour, dans un être qui nous en fournit le motif. Donc, les
-illusions dont je parle, et qu’il faut absolument garder, ne tiennent
-pas au rôle purement physique des liaisons nouvelles. Là nous sommes
-sûrs de trouver notre compte, parce que nous le portons en nous, comme
-le sage Bias toute sa fortune.
-
-[Illustration]
-
-Ce qui nous est illusions, c’est les qualités d’adaptation de
-l’instrument qui se livre à nous, la façon dont son être moral se
-prêtera à notre rêve physique. C’est l’approfondissement mystérieux de
-la nature qui va nous imposer sa compagnie, qui constitue un fragile et
-délicat élément de bonheur et de durée. Eh bien, ne nous penchons que
-timidement au bord de l’abîme et ne cherchons pas trop à deviner le
-fin des fins. Contentons-nous d’être heureux de tout ce que la beauté
-nous donne et n’interrogeons pas trop la Femme dans l’Amante. Nous
-aurions souvent sujet de nous en repentir.
-
-On dira tout ce qu’on voudra. Mais entre les âmes féminines et les
-nôtres, il existe un éternel malentendu et nous ne parlons pas la même
-langue, celles que nous aimons et nous. Gardons donc nos lèvres pour
-les baisers plutôt que pour la didactique passionnelle. Nous nous
-apercevrions bien vite que nous ne nous comprenons pas. Voilà ce qui
-nous doit guérir, comme d’une chose inutile, de toute tentation de
-dispute. La conscience n’est, après tout, que l’aptitude à considérer
-certains faits comme permis et certains autres comme défendus. C’est
-sur la nature même de ces faits que les femmes diffèrent, d’ordinaire,
-de conception avec nous.
-
-Ah! ce bonheur tant souhaité, qui vous a paru plus que la vie, conquis
-par toutes les soumissions de votre âme, par tous les respects
-éperdus de votre pensée, par l’abandon de toutes vos autres joies,
-par des mélancolies immenses et par des patiences infinies, si vous
-saviez comme il est fragile, au fond. Il risque fort de s’écrouler
-le jour où, vous remémorant la somme de vos sacrifices vous aurez
-l’étrange fantaisie de vous demander si l’être qu’ils visaient en
-était moralement digne! Fuyez ce jour-là; car sa menteuse lumière
-n’apporterait, dans vos cœurs, qu’une inexorable nuit.
-
-
-III
-
-Cette miséricorde que vous gardez pour les fautes découvertes,
-exercez-la, tous les jours, sans trêve, à ne les pas découvrir. Ayez le
-respect de votre rêve. Même lorsqu’il s’appelle Musset, j’ai horreur
-de l’homme qui se complaît à salir ce qu’il a adoré. Le beau mérite de
-proclamer, même à ses propres yeux, qu’on a été une dupe! Et puis, ce
-n’est pas vrai. Je plains celui qui, ayant possédé celle qu’il aimait,
-même à tort (comme si on pouvait avoir tort d’aimer!) trouve qu’il a
-été dupe. De quels sens glacés était donc faite son ivresse qu’il n’en
-a pas gardé comme un parfum de l’Infini? C’est le souvenir de cette
-heure inoubliable, de cette heure sacrée qui doit nous rendre cléments
-les uns aux autres, et plus doux que des Christs pardonnant même à
-l’adultère. Le plus grand mérite de Jésus a été qu’il n’avait rien
-obtenu de la femme coupable, en l’absolvant. Le premier baiser qu’une
-femme souhaitée nous donne devrait emporter le pardon de tous ceux même
-qu’elle nous volera. Et ne croyez pas que je vous prêche là une morale
-lâche. Ce n’est jamais une lâcheté que savoir souffrir. Qui met de la
-dignité en amour, est bien près de ne plus aimer.
-
-Et c’est là le seul malheur qu’il faut redouter en cette vie. Quand
-la femme vient à vous, vos vœux enfin exaucés, elle est tout mystère
-et c’est un sphinx qui vous attire autant qu’une Beauté qui vous
-charme. Qu’elle demeure telle pour vous, aussi longtemps que cela sera
-possible. Vous imaginez-vous que vous atteindrez jamais au fond de ce
-gouffre qui est sa pensée? Non, n’est-ce pas? Eh bien alors, pourquoi
-vous pencher au-dessus, dans l’espoir douloureux d’y voir se refléter
-quelque étoile que votre ciel ne connaît pas? Celui-là n’a jamais
-regardé dans les yeux d’une femme qui ignore à quelles profondeurs
-habitent les intimités de son rêve, de quels lointains constellés elle
-nous épie sans que nous l’y puissions surprendre nous-mêmes. C’est
-terrible et c’est charmant. Et nous vivons de cette inquiétude autant
-que de notre bonheur.
-
-[Illustration]
-
-L’amante ne doit être, pour nous, qu’un hôte que nous traitons de
-notre mieux, que nous tentons de garder le plus longtemps possible.
-Il est de pratique physique que nous n’arrivons aux vraies joies
-que l’amour comporte, que par la coutume l’un de l’autre, par une
-certaine habitude des caresses que rien ne remplace. «Sa bouche était
-à la mesure de la mienne», a dit un écrivain charmant. Ce n’est pas
-du premier baiser que se fait cette commune mesure. Voilà ce qui nous
-doit enseigner la constance, comme le plus honnête des raffinements
-en matière de volupté. Vous me direz que beaucoup d’hommes aiment le
-changement. Vous me permettrez de vous répondre que ce sont des amants
-médiocres, des gens à courte vue passionnelle, des âmes manquant de
-portée. Qui ne sait s’attacher à une femme est certainement un mâle mal
-doué, j’entends superficiellement, un amoureux de la quantité plutôt
-que de la qualité.
-
-Ceci bien établi, quel encouragement à la condescendance volontaire en
-amour, laquelle, seule, permet les liaisons durables, celles que paye
-un réel courant de volupté! Quelle raison de ne se point chercher de
-défauts, de ne se pas chagriner inutilement. Le temps de la possession
-ne doit se ressembler en rien avec l’autre et doit être exempt de toute
-coquetterie.
-
-Mais, me direz-vous, cette joie éperdue de la réconciliation?
-
-Eh bien! il faut en faire le sacrifice! C’est d’ailleurs un mot
-seulement qu’on sacrifie. Et le pardon aussi est un mot. Allons au
-fond des choses. Pardonner à quelqu’un, est-ce oublier l’offense qu’il
-vous a faite? Pas le moins du monde! Vous n’êtes pas maître de votre
-mémoire. C’est s’engager simplement à ne lui pas tenir compte, dans
-la suite, de la peine qu’il vous a causée, pour lui en causer une
-pareille. Eh bien! vous avez beau être de bonne foi, cette magnanimité,
-en amour du moins, ne représente non plus absolument rien. Très
-inconsciemment, avec la volonté du contraire, vous tiendrez compte de
-la faute pardonnée, parce que votre tendresse sera diminuée d’autant.
-Dans ce baiser du pardon, dans cette étreinte du retour, ce n’est pas
-nos rancunes qui s’en vont de nous, à moins que nous ne les échangions.
-Le spasme délicieux passé, l’oubli de nous-même, le sommeil d’un
-instant où toute notion nous fut perdue, dissipés, nous nous retrouvons
-face à face avec le souvenir. Que nous le voulions ou non, une pierre
-est tombée de l’édifice de notre Rêve, une épine a crû dans le buisson
-qui sépare les deux routes, tout emperlé de notre sang. Les querelles
-fréquentes et volontaires sont un abaissement de l’Amour et ne lui
-laissent plus la gloire cruelle de s’écrouler avec quelque grandeur, en
-laissant derrière lui une grande image. Nous ne sommes plus le bûcheron
-qui renverse l’arbre géant d’un rude coup de sa cognée, mais l’insecte
-honteux qui en ronge l’écorce et met des lèpres là où s’épanouissaient
-les frondaisons.
-
-Or donc, amants pour qui j’écris, je vous devais cette page de
-franchise. Contentez-vous de vous aimer à pleine âme et à pleine bouche
-sans demander de douloureuses surprises au Destin. Peuplez le jardin de
-votre âme, non pas de fleurs délicieusement vénéneuses, mais laissez-y
-s’épanouir largement les roses au cœur loyal et aux lèvres toujours
-parfumées!
-
-[Illustration]
-
-
-
-
-                                   V
-
-                                FAUT-IL
-                             ÊTRE JALOUX?
-
-
-
-
-_Faut-il être jaloux?_
-
-
-I
-
-Je ne crois jamais avoir assez parlé des choses de l’Amour--du moins
-avec le sérieux qu’elles comportent. Oui, trop souvent je me reproche
-de laisser sans réponse les lettres où me sont soumis des cas de morale
-passionnelle, non que le goût de traiter ce genre de questions soit
-moins vif chez moi. Mais je sais qu’il est un public qui préfère les
-contes joyeux. Pour les lecteurs moins épris de verve gauloise que de
-sentimentalité, je veux cependant poursuivre mes courtes études, et mes
-correspondances d’autrefois peuvent librement mettre à l’épreuve une
-expérience que quelques années ont faite plus respectable encore. Car
-je suis au temps de la vie où, s’il n’est plus permis d’aimer autant,
-on peut davantage se souvenir.
-
-    Sous le fouet sanglant des âpres destinées,
-    Du terrestre chemin j’ai franchi la moitié,
-    Et j’atteins le sommet des viriles années
-    Que du temps à l’Amour mesure la pitié.
-
-    J’ai monté jusqu’ici; bientôt je vais descendre,
-    Traînant des jours vécus le néant et le bruit,
-    A l’éternel bûcher portant mon lot de cendre
-    Et ma part d’âme errante aux souffles de la nuit.
-
-    De mon double horizon le voile à mes yeux tombe;
-    Enveloppant mon sort d’un regard triste et sûr;
-    Déjà loin du berceau, déjà près de la tombe,
-    J’en mesure la route égale sous l’azur.
-
-[Illustration]
-
-Et, de ce mélancolique retour au passé, la seule impression qui me
-demeure est que j’ai perdu tout le temps que je n’ai pas donné à
-l’Amour; et, de ce coup d’œil inquiet sur l’avenir, rien ne reste
-en moi, que la crainte de ne plus assez aimer. Pour les amants qui
-viendront je veux, du moins, écrire ce que m’ont appris mes propres
-joies et mes propres tourments, leur montrer, sur le chemin, les fleurs
-qu’ils oublieraient peut-être de cueillir, en arracher les épines
-qui, sans doute, déchireraient leurs pieds. Cette science est l’unique
-héritage que m’aient laissé les anciennes tendresses, avec le trésor
-de mes souvenirs. Je n’en saurais plus faire grand’chose pour moi-même
-et ce m’est une pensée douce que d’autres, plus heureux, pour qui le
-printemps des baisers se lève, en profiteront. Elle ne leur apprendra
-d’ailleurs rien autre chose que ce que La Fontaine a si bien dit dans
-ce seul vers de Psyché:
-
-    Aimez! aimez! tout le reste n’est rien!
-
-
-II
-
-«Faut-il être jaloux?» me demande, avec un admirable sérieux, un
-échappé de collège.
-
-Prenez garde, jeune homme. Vous m’interrogez sur le point de la
-philosophie passionnelle où je crains le plus de penser autrement que
-mes contemporains.
-
-[Illustration]
-
-Je ne parle pas, au moins, des jurys qui font communément de la
-jalousie l’excuse de l’assassinat. Car tout est aujourd’hui excuse
-au meurtre, et principalement le plaisir qu’on a pu prendre à le
-commettre. N’être pas d’accord, sur cela, avec la magistrature de mon
-pays, me serait fort indifférent. Elle s’entend au respect de la vraie
-morale comme moi à la rédaction des encycliques. Non, ce n’est pas
-l’opinion des gens de prétoire qui m’inquiète. C’est celle de ce groupe
-bien autrement respectable et intéressant des Amants de profession, mes
-confrères. Donc, pour ceux-là seulement, je me demande aussi «Faut-il
-être jaloux?»
-
-Que ce soit un sentiment de nature que subissent, à l’origine, ceux-là
-mêmes qui avaient résolu de le railler ou de s’y soustraire, voilà qui
-est certain. Car il n’est pas de déchirement plus affreux au cœur que
-celui que nous fait la découverte de n’être pas aimé. Que je voie celle
-dont la bouche me semble le seuil du paradis, tendre, dans l’ombre,
-ses lèvres tant souhaitées à un autre, j’en conçois une épouvantable
-douleur, celle d’un rêve qui s’écroule, celle d’un bonheur dont les
-ruines écrasent le cœur.
-
-Mais contre qui et contre quoi se révolter, je vous prie?
-
-Contre la femme qui vous a menti? Et, n’êtes-vous pas, aussi bien
-qu’elle et souvent plus qu’elle, l’auteur de vos propres illusions,
-l’artisan de vos espoirs soudain désespérés! Pourquoi avez-vous cru
-trop vite et sans une raison suffisante de croire? Qui sait d’ailleurs
-si cette perfidie native n’est pas un des charmes les plus cruels, mais
-les plus vivaces de notre délicieux bourreau dans cette vie?
-
-[Illustration]
-
-Alors contre celui qui en a reçu la sournoise et rapide caresse? Ce
-serait absolument manquer de fierté, et d’ailleurs parfaitement inutile
-que lui disputer un bien dont il est certainement plus près que vous
-maintenant. Contre cette fatalité de l’inconstance? Ah! s’il nous
-fallait maudire toutes les lois qui, loin de réfréner nos passions, les
-aiguisent pour la douleur, l’existence ne serait plus qu’un continuel
-blasphème. Néanmoins, si c’est la jalousie qui vous cause cette torture
-épouvantable je n’y vois qu’un remède: la retraite immédiate si vous
-êtes vraiment un homme; le pardon, hélas! si vous êtes homme au point
-d’être lâche, en tous cas le plus douloureux des sacrifices ou la plus
-humiliante des abnégations. Un meurtre, jamais! Celui que la jalousie
-fait commettre est le moins excusable de tous, puisqu’il ne sert de
-rien, ne rendant même pas, à celui qui le commet, l’amour.
-
-
-III
-
-Il n’y a pas à demander de logique d’ailleurs à un sentiment qu’il faut
-tuer, en soi, pour qu’il ne vous emporte pas à tuer vous-même. J’ai
-vu des hommes jaloux du passé d’une femme et lui jetant à la face des
-liaisons qu’ils connaissaient à merveille quand ils s’en sont épris.
-J’ai entendu des imbéciles appeler ce comble de la folie un comble de
-l’amour! Si vous n’avez pas cru, ne fût-ce qu’un moment, que l’amour,
-que vous espériez inspirer, a tout renouvelé dans le cœur de la femme
-comme celui que vous avez ressenti pour elle a tout renouvelé dans
-votre propre cœur, vous n’avez pas le droit de parler au nom de l’amour
-qui est, avant tout, ce sublime renouveau, cette admirable et constante
-métamorphose, ce feu divin qui nous fait sans cesse renaître de nos
-propres cendres. Jaloux du passé? Je me demande ce que cela peut bien
-vouloir dire pour un homme ayant gardé la puissance virile d’aimer.
-
-[Illustration]
-
-Mais la jalousie du présent, la seule admissible? J’arrive ici
-à un point délicat. Car nous vivons dans une société pleine de
-compromissions où la pureté idéale de liens uniques et éternels n’est
-permise qu’à quelques privilégiés. Le plus souvent, ceux qui se
-rencontrent, assoiffés de tendresses nouvelles, ont les pieds et les
-mains, sinon le cœur, retenus par mille entraves. La vérité est qu’il
-faut s’aimer comme on peut, dans un monde où l’on ne s’aime pas comme
-on veut. Tout briser pour se jeter héroïquement dans les bras l’un de
-l’autre? C’est sublime, mais souvent difficile--ce qui ne serait rien,
-les intérêts matériels ne comptant pas dans les hautes révoltes de
-l’Ame--c’est crâne, mais c’est presque toujours odieusement criminel.
-Ces chaînes que vous rompez avec délices, elles tenaient à d’autres
-cœurs que vous déchirez en les brisant. Avec leurs anneaux vous jetez,
-au vent, des lambeaux vivants et qui saignent. Chose horrible et
-absolument coupable! Ce n’est pas vous que vous sacrifiez. Ce sont les
-autres! Ce n’est pas vos douleurs que vous offrez en holocauste sur
-un nouvel autel, mais les douleurs d’êtres qui vous aimaient et dont
-ce n’est pas la faute si vous ne les aimez plus! Versez tout le sang
-de votre poitrine si cela vous convient, aux pieds de l’idole, c’est
-votre droit! mais pas une larme d’autrui. C’est un crime. Ah! cela vous
-paraît dur, jeune homme, qu’il faille aimer seulement comme on peut;
-et c’est cependant la loi des sages et de ceux qui vraiment croient
-à l’amour. Demandez-vous alors ce que devient la jalousie dans ces
-résignations nécessaires, lesquelles sont peut-être une perversité de
-notre nature mais non une perversité dont nous soyons responsables. Un
-meilleur état social nous pourrait-il ramener à des mœurs plus dignes?
-Nous en sommes si loin que je ne saurais en préjuger, l’abaissement des
-mœurs semblant s’accentuer au contraire. Mais prenons-les comme elles
-sont. Très légitime la douleur du mari quand il découvre l’existence de
-l’amant, très légitime et très logique. Mais, s’il châtie, c’est au
-nom de l’honneur, et non pas au nom de l’amour qui ne renaît pas dans
-le sang versé.
-
-
-IV
-
-[Illustration]
-
-Et les cocasses aventures que nous voyons à côté du drame de la
-jalousie conjugale! Il y a aussi des amants qui sont jaloux des maris.
-Je mets à part les tempéraments qui font de l’amour un délassement
-purement hygiénique, une gymnastique de santé comme l’hydrothérapie,
-et je voudrais même que l’Académie française, qui nous doit bien un
-petit service après plusieurs siècles d’existence, trouvât un nom moins
-noble que celui d’Amour pour ces singuliers amoureux. Je parle de ceux
-qui y apportent, avant tout, un sentiment psychique élevé, et qui y
-cherchent un sentiment plutôt que de simples sensations. Eh bien, mais?
-Il est certainement le préféré--c’est-à-dire le plus aimé--cet amant à
-qui demeure relativement fidèle, dans la possibilité de son état, une
-femme qui ne lui a rien juré et qui ne lui doit rien. Qu’est-ce qui lui
-manque? qu’est-ce qu’on lui prend? La même femme ne donnant jamais deux
-impressions identiques à deux hommes différents--car c’est en nous, et
-non dans la femme, qu’est la source des impressions qu’elle en fait
-seulement jaillir,--celui-ci ne vole jamais rien à celui-là.
-
-Amant ou mari, aimer comme on peut, c’est une devise mélancolique,
-mais la seule qui convienne à notre temps. Nous sommes enfants d’un
-siècle déchu des anciennes extases dont le ciel et la terre, la mer et
-les étoiles, étaient pris à témoins. Mais le besoin d’aimer est resté
-là, dans notre être, violenté mais non pas étouffé par l’absurdité
-des conventions sociales, détourné de son cours fleuri mais non pas
-desséché. Ce n’est plus un fleuve superbe qui coule, reflétant l’azur
-constellé, mais une source obscure, qui se disperse en mille bras où
-tremble pourtant, encore, l’image des astres d’or. Bien que déparé de
-sa splendeur originelle, il demeure cependant ce qu’il y a de plus beau
-ici-bas et seul, y porte, en soi, les reflets célestes de l’Infini.
-
-A ceux qui se rencontrent le cœur grand ouvert et les mains tendues, il
-faut dire: Aimez-vous! Aimez-vous sans savoir ce que vous avez été ni
-même ce que vous êtes! Ce que vous êtes? Des malheureux dont les lèvres
-sont sèches et altérées de baisers, les victimes du printemps éternel.
-Aimez-vous, même dans le semblant d’opprobre de votre rêve écroulé et
-de vos illusions perdues, comme dans une ombre cruellement tutélaire.
-Aimez-vous, même en ayant perdu le droit sublime d’être jaloux!
-
-[Illustration]
-
-
-
-
-                                  VI
-
-                                  DES
-                              DIFFÉRENTES
-                                FAÇONS
-                             D’ÊTRE BELLE
-
-
-
-
-_Des différentes façons d’être belle._
-
-
-I
-
-Scrupuleux, comme toujours, des textes que je commente, en ces rapides
-études, je transcris dans ces termes mêmes la question qui m’est
-posée et à laquelle je tenterai de répondre aujourd’hui. Ce que je
-désespère d’en reproduire, c’est le griffonnage subjectif. J’ai reçu
-récemment, de son auteur lui-même, un traité de graphologie, et, avec
-une sincérité parfaite, j’essaye d’en appliquer les principes aux
-écritures des femmes qui me font l’honneur de m’écrire. Je n’en ai pas
-rencontré encore une seule qui ne fût inquiétante et qui m’inspirât
-l’idée d’une vie tranquille avec celle qui l’avait tracée. Comme les
-peuples heureux, les femmes enviables n’ont pas d’histoire. Quel état
-d’âme bizarre peut pousser mes correspondantes à me consulter sur des
-points où l’avis d’un homme ne leur peut être qu’une curiosité, la
-façon de penser et de sentir, ayant, avant tout, un sexe, et le cœur
-ne parlant pas la même langue chez l’homme et chez la femme? Cette
-fois-ci, cependant, c’est une opinion masculine avant tout qu’on me
-demande et je l’entends donner avec une parfaite sincérité.
-
-[Illustration]
-
-«Vaut-il mieux pour l’honneur--mari ou amant, n’importe!--(comme vous
-avez raison, Madame!) et au point de vue de son bonheur sensuel
-(merci de tant de sollicitude!) d’avoir une femme correctement belle
-comme tête, mais cachant sous les artifices de sa toilette--si grands,
-hélas! aujourd’hui!--plus d’un défaut de structure plastique, ou une
-femme malplaisante de figure, mais bien faite et largement pourvue des
-détails que vous vous complaisez à décrire?»
-
-J’entends fort bien, Madame, les détails dont vous parlez et qui sont
-de ceux qu’on assied dans un fauteuil. Que voulez-vous! J’ai la
-folie des grosseurs, à ce point de vue, comme d’autres ont celle des
-grandeurs. Vous me permettrez de la trouver moins dangereuse. Mais
-que vous m’embarrassez, dans ma ferme intention d’être véridique avec
-moi-même, en ajoutant: «Je suis forcément intéressée dans la question,
-un de ces deux cas étant le mien.»
-
-[Illustration]
-
-Dans lequel des deux vous trouvez-vous, Madame?--Voulez-vous parier,
-avec moi, que c’est dans le second, celui des femmes mieux dotées du
-corps que du visage? Sans cela pourquoi médiriez-vous de la toilette?
-C’est une singularité réservée aux personnes qui auraient avantage à
-se montrer toutes nues. Mes compliments! Si je me trompais cependant?
-Une femme est rarement assez modeste pour qualifier, elle-même, sa
-figure de déplaisante. Avez-vous de beaux yeux et de belles dents?
-Alors vous exagérez. On n’est jamais absolument laide avec du ciel
-dans le regard et de la fraîcheur dans le baiser. D’ailleurs vous avez
-plu à quelqu’un--mari ou amant n’importe!--puisque vous vous demandez
-ce que vaut son lot. Il est vrai que nous vivons en un temps où les
-hommes sont moins difficiles, en matière de beauté, que ceux des grands
-siècles où les courtisanes belles étaient traitées en déesses. Allons!
-je ne sais toujours pas si c’est le nez que vous avez trop grand ou le
-séant trop petit. Pardonnez ma franchise à mon ignorance, si elle a
-quelque chose de blessant pour vous.
-
-
-II
-
-    Rien n’est plus doulx qu’un doulx visaige
-
-a dit un vieux poète français dont je consentirais volontiers à être le
-petit-fils. Mais un autre a écrit, dont j’aimerais mieux encore être le
-filleul:
-
-    Corps féminin qui tant est tendre,
-    Polly, souëf et prétieulx!
-
-[Illustration]
-
-Un premier point à connaître, Madame, et vous ne pouvez le négliger,
-parce que vous vous dites personnellement intéressée dans la question,
-c’est quel est l’homme dont il s’agit d’assurer le bonheur sensuel.
-Car cela dépend, avant tout, de la délicatesse plus ou moins grande
-de ses sens. Un hasard malheureux (on devrait bien avoir le droit de
-choisir la date de sa naissance) m’a fait le contemporain d’un monde
-de bêtes politiques pour lesquelles je professe un mépris cordial,
-surtout parce qu’elles n’apportent aux choses de la passion--les seules
-intéressantes ici-bas--aucune préoccupation artistique. Dans mon for
-intérieur, je préfère infiniment, à ces animaux parlementaires, les
-ruminants et les fauves qui choisissent leurs femelles avec une liberté
-autrement désintéressée. Oui, Madame, j’en fais l’aveu humiliant, mais
-les hommes d’aujourd’hui manquent absolument, en général, de goût et
-de délicatesse en matière de beauté. Ils manquent surtout de ce noble
-emportement qui, dans les races supérieures, prosternait, aux pieds
-de la femme divinisée, l’or vivant des lauriers et le sang rouge des
-victoires. Dans ce temps-là, qui était le beau, on brûlait Ilion pour
-Hélène. C’est maintenant pour des questions de douanes qu’on incendie
-les cités. Avouez, avec moi, que ces goujats n’ont pas le droit d’être
-bien difficiles. A un vague besoin de reproduction, qu’ils partagent
-avec les bacilles en leur demeurant inférieurs dans l’espèce, ils
-ajoutent une pointe d’amour-propre qui en fait des citoyens. Une
-femme d’une structure quelconque, avec un visage qui fasse dire aux
-imbéciles qu’elle est jolie, est tout ce qu’il leur faut. Ce n’est
-pas, je le suppose, de cette racaille passionnelle que vous voulez
-assurer le bonheur. Non! vous n’avez pas cette modestie et il s’agit
-d’un homme--mari ou amant--comme il en est peu d’ailleurs aujourd’hui,
-c’est-à-dire ayant un tempérament sincère, un amour vrai de la femme et
-une âme, au moins inconsciente, d’artiste. Celui-là vaut seul que sa
-félicité sensuelle vous intéresse un instant. Eh bien! pour celui-là,
-la beauté suprême du corps est une compensation plus que suffisante
-des irrégularités du visage et son choix, s’il est vraiment libre et
-éclairé, n’hésitera jamais. L’abus scandaleux des vêtements nous a
-conduits à cet état singulier de n’apprécier dans la femme, que la
-tête. Mais, en réalité, celle-ci n’a qu’une importance (l’anatomie dans
-les ateliers la fixe à un septième de l’ensemble) proportionnée à la
-place qu’elle occupe. Tout le reste est susceptible, non seulement
-de beauté, cela va sans dire, mais de physionomie. Victor Hugo a
-lyriquement dit qu’il y avait des ventres «tragiques». Il y en a
-aussi d’idylliques et de sublimes. J’ai connu des jambes qui étaient
-tellement spirituelles qu’on regrettait que leurs propriétaires ne
-s’en servissent pas pour écrire. Le nombril est un œil mélancolique
-comme celui du nénuphar. Chaque fossette de la croupe, des reins et
-des épaules est creusée par un invisible, mais caressant sourire. Tout
-regarde, tout attire, dans la femme. Tout est vivant. L’attraction
-mystérieuse des lèvres est un poème où l’esprit s’élève davantage que
-par les plus nobles entretiens. La splendeur des formes fait plus,
-pour la sérénité de nos esprits, que l’inutile musique des mots et la
-fumée des pensées. La femme est vraiment l’unique livre de ceux qui ne
-conçoivent que dans l’amour la destinée de notre âme.
-
-[Illustration]
-
-Ah! vous doutez de ma sincérité. Eh bien, j’ai connu beaucoup d’hommes
-qui recherchaient l’obscurité presque complète pour leurs plaisirs.
-Mais je ne suis pas de leur goût que je trouve offensant pour leurs
-maîtresses. J’adore la lumière qui prodigue à mes yeux la beauté
-de celle qui repose entre mes bras. Si j’avais été roi, j’aurais
-voulu fonder ma dynastie au milieu du bouquet d’un feu d’artifice.
-Mais je sais que cette impatience du soleil, là où l’ombre est plus
-généralement appréciée, m’est une particularité de nature, un atavisme
-amoureux dans les cultes lointains de Zoroastre. Pour ceux qui
-estiment, comme les matous, que la nuit est le meilleur temps pour
-aimer,--et encore les chats dédommagent leurs oreilles de ce que ne
-voient pas leurs yeux--la question que vous posez, Madame, se résout
-évidemment d’elle-même. Le visage, qu’il soit beau ou défectueux,
-disparaît; mais, sous le toucher, la perfection savoureuse du corps
-demeure; la source des joies infinies et des impressions ineffables
-ne se tarit pas dans les ténèbres; le sentiment divin des formes
-triomphantes ne s’abolit pas dans l’ombre. C’est là vraiment qu’est
-la victoire de la femme dont les reliefs tentants ne sont ni des
-illusions ni des mensonges. La main tremblante fait revivre tous les
-souvenirs des yeux charmés, en égrainant le rosaire des admirations
-mystiques et des ferventes caresses. Joies sublimes d’Homère aveugle
-s’acharnant au seul poème immortel, l’Iliade des féminines grâces.
-
-
-III
-
-[Illustration]
-
-Vous le voyez, mon parti est bien pris, Madame. Je souhaite qu’il soit
-dans le sens où vos intérêts amoureux sont le mieux servis. Dans la
-pratique, il est souvent difficile à prendre, parce que la bégueulerie
-contemporaine ne permet pas de s’éclairer sur toutes les pièces du
-procès. On reconnaît immédiatement une femme laide de visage. Mais
-une femme belle de corps ne se révèle, sans se livrer, qu’à certains
-délicats, sachant du premier coup déshabiller la femme, sans toucher
-à une agrafe de son corset ni à un cordon de ses jupons. C’est un art
-suprême, mais qui demande une expérience longue et souvent coûteuse
-à acquérir. Ce que les femmes vous font payer ces leçons de choses!
-Mais passons. La morale--il y en a toujours une dans mes précieuses
-dissertations--est qu’il ne faut jamais condamner une femme sur son
-visage et la proclamer laide parce qu’elle a les traits peu plaisants.
-Un chercheur consciencieux, un érudit sincère, un magistrat intègre
-s’efforce de lui faire montrer le reste avant de la juger. C’est
-une façon de procès qui n’a rien de déplaisant à instruire, une
-jurisprudence dont on se farcit sans ennui, une méthode de continuer
-Cujas que je conseille aux amateurs d’agréables surprises. On n’y
-saurait trop reproduire la scène du crime. Cultivez, mes enfants, ces
-Pandectes-là!
-
-[Illustration]
-
-
-
-
-                                  VII
-
-                                LE BON
-                                PARJURE
-
-
-
-
-_Le bon parjure_
-
-
-I
-
-Si quelque chose pouvait exprimer combien l’Amour est au-dessus des
-choses de l’humanité, c’est son indépendance absolue de cette vérité
-tout humaine, toute contingente qui est celle des faits. Il relève
-d’une vérité plus haute, laquelle n’est que l’expression de ses droits
-immuables, infiniment supérieurs. Odieux dans toutes les autres
-choses, le mensonge peut y être sublime. Justement flétri, dans toutes
-les autres circonstances de la vie, le parjure y peut être un devoir.
-
-[Illustration]
-
-Je n’entends pas parler ici des serments d’amour que tous les gens
-de sens et d’expérience prennent pour ce qu’ils sont, une politesse
-naïvement sincère, mais rien de plus qu’une politesse. Comme on
-n’aime pas vraiment quand on ne croit pas qu’on aimera toujours, il
-est tout naturel de le dire. C’est même du sous-entendu; mais la
-folie serait d’y croire et la mauvaise foi d’avoir l’air, un jour,
-d’y avoir cru. Formules de langage, voilà tout. Mais il est un ordre
-de mensonges vraiment pieux et dont les âmes d’élite sont seules
-capables, ceux qui prolongent l’illusion des êtres qu’on n’aime plus,
-ceux qui leur évitent toute souffrance. Il est tel cas où la franchise
-serait un crime, un assassinat. Dites-moi donc le fait ou le scrupule
-de conscience dont l’intérêt prime celui-là! Quand, dans un vers
-admirable, Baudelaire s’indigne qu’on veuille mêler «l’honnêteté» aux
-choses de l’Amour, c’est de cette honnêteté bourgeoise-là qu’il me
-convient de l’entendre, de cette honnêteté stupide qui s’interdit de
-juger, par delà les actes, les conséquences qu’ils peuvent avoir. C’est
-cependant bien ravaler l’âme humaine, dans son libre arbitre, que de
-lui refuser ce jugement, plus haut que les apparences, inspiré par une
-conception souveraine de ce qui est juste ou injuste. Croyez-vous que
-tous les serments du monde, devant les prétoires les plus augustes, me
-feraient dire le mot d’où dépend une tête, ce mot fût-il la vérité,
-si je jugeais, à part moi, que l’intéressé ne mérite pas la mort? Ce
-qu’on ferait pour cette chose misérable qu’on appelle la vie, comment
-ne le ferait-on pas plus encore pour cette chose divine qui s’appelle
-l’Amour! Ah! tous ceux qui ont aimé savent le respect que méritent
-ses moindres douleurs et combien il les faut épargner à ceux qui vous
-aiment! C’est une doctrine toute d’humanité que celle-là, mais non pas
-une doctrine de lâcheté, comme certains puristes l’osent dire. C’est
-par des souffrances personnelles inouïes, par d’abominables sacrifices
-de ses propres joies qu’on arrive à cette force de mensonge d’où dépend
-le bonheur fragile d’une autre âme. Il y faut beaucoup de courage.
-Lâches, ceux qui mentent ainsi, allons donc! Leur vaillante imposture
-ne prend rien d’ailleurs à leur nouvelle et réelle tendresse. Que fait,
-à qui se sent aimé, ce qu’on peut jurer aux autres? Étant plus haut que
-la vérité, l’amour est, encore bien plus, au-dessus du mensonge.
-
-[Illustration]
-
-Je ne sais pas de plus terrible drame dans l’histoire contemporaine que
-le drame intime dont un écrivain remarquable de ce temps fut la victime
-douloureuse. Aveugle, il avait auprès de lui une compagne dévouée qui
-lui faisait croire à une tendresse absolue. Par amour de la vérité, un
-ami lui apprit qu’elle le trompait, et il en mourut. Connaissez-vous un
-assassinat plus épouvantable que celui-là? Quelle leçon pour ceux qui
-se croient le droit de défendre notre honneur contre nous-même!
-
-
-II
-
-Mais où le parjure devient un devoir absolu, c’est quand il s’agit de
-l’honneur d’une femme.
-
-Prenons le cas le plus fréquent: celui où un mari demande à l’amant de
-lui jurer qu’il ne l’a pas outragé.
-
-Vous voyez ce que la situation a de cruel et d’inexorable. Faire le
-serment demandé, c’est se dérober à une légitime colère, c’est encourir
-le soupçon de lâcheté. Aussi vous dirai-je d’abord: Soyez assez homme
-de cœur et ayez fait suffisamment vos preuves pour n’avoir pas à
-redouter ce supplice, à craindre seulement pour ceux dont la bravoure
-peut être mise en doute. Là est le point essentiel. Mais vous courez un
-autre péril: l’homme qui vous interroge en sait peut-être beaucoup plus
-qu’il n’en laisse paraître. Il peut avoir des preuves et vous tendre un
-piège. Il peut, fort de faits irrécusables, vous cracher ensuite votre
-parjure à la face. Or, cela est terrible, en vérité.
-
-Nous n’en devons pas moins être prêts à le subir, il n’y a pas à se
-le dissimuler: c’est bien l’honneur qui reste en jeu, l’honneur viril
-à qui tout mensonge est une tache. Mais croyez-vous que cet honneur
-du mâle se trouverait beaucoup mieux d’avoir trahi le plus saint des
-secrets? L’honneur, on nous l’apprend et c’est vrai, doit nous être
-plus cher que la vie, mais pas que la vie des autres pourtant. Oui,
-c’est votre honneur d’homme que vous sacrifiez, en cette circonstance,
-mais vous le sacrifiez à celle à qui vous eussiez mieux aimé cent fois
-donner votre vie, et on ne vous a pas laissé le choix! Faites donc
-l’holocauste digne d’elle et digne de votre amour. Comme les antiques
-bouchers qui, dans les fêtes païennes, paraient les victimes pour les
-rendre plus agréables aux dieux, ayez mis, en toute autre chose, votre
-honneur si haut que vous ayez, au moins, la joie amère et profonde de
-jeter, avec lui, à des pieds adorés, le meilleur de vous-même et les
-fleurs même de votre âme!
-
-[Illustration]
-
-Et je dis cela au nom de la vraie morale--car il y en a deux, n’en
-déplaise aux godelureaux qui ont conspué autrefois le naïf académicien
-Nisard pour avoir hasardé cette vérité de feu La Palisse.--Il y a la
-morale qui a pour sanction, non pas seulement la gendarmerie, mais
-l’estime publique, deux choses que je mets absolument sur le même
-plan,--au second. Mais il y a l’autre, la grande, la vraie, celle
-qui ne demande, qu’à la conscience, une approbation ou un blâme;
-celle qui touche à des faits que ne pourraient juger ni les cours
-d’assises, ni même les passants; celle qui n’admet d’éléments que
-les intimités profondes de l’âme. Celle-là a vraiment de tout autres
-subtilités, de tout autres délicatesses. Autant il est simple de
-proclamer qu’on doit toujours dire la vérité, autant il est malaisé de
-définir le cas où c’est un devoir absolu de ne pas la dire. Mais la
-réelle supériorité de cette seconde morale--l’autre ne me paraissant
-nécessaire qu’aux gens enclins au meurtre et aux goujats--c’est que
-c’est la seule, au fond, qui s’occupe de respecter ce qu’on appelle
-dans la loi: les droits des tiers. Or, en amour, les «tiers» jouent
-un rôle considérable. Le «tiers» dans l’espèce, c’est la malheureuse
-femme que peut perdre un mot de son amant. Celle-là, la loi s’en fiche
-assurément, mais non pas la morale que je prêche et qui a, pour unique
-axiome, pour idéal humain et divin tout ensemble, le sacrifice constant
-de l’intérêt personnel, l’anéantissement de cette chose haïssable qu’on
-appelle le moi, l’abnégation profonde et absolue devant cette grande
-loi de l’Amour qui nous met d’autant plus haut que nous nous humilions
-davantage devant elle. En elle est le vrai royaume des cieux, où les
-premiers seront les derniers et où Des Grieux passera fort avant
-Napoléon, parce qu’il sut mieux aimer.
-
-Non! le parjure n’est qu’un vain mot quand il s’agit de l’honneur d’une
-femme.
-
-Et si ce devoir du parjure était bien écrit, non pas dans les codes,
-mais dans le manuel d’honneur pratique dont les vrais honnêtes gens
-se préoccupent bien davantage, les maris s’éviteraient une question
-ridicule, car ils en sauraient la réponse à l’avance, et les naïfs ne
-se laisseraient plus prendre à ce mot mélodramatique qui n’a de sens
-honteux que quand c’est pour soi-même qu’on ment!
-
-
-III
-
-[Illustration]
-
-C’est, à vrai dire, une des heures les plus terribles de la vie que
-celle où un homme qui vous a donné la main, que vous estimez souvent
-et que vous avez trompé, vous dit tout haut ses doutes, épiant un aveu
-sur la pâleur même de votre visage. Certes, c’est là une des plus rudes
-épreuves de la vie irrégulière. A vous, jeunes gens, de l’attendre avec
-une fermeté convaincue et la volonté parfaite de tout souffrir, même
-l’insulte, plutôt que de trahir une femme qui s’est donnée à vous.
-Car volontiers je vous blâmerais, si je ne savais la fatalité de nos
-tendresses, de n’avoir pas choisi un coquin ou un complaisant pour le
-tromper. Ce n’est pas ce qui manque dans le monde! Mais si vous n’avez
-pas eu la chance de vous mal apparenter de la main gauche, si c’est
-un homme de bien que vous avez essayé de ridiculiser malhonnêtement,
-votre faute n’a qu’une excuse possible: un amour vrai et capable de
-tous les sacrifices.
-
-[Illustration]
-
-Si vous n’avez pas aimé vraiment, de toute la ferveur de votre cœur,
-vous êtes de simples drôles de vous être jetés à travers l’honneur
-d’un gentilhomme. Il faut même que la femme que vous avez choisie soit
-digne de ce magnifique holocauste si vous voulez que je vous absolve
-et même que je vous loue. Mais fût-elle la dernière des dernières,
-que votre devoir n’en resterait pas moins absolu, celui de nier, non
-pas seulement devant le mari, mais devant le monde tout entier, si
-le monde avait l’impertinence de se mêler de vos affaires. Ah! vous
-voulez un point absolu de morale? eh bien, je vais vous le fournir.
-Un homme d’honneur, en quelque circonstance que ce soit, ne convient
-jamais des faveurs qui lui furent accordées, celles-ci vinssent-elles
-même d’une créature banale à qui le droit reste toujours de vous avoir
-personnellement dédaigné, rendît-elle tout le reste de l’univers
-heureux. Ce sont choses dont un homme de quelque délicatesse ne se
-vante jamais, s’agît-il d’une fille. Les lèvres qui le racontent ne
-sont pas dignes du baiser. Le secret des caresses données et reçues
-doit demeurer au plus profond des pudeurs de l’âme. Le mensonge à la
-maîtresse qui aime encore, le parjure au mari qui interroge, le silence
-à la foule qui espionne: voilà le devoir triplement et nettement
-formulé. Vous me direz que la vérité n’y trouve guère son compte.
-Qu’importe si l’Amour, qui est l’unique Vérité, l’unique Lumière et
-l’unique Joie, y trouve le sien!
-
-[Illustration]
-
-
-
-
-                                 VIII
-
-                               CE QU’EST
-                               LA FEMME
-                            POUR QUI L’AIME
-                               VRAIMENT
-
-
-
-
-_Ce qu’est la femme pour qui l’aime vraiment_
-
-
-I
-
-Il paraît que, de mes humbles écrits sur l’Amour, se dégage un
-mépris absolu de la Femme. C’est, au moins, l’opinion d’une Dame
-qui ne me l’envoie pas dire, mais charge la poste de m’en informer.
-Comme compliment de Jour de l’An c’est médiocre. Je ne connais pas
-la donataire de ce généreux aphorisme, mais ce me serait un grand
-désespoir d’apprendre qu’elle est un miracle de Jeunesse et de Beauté.
-Quant à sa perspicacité j’ai, sur elle, mon opinion faite. Elle
-n’entend rien à ce qu’elle dit.
-
-Suis-je assez pusillanime! Je fus si troublé, au premier abord, pour
-ne pas dire douloureusement surpris de cette opinion sur mon compte,
-que je descendis, sincèrement, résolument, au fond de ma conscience.
-Mais je n’y rencontrai qu’une protestation indignée contre ce singulier
-jugement, et je me demande encore comment je l’ai pu encourir.
-
-[Illustration]
-
-Est-ce pour avoir insinué, timidement d’ailleurs, que nos terrestres
-compagnes n’étaient pas des modèles de fidélité? Je n’ai jamais songé à
-leur en faire un reproche, ne trouvant pas que l’homme mérite qu’elles
-lui donnent davantage, estimant qu’il ne mérite pas toujours le soin
-discret qu’elles mettent à le tromper. Leur plût-il de ne pas même
-prendre cette peine et de ne lui éviter aucune torture, qu’il n’aurait
-pas encore le courage de se détourner d’un supplice qui est sa vie,
-et qu’il tendrait lâchement, à l’affront, une tête résignée. Dans
-un monde où les impressions d’autrui se mesurent à mes impressions
-propres, la Femme m’apparaît comme l’Être mystérieux qui noue et dénoue
-les destinées, suscite les héroïsmes ou les réfrène, précipite les
-châtiments, apaise les colères, console les désespoirs et joue, sous
-une forme vivante, le rôle implacable et divin de l’antique fatalité.
-Je me la représente, comme Hélène sur les ruines d’Ilion, un pied
-sur l’humanité vaincue, le front dans la caresse des lumières et des
-parfums, élevant, seule, devant l’éternelle beauté des choses, le
-spectre d’une beauté supérieure à toutes les autres. En son corps vit
-le rythme puissant des lignes et la loi délicate des harmonies; le
-secret des dominations superbes, où s’affirment les droits sacrés de la
-faiblesse, habite son esprit; son cœur est l’abîme de miséricorde et de
-pitié où le pardon attend nos misères. Elle est, par sa fragilité même,
-l’image du Rêve que nous portons en nous: rêve de splendeurs abolies,
-de Paradis fermés, de destins glorieux entrevus. Elle est, dans notre
-vie, comme un hôte du ciel que nous devons traiter en maître.
-
-Sarpejeu, Madame, si tout cela est du mépris, je me demande où
-commencent l’admiration et le respect?
-
-
-II
-
-Est-ce donc que le désir que nous élevons vers la femme est un outrage?
-
-[Illustration]
-
-Si vous saviez de quelle humilité profonde est faite ce culte en
-apparence grossier, quel trouble religieux est au fond de cette ferveur
-sensuelle, vous ne daigneriez pas en être offensée pour celles que
-vous en défendez... contre moi, du moins. N’ai-je pas assez souvent et
-assez mélancoliquement médité sur l’immense disproportion des délices
-qui nous viennent de la femme et du peu que nous osons lui offrir en
-échange? Son amour est fait de condescendance et le nôtre d’audace
-folle. Je l’ai proclamé cent fois. Est-ce que la reconnaissance de mes
-souvenirs n’est pas, à ce point de vue, le plus éloquent des aveux?
-C’est en réalité la femme qui fait, en descendant vers nous, le chemin
-que nous croyons parcourir les pieds saignants, pour monter jusqu’à
-elle. La terre nous mord au talon et jamais l’espace qui nous sépare
-ne serait franchi si elle n’avait, elle-même, des ailes. Je plains
-sincèrement l’homme qui n’a pas ce sentiment de notre indignité, en
-qui le respect dompteur de la beauté n’éteint pas, un instant du
-moins, les fièvres de la chair, qui ne tremble pas, comme au seuil d’un
-temple, devant la couche où l’attend le premier baiser!
-
-Celui qui n’a pas connu ces terreurs délicieuses, ces hontes mortelles,
-savouré cette humiliation intime dans l’extase d’un autre Être,
-celui-là ne sait pas les joies les plus secrètes et les plus profondes
-de l’Amour.
-
-Comme un voyageur qui, parvenu au sommet des pics neigeux, promène
-un regard vide sur les immensités béantes, sans songer à regarder, à
-ses pieds, l’obscur paysage des vallons, il ignore la hauteur de son
-bonheur. Dans ce que ma tendresse éperdue pour la femme a de moins
-quintessencié, c’est-à-dire dans l’ardeur même de possession qu’elle
-m’inspire, je ne trouve donc que craintifs hommages et je cherche en
-vain le mépris.
-
-
-III
-
-[Illustration]
-
-Dans l’amertume même de mes déceptions je n’ai jamais rencontré la
-haine. Je ne suis pas du même sang qu’Ajax injuriant les dieux. A
-l’homme seul j’ai réservé mes colères, pour tout ce que j’ai vu de
-vil en lui, et jamais elles ne furent plus vibrantes que devant le
-spectacle hideux que m’inspirent mes contemporains. En dehors même
-des fanges où son ambition et sa cupidité le plongent, alors même
-qu’il souffre par la femme--indigne qu’il en est souvent--c’est à
-sa lâcheté seule que j’en veux et non aux instincts admirables de
-torture de son bourreau. Loin de moi l’idée de révoltes inutiles. La
-gloire du soleil se rit du vol ensanglanté de nos blasphèmes. Ainsi
-la Beauté plane fort au-dessus de nos plaintes et de nos rébellions.
-Tout est excuse pour les crimes de la femme et ses faiblesses portent,
-en elles, leur pardon. Non pas qu’elle ne mérite d’être traitée comme
-un être moral--il y aurait, dans un tel jugement, quelque chose de
-dédaigneux--mais parce que la morale rigide, dont s’accommode la
-brutalité de notre nature, est forcée de s’assouplir pour elle et de
-s’ingénier aux délicatesses de son tempérament et de son esprit. Elle
-a droit,--et elle le sait--à certaines inconsciences, parce que sa
-mission est à la fois cruelle et douce, et c’est à ces inconsciences
-d’ailleurs que nous devons, le plus souvent, ses bontés. Il y aurait
-donc, de notre part, grande injustice à nous en plaindre. On a beaucoup
-discuté sur la faiblesse de la femme et la facilité de ses chutes. Mais
-on n’a pas assez loué ses admirables facultés de relèvement. L’homme
-déchu s’enlise dans les fanges et y disparaît. C’est l’expérience de
-tous les jours et jamais elle ne se prodigue autant, sous nos yeux,
-qu’en ces heures troublées où l’honneur flotte comme un vaisseau
-désemparé sur les abîmes et menace de ne plus être que le nom d’une
-chose à jamais engloutie. Mais que de femmes tombées nous avons
-revues debout, purifiées par quelque noble sentiment, courtisanes
-devenues épouses loyales, épouses infidèles devenues mères sublimes!
-Rien de plus fréquent, pour qui sait regarder autour de soi, que ces
-magnifiques sursauts de la Femme vers l’idéal longtemps déserté, et
-ces résurrections de l’âme engourdie, ce réveil de la conscience sont,
-chez elles, spectacle commun.
-
-[Illustration]
-
-Dans un monde dont l’impeccabilité n’est pas précisément le fait, il
-me semble que cela seul suffit à constituer une façon de supériorité
-morale. Mais, au moment même du plus grand abaissement, entre le
-drôle qui se parjure pour être nommé député et la fille qui se donne
-pour avoir du pain,--voire même des bijoux,--je n’ai jamais hésité
-un instant. D’autant que ce qu’ils vendent, l’un et l’autre, est
-diantrement plus précieux chez celle-ci que chez celui-là.
-
-
-IV
-
-[Illustration]
-
-En ai-je assez dit pour me défendre d’une accusation qu’un homme, ayant
-exercé loyalement la profession d’amant, très supérieure à toutes les
-autres carrières, ne saurait accepter! Ce n’est vraiment pas ma faute
-si je n’ai jamais pu entrer dans la conception chrétienne qui nous
-représente la Femme comme la sœur de l’Homme. Ce fut ma première pierre
-d’achoppement sur le chemin où m’éclairait la Foi des aïeux, allumée
-à l’étoile même qui guida les mages. Par un atavisme bizarre qui me
-ramène irrévocablement à une tradition plus ancienne, la grecque,
-celle du paganisme où s’affirme la plus parfaite éclosion de l’esprit
-humain, je considère, malgré moi, la Femme comme un être d’essence
-différente que les civilisations vraiment avancées mettaient fort
-au-dessus de l’homme, que les barbaries contemporaines s’obstinent
-ignoblement encore à mettre au-dessous. Ce que je ne puis admettre, est
-cette fausse fraternité que je trouve humiliante pour nos maîtresses,
-c’est cette parenté menteuse qui ferait, de l’Amour, un continuel
-inceste. Mais c’est mon admiration même pour la Femme qui me les fait
-repousser; c’est la pitié grecque et non pas le dédain musulman. Si
-j’ai quelquefois parlé légèrement de mon idole, c’est à la façon des
-Athéniens qui, pour plaisanter leurs Dieux en d’immortelles comédies,
-n’en étaient pas moins assidus aux sacrifices. Je n’ai jamais songé à
-nier, chez la femme, l’être moral, mais je crois sa morale absolument
-différente de la nôtre,--moins humaine puisqu’elle s’accommode fort
-bien de nous faire souffrir--plus divine puisqu’elle participe des
-impassibles fatalités et repose sur une fatalité même, la Beauté dont
-nul n’évite le pouvoir. Nos notions d’honnêteté dont il se fait, en ce
-moment même, une si belle confusion, sont, pour elle, lettre morte;
-mais jamais nous n’avons eu moins de raison d’en être fiers. Car sa
-probité passionnelle est souvent supérieure à la nôtre parce qu’elle
-ne conçoit la rivalité d’aucun autre sentiment. Méprisable, non! mais
-assurément redoutable, trop loin de nous, et trop haut, pour qu’il nous
-soit permis de la juger, faite pour nos admirations extasiées et non
-pas pour notre inutile estime.
-
-[Illustration]
-
-
-
-
-                                  IX
-
-                                 DE LA
-                               PLASTIQUE
-                               EN AMOUR
-
-
-
-
-_De la plastique en amour_
-
-
-I
-
-C’est dans le monde qu’on entend surtout les jeunes filles dire que
-l’homme n’a pas besoin d’être beau pour plaire, et c’est une théorie
-que les hommes du monde acceptent avec une modestie qui leur fait
-honneur. Je n’ai pas d’ailleurs à la combattre quand il ne s’agit que
-du mariage, c’est-à-dire d’une institution où le côté arrangement
-tient infiniment plus de place, aujourd’hui, que le côté passion.
-Ceux que nous voyons courir à l’hyménée, en ce temps-ci, avec le plus
-d’ardeur, sont les comédiens, qui en ont si peu besoin, et les gens
-dans les affaires qui ne peuvent guère s’en passer. Chez les premiers,
-cette manie est un reste de protestation contre leur renommée bohème
-d’autrefois. Ils tiennent à faire constater, _urbi_ et _orbi_--et même
-au risque d’être cocus--qu’ils appartiennent bien à la vie régulière, à
-la vie bourgeoise. Mon Dieu, ils seraient plus sages en se contentant,
-pour cela, de la croix qu’on met maintenant, de leur vivant, sur leur
-poitrine, et qu’on plante dans les cimetières sur leur tombeau, double
-absolution de la société laïque et du monde religieux à l’endroit de
-leur métier. Quant aux seconds, ils trouvent, dans le mariage, un
-moyen légal, presque honoré, de demeurer riches, tout en ruinant les
-autres, ce qui est le fin du fin de leur état. L’admirable séparation
-de biens est là, pour leur permettre de garder la précieuse aisance,
-pour eux, pendant qu’ils sèment, autour d’eux, la ruine, ce qui est
-évidemment une conséquence honnête et un commentaire moral des «justes
-noces», comme dit le Code. Dans une profession qui tient à la fois
-du cabotinage et des affaires, celle des directeurs de théâtre, vous
-trouverez, pour le mariage, un enthousiasme deux fois justifié. Ils
-sont rares ceux qui ont la probité de demeurer célibataires!
-
-Je ferme, ici, cette parenthèse sur un sujet où l’amour a trop rarement
-affaire, pour parler simplement des liaisons, légitimes ou non, mais
-infiniment plus sérieuses, où l’Amour est tout. Car notez que je ne
-défends pas aux maris d’être des amants. Au contraire! Seulement je
-constate qu’ils en ont rarement l’occasion. Dans les unions où l’âme
-tient vraiment une place, par ses nobles côtés, la femme est-elle sage
-de faire mépris, chez l’homme, de la beauté du visage et de la vigueur
-du corps? Je ne le crois pas, et surtout je ne crois pas que ce mépris
-puisse être sincère, par tant d’esprit et de belle éducation que nous
-remplacions la plastique qui nous manque.
-
-[Illustration]
-
-Prenons un monde pour lequel j’écris encore moins que pour les époux,
-mais qui a pour lui l’avantage d’être sincère jusqu’au cynisme;
-nous ne trouvons nullement que ce dédain soit au fond de la femme
-contemporaine. Ce n’est qu’en apparence que les courtisanes préfèrent
-les banquiers ridicules aux commis de magasin bien tournés. Que ces
-dames ne négligent pas les exigences financières de leur profession,
-j’en suis d’accord avec vous. Une courtisane qui ne se ferait pas
-payer serait la honte de son état. C’est si vrai que l’impératrice
-Messaline, qui avait plus soif de vice que d’amour et d’ignominie que
-de baiser, avait grand soin d’exiger, des passants, le même salaire
-que ses compagnes, pour ne pas déshonorer l’antre de _Vénus Meretrix_.
-Mais, derrière le patricien ventripotent, Forain nous montrera toujours
-le robuste ouvrier de la dernière heure, celle qui ne se vend pas.
-Celui-là est le plus souvent une brute et représente cependant l’idéal
-dans ces existences très logiquement infâmes. Comme on demandait un
-jour, à une de ces maraudeuses de la vie, pourquoi elle s’obstinait à
-demeurer avec un chenapan qui la battait, quand sa beauté, à elle, lui
-assurait des amants bien appris et, qui sait? peut-être respectueux,
-elle répondit ce mot sublime: «Mais si je n’aime rien, je ne suis rien»!
-
-Et elle avait raison.
-
-Sans vouloir prendre ma leçon dans le ruisseau, je conviens que cette
-concession brutale et résignée à un élément de torture souvent, la
-beauté physique dans sa vigueur, m’émeut et me semble presque plus
-noble que l’indifférence où je le vois tenu dans un monde social
-plus raffiné, indifférence que je veux croire une pose, chez le plus
-grand nombre, ou une consolation à la laideur. Mais, dans le monde
-passionnel, lequel ne vit que de sincérité, d’intimité profonde et
-de pénétration sensuelle réciproque, je ne vois vraiment pas ce que
-viennent faire l’aumône et la charité.
-
-[Illustration]
-
-Chez la femme, comme chez l’homme, quelles que soient les perversions
-que l’éducation a mises en elle, l’amour devrait venir avant tout du
-sentiment et de l’adoration de la Beauté. Ne trouvez-vous pas, comme
-moi, que la laideur acceptée y met comme un abaissement, le soupçon
-de plaisirs très complexes et puisés surtout dans une dépravation de
-l’esprit? Moi, je tiens pour l’héroïque santé dans ces choses d’où
-dépendent le salut de l’idéal et la gloire des races. Je demeure
-éperdument dans la tradition païenne qui mettait l’harmonie extérieure
-des formes, la belle pondération des lignes et la splendeur des chairs
-portant en soi la lumière, au-dessus de tout, comme le sceau même
-d’une immortelle origine. C’est s’abaisser soi-même que de ne pas
-chercher, à la conscience de ses propres défectuosités, la sublime
-compensation d’aimer un être plus beau que soi.
-
-
-II
-
-Ce goût apparent des femmes d’aujourd’hui pour la maturité uniquement
-intelligente; sa tolérance inique quelquefois pour la vieillesse
-caduque mais socialement honorée, pourraient bien leur être imposés
-par notre propre exemple, et peut-être ne sont-elles ainsi que pour
-se mettre à notre portée, et ne nous pas humilier en se montrant trop
-supérieures à nous.
-
-Quelles sont donc les femmes que les amoureux de presque tous les
-mondes recherchent aujourd’hui? Les plus belles? Allons donc!--J’ai
-dit que je ne parlais pas du mariage, peu d’hommes l’excusant
-aujourd’hui par le seul argument qui le justifie: l’impossibilité de
-posséder, autrement qu’en l’épousant, une femme qu’on aime.--Mais, dans
-les liaisons qu’un double choix amène et resserre, avez-vous remarqué
-que le culte de la Beauté, lequel devrait être cependant la loi suprême
-de la vie, entrât pour quelque chose! Les courtisanes les plus chères
-sont-elles les courtisanes les mieux douées plastiquement? Je vous
-montrerai, quand vous le voudrez, d’admirables filles qui crèvent la
-faim et d’abominables gothons ruisselantes de pierreries, dans des
-huit-ressorts où leur figure donne envie de regarder le derrière de
-leurs valets de pied. Cette vieille garde, qui a sur celle de Napoléon
-Ier le désavantage de ne pas mourir, et devant qui Cambronne ne se
-serait pas contenté de parler, est entretenue par ce que nos cercles
-contiennent de plus jeune et de plus élégant; Hippolyte ne redit plus
-les charmes d’Aricie; il soupire comme Marius (non pas comme Cambronne)
-le long des ruines. Il baise celui des deux pieds de ces dames qui
-n’est pas encore dans la tombe.
-
-[Illustration]
-
-Mais, paix à ces vieilles aux dents d’ivoire, aux chignons de paille
-que les ânes sont tentés de brouter. Quelques-unes furent belles, sous
-le règne de Louis-Philippe, et peut-être n’auraient-elles qu’à ne se
-plus farder pour être belles encore. Car la vraie beauté traverse,
-triomphante, tous les âges et semble quelquefois revêtir l’immortalité
-du marbre avec la blancheur des cheveux. Mais les débutantes, celles
-que ces messieurs lancent, les célébrités de demain, les glorieuses
-en chantier, regardez-les un peu!! Des minois chiffonnés comme de
-vieux mouchoirs, des nez retroussés, des tailles de guêpes à qui je
-ne me chargerais pas de fournir l’aiguillon, des pieds et des mains
-canailles, un refrain d’Yvette Guilbert sur les lèvres peintes, par
-dessus le marché, voilà ce qui suffit à des protecteurs souvent jeunes
-et ayant le droit d’être infiniment plus difficiles. Aucun souci de la
-noblesse des types, des empreintes de la race, de tout ce qui mêle la
-fierté d’un idéal à la fièvre du désir!
-
-[Illustration]
-
-Durant qu’ils habillent coûteusement ces poupées difformes, les
-sculpteurs, les peintres, voire les poètes qui peignent et sculptent
-dans leur cerveau, s’arrêtent, émus et recueillis, devant les superbes
-créatures qui, comme d’un double mont Aventin, descendent de Montmartre
-ou de Belleville, foutues comme quatre sous mais faites pour réveiller
-l’ombre auguste de Phidias. Car on devine, à l’instinctif orgueil de
-leur démarche et sous leur robe grossière, l’harmonie vibrante des
-formes et la puissante palpitation des chairs. Les imbéciles riches
-les rencontrent bien aussi quelquefois, mais du diable si un d’eux
-s’écriera jamais: Voilà la maîtresse que je veux!
-
-
-III
-
-Amants fervents et pensifs, pour qui j’écris d’ordinaire, pardonnez-moi
-cette incursion mélancolique dans un monde où ne fleurissent pas les
-sincères tendresses, celles qui se cachent pour être heureuses. Vous
-êtes les hôtes du rêve immortel d’où je voudrais exiler tout ce qui
-rappelle les laideurs de la vie. Pour chasser loin de vous, comme
-un air mauvais, les tristesses de cette prose attardée à d’inutiles
-réalités, laissez-moi vous dire, avant que le printemps nous quitte,
-une chanson de printemps faite pour vous:
-
-    C’est l’âme des beaux jours qui nous fait le ciel bleu;
-    Qui chante, au bord des eaux, dans le frisson des saules,
-    Et le soleil déjà change, en perles de feu,
-    Les pleurs que le matin secoue à ses épaules.
-
-    L’esprit des fleurs s’éveille au caprice de l’air
-    Et porte, sur nos fronts, de troublantes caresses.
-    Enferme en toi, mon cœur, l’universelle ivresse.
-    Voici le temps d’aimer sous le ciel doux et clair!
-
-    Voici le temps de croire aux mensonges du rêve,
-    De souffrir la langueur des vœux inapaisés;
-    De mêler, sous le vol charmeur de l’heure brève,
-    Au néant des serments la douceur des baisers.
-
-    Voici le temps d’attendre au seuil des portes closes,
-    Implorant la pitié des bonheurs interdits,
-    Le cœur plein de sanglots, les mains pleines de roses,
-    Qu’un sourire nous ouvre encor le Paradis!
-
-    Voici le temps de fuir vers les routes ombreuses
-    Où l’on marche à pas lents, et la main dans la main,
-    Amoureux éperdus et blanches amoureuses,
-    Le temps de n’avoir plus à deux qu’un seul chemin!
-
-    Tous les êtres épris se cherchent dans l’espace,
-    Blessés du même mal dont nul ne veut guérir.
-    L’esprit des fleurs s’éveille au vent léger qui passe.
-    Voici venir le temps d’aimer et d’en mourir!
-
-[Illustration]
-
-
-
-
-                                   X
-
-                              SUBTILITÉS
-                             PASSIONNELLES
-
-
-
-
-_Subtilités passionnelles_
-
-
-I
-
-    Grand Roi, cesse de vaincre ou je cesse d’écrire.
-
-Amoureux, cessez de m’interroger ou je brise ma plume, image qui ne
-m’a jamais paru aussi terrible que le supposent ceux qui l’emploient.
-Briser une épée, passe encore. Mais une plume! Le beau mérite, ma foi.
-Ah! l’inépuisable sujet que celui où j’ai déjà promené tant d’écoles
-buissonnières, comme en un champ dont on ne rencontre jamais le
-bout! Comme les blés d’or par les pavots, il est constellé de rouges
-blessures et c’est le plus pur du sang de nos cœurs qui y fait perler
-ces étoiles de pourpre. Comme les blés d’or aussi il porte, en soi, la
-vie, et le pain de l’âme y germe en de douloureux sillons. C’est la
-plaine, féconde en joies et en douleurs, où nos pas s’attachent comme
-mystérieusement enlisés.
-
-[Illustration]
-
-Ah! plutôt que d’y revenir encore, comme j’aimerais mieux vous dire
-l’admirable spectacle que j’ai sous les yeux, les montagnes s’étageant
-à l’infini, vers des horizons bleuissants, sous le vol circonflexe des
-grands oiseaux de proie, et, à mes pieds, les torrents roulant, sous la
-poussière de verdure des tamarins, leur eau d’argent bavard comme celui
-des poches pleines; le recueillement mystérieux qui descend, en moi,
-de cette chevauchée lointaine dont les nuages sont comme des cavaliers
-qui quelquefois s’arrêtent pour planter, en un sol conquis, la
-blancheur des oriflammes. Quel renouveau éternel la nature apporte en
-nous! Pourquoi faut-il que nous y trouvions, comme des bêtes blessées,
-cette flèche de l’amour dont l’aiguillon semble encore s’y aviver? Le
-penseur éperdu se demande quelquefois où il pourrait fuir la femme. Et
-l’infini se déroule, devant son rêve, sans rencontrer ce point obscur
-de la Délivrance où il se retrouverait seul en face de lui-même, dans
-l’austère isolement de sa propre pensée. Force fut au doux Orphée de
-suivre Eurydice jusque sur le seuil des Enfers.
-
-Si loin qu’on soit allé, si loin du vacarme citadin de la vie
-coutumière, on n’a rien oublié, tant qu’on n’a pas oublié la source des
-tortures éternelles et le chemin qui y mène et qu’on reconnaît, comme
-le petit Poucet du conte, à ce qu’on y a laissé de soi-même. Tel le
-mouton qui retrouve sa route à l’épine des buissons. Et je n’en veux
-pas à ceux qui abusent des facilités postales où se débat aujourd’hui
-notre liberté, pour me poursuivre jusqu’au bord des gaves pyrénéens
-avec des questions, à la bouche, touchant encore aux choses de l’Amour.
-En réalité, ce n’est pas eux qui m’y ramènent, mais moi-même qui y
-reviens par une habitude incorrigible de mon esprit. Je crois me
-surprendre en maraude quand je pense à autre chose. _Quidquid tentabam
-scribere versus erat_, disait, de lui-même, Ovide. Tout ce que je tente
-d’écrire n’est qu’un commentaire de ce que j’ai écrit déjà.
-
-Cette fois-ci, c’est un homme qui me soumet une situation d’esprit à
-laquelle je ne puis que fraternellement compatir. Car elle est délicate
-et douloureuse à la fois, et je ne la puis mieux exprimer que par ses
-propres paroles: «Il m’arrive souvent, dit-il, de faire longtemps la
-cour à une femme, mais une cour assidue, et je n’ai pas plutôt obtenu
-ce _que je croyais en souhaiter_ qu’un sentiment d’aversion immédiat
-succède à la fougue de mes désirs.»
-
-«Aversion» me paraît un peu dur, monsieur. Laissez-moi plaider
-pour le sentiment de vague reconnaissance que mérite toujours le
-plaisir accordé, et qui est, je crois, chez toutes les natures de
-quelque générosité. «Ce que je croyais souhaiter» me semble aussi
-une expression risquée. Le moins est qu’on en soit sûr avant de le
-demander. Je suis curieux de voir ce que vous répondrait la dame à
-qui vous diriez, après, en toute franchise: «Eh bien, non, ce n’est
-décidément pas ça dont j’avais envie.» Parions qu’elle vous flanquerait
-un bon soufflet, et laissez-moi vous dire qu’elle aurait raison.
-
-
-II
-
-Et maintenant, causons en bons amis. J’imagine que vous êtes auprès
-de moi, sur ce coin de rocher mousseux d’où monte une odeur sauvage,
-d’où l’on entend la clochette des troupeaux tintinnabulant dans les
-lointains pâturages. Il existe un proverbe latin auquel je pourrais
-vous renvoyer: «_Omne animal triste præter gallum vel monacum--gratis
-fornicantem_» (a ajouté la malice irreligieuse des aïeux). Je n’en
-avais pas besoin pour être convaincu que vous n’êtes ni un coq ni un
-carme en exercice de garenne amoureuse. Moi non plus.
-
-[Illustration]
-
-Tout le monde, à ces deux exceptions près, a, j’imagine, passé par ces
-écroulements subits d’une passion satisfaite, mais tout le monde n’en
-garde pas la même amertume que vous. Vous n’estimez pas, monsieur,
-l’amour physique à son vrai prix. La minute que vous venez de passer
-vaut, à elle seule, un siècle de prévenances, de prières, tout le temps
-perdu que vous semblez regretter, et cela à tort: car je vous défie
-de m’en trouver un plus agréable emploi. Vous voilà vraiment bien
-malheureux pour avoir rêvé, espéré, soupiré! Je vous dis, moi, que vous
-êtes très bien payé de votre peine. Car si vous n’avez pas su vous
-payer, tant pis pour vous! Permettez-moi de vous dire en effet que cela
-était surtout affaire à vous. Réduit à cette simple question d’extase
-sensuelle, l’amour est ce qu’on le fait soi-même par l’intensité
-d’ardeur qu’on y apporte. L’objet aimé n’en est que l’occasion. On peut
-faire de très mauvaise musique sur un authentique Stradivarius.
-
-
-III
-
-Certes, il y a quelque chose d’amer--dans la jeunesse surtout--à
-constater ce néant subit des tendresses les plus exaltées. On s’en
-veut, un instant, d’avoir pris le simple désir pour de l’amour et de
-s’être si cruellement dupé sur ses propres sentiments. Mais la maturité
-vient et aussi l’indulgence, qui nous fait moins sévères à cette erreur
-dont il ne faut pas exagérer la portée. Je ne vois à plaindre vraiment,
-dans tout cela, que celle qui a pu croire qu’elle était vraiment et
-durablement adorée. Peut-être y a-t-il d’ailleurs de sa faute. Car
-toutes les femmes ne savent pas se donner. Beaucoup, en voulant se
-faire trop longtemps souhaiter, dépassent le but et transforment
-le désir qu’elles nous inspiraient en une façon d’obstination et
-d’impatience rageuses toutes chargées de rancunes à venir. C’est dans
-cet ordre d’idées surtout qu’il y a vraiment un moment psychologique.
-Les hommes, en qui domine l’amour-propre, ne se rebutent pas, mais
-méditent déjà les vengeances de la victoire. Moi qui ne mets aucune
-vanité dans ces choses, il m’est arrivé de renoncer tout simplement
-aux dragées tenues trop hautes, de me lasser et de fermer moi-même ma
-porte au bonheur venu trop tard. Mais, croyez-moi, vous avez laissé
-passer, l’un ou l’autre, l’heure opportune, laquelle ne laisse jamais
-que d’aimables souvenirs.
-
-De vos expériences malheureuses, monsieur, il résulte tout simplement
-que vous n’avez pas encore aimé.
-
-[Illustration]
-
-N’en déplaise d’ailleurs à l’école platoniquement imbécile du bon
-Werther, dont j’aime surtout, je crois, la musique de Massenet,
-tout ce qui précède l’épreuve dont vous vous plaignez n’est que
-l’avant-propos du livre immortel de l’Amour. Ceux-là sont dans la plus
-lamentable folie que je connaisse, dont je lis les suicides dans les
-journaux, et qui se sont tués de désespoir avant d’avoir été l’un à
-l’autre. Il ne leur était pas permis de juger, en effet--et vous en
-êtes la vivante preuve,--si ce qui les séparait inexorablement était
-vraiment un malheur. L’amour réel, l’amour dont on a vraiment le droit
-de mourir, c’est celui dont on a mesuré les ivresses, celui qui a si
-fortement rivé vos chairs à d’autres chairs, qu’on ne saurait plus les
-en arracher sans ouvrir au cœur la source mystérieuse par où s’enfuit
-notre sang. Cet amour-là se fait lentement de tous les bonheurs que la
-possession absolue comporte. Chaque caresse est comme un ciment qui en
-durcit l’édifice: il s’accroît de chaque baiser et son insatiabilité
-même lui est un gage de durée. Il vous enlace de mille liens obscurs
-dont chaque déchirement vous brise une fibre, parfums subtils et
-profondément personnels, contacts aux douceurs jusque-là inconnues,
-esclavage absolu de tous les sens, tyrannie délicieuse d’un être dont
-votre être est dominé. Mais il est clair, monsieur, que cela vous est
-parfaitement inconnu. C’est tant pis et tant mieux à la fois pour vous.
-
-Mais où vous atteignez le parfait comique, c’est quand vous me
-demandez, en matière de conclusion, si vous vous devez marier.
-Demandez donc cela à Rabelais! Peut-être vous conseillerai-je
-personnellement, si, comme Panurge, vous redoutez le cocuage,
-d’attendre que vous soyez plus sûr de votre fait dans l’épreuve
-primordiale du mariage. En attendant, laissez-vous vivre, sans
-souhaiter de trop vite souffrir. La Nature est faite pour ces
-bercements délicieux de la pensée dans des impressions vagues, non
-définies, n’ayant pas l’action immédiate pour conséquence. Ce sont de
-meilleurs conseillers de la vie que nous, les grands monts assoupis
-sous leur casque de neige, gardiens des éternelles sérénités, laissant
-gronder à leurs pieds les torrents inutilement sonores, comme le bruit
-des batailles lointaines déjà pour nous, auxquelles vos impatiences
-aspirent et d’où l’on revient avec plus d’une blessure au cœur!
-
-
-
-
-                                  XI
-
-                             DE L’ILLUSION
-                               EN AMOUR
-
-
-
-
-_De l’illusion en amour_
-
-
-I
-
-Avouez, me dit-elle, que vous ne me trouvez que des défauts. Alors
-pourquoi continuez-vous de me voir et de faire profession de m’aimer?
-
-Et sa jolie bouche avait des retroussis ironiques semblant
-s’entr’ouvrir, comme pour une morsure, sur la nacre des dents.
-
---Vous exagérez, infiniment, ma chère, mon opinion sur vous, me
-contentai-je de lui répondre avec tranquillité, mais vous vous trompez
-moins en parlant de la fidélité de mes sentiments.
-
---Convenez cependant que, si vous m’aviez connue telle que je suis
-maintenant pour vous, vous ne m’auriez pas aimée!
-
-[Illustration]
-
---Je vous demande pardon et je vous aurais supposée pire que, très
-vraisemblablement, je vous aurais aimée tout de même. Car ce n’est
-jamais la perfection que j’ai eu l’intention d’aimer en vous, et je
-ne suis plus de ces imbéciles qui s’imaginent toujours, quand ils
-commencent un nouvel amour, qu’ils l’ont rencontrée,--et qui très
-sérieusement prennent leur prurit sensuel pour un hommage moral à la
-vertu! Cette naïveté n’est permise qu’à l’extrême jeunesse, qu’aux
-ferveurs ingénues d’une santé débordante, qu’au désir inconscient qui
-nous pousse alors vers toutes les femmes avec de faciles admirations.
-Elle devient ridicule chez celui qui a déjà vécu, qui sait bien que ce
-n’est pas en parlant de la Femme que Platon a écrit que le Beau était
-toujours la splendeur du Bien. Dieu merci! l’Amour n’a rien de commun
-avec l’Académie qui décerne les prix Montyon. Où serait sa grandeur
-s’il se confondait avec la Logique et ne nous entraînait jamais qu’à
-des attachements raisonnables? Ce n’est pas un teneur de livres mais
-un poète qui emprisonne les cœurs dans sa fantaisie souvent cruelle.
-Il ne cueille pas sagement des bouquets dans les jardins, mais il
-saccage des moissons entières et se couronne volontiers des ronces où
-se sont ensanglantées nos mains. C’est ignorer le poids despotique dont
-il pèse sur nos âmes que de lui vouloir donner pour piédestal un peu
-de cette neige candide, si fragile à fondre et à ternir, qui s’appelle
-l’estime. M’avez-vous jamais entendu dire autre chose que du bien de
-mes anciennes maîtresses? Non! Eh bien pensez-vous que je les trouvasse
-plus parfaites que vous? Ceux qui prétendent avoir cessé d’aimer une
-femme parce qu’ils lui ont découvert, à l’usage, une quantité de
-défauts, ne l’ont jamais aimée. Tout nous devient charme dans l’être
-dont nous sommes vraiment épris, ou, du moins, tout s’excuse à l’excès,
-au point que nous ne pourrions peut-être plus nous en passer sans en
-souffrir. Socrate s’est-il séparé de Xantippe? Et je laisse là de côté
-l’impression malsaine qui nous vient quelquefois d’aimer éperdument
-celle qui nous en semble la moins digne, avec la conscience douloureuse
-et délicieuse à la fois de notre lâcheté. L’amour est, avant tout,
-un sublime et imbécile besoin de sacrifice. _Credo quia absurdum!_
-disait follement saint Paul. _Amo quia absurdum!_ peut dire sagement
-l’amant véritable. Ce qui est fait pour révolter l’esprit peut être
-fait pour enchanter le cœur. Oh! cette révolte mal étouffée, cette
-indignation contre soi-même, cette pointe de haine qui est au fond de
-tout amour vraiment sensuel, celui qui ne les a pas connues, celui qui
-ne les a pas rageusement savourées ne peut se vanter d’avoir aimé. Je
-n’ose même, tout en les plaignant d’une pitié confinant au mépris,
-condamner ceux à qui la perfidie de l’amante est un ragoût d’amour
-et qui tirent, des exaspérations de la jalousie, un redoublement de
-tendresse honteuse et assouvie d’opprobre. C’est un phénomène morbide,
-l’excès du sentiment de tolérance éperdue qui est au fond de tout
-amour véritable, un abaissement de la vraie passion, l’oubli de toute
-dignité, l’abdication des plus pures noblesses de l’âme. Mais cela est
-et j’en sais peu que ce chatouillement infâme n’ait effleurés!
-
-
-II
-
-Elle m’avait écouté patiemment, très occupée qu’elle était de remettre,
-en son sens, un frison de son admirable chevelure noire. Alors elle me
-dit tranquillement comme pour résumer sa propre esthétique:
-
---Moi, pour aimer, il me faut de l’illusion.
-
-Ah! que j’ai déjà entendu de femmes me dire cette bêtise! L’illusion,
-ma chère, mais c’est la négation même de l’amour!

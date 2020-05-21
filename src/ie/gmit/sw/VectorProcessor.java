@@ -66,19 +66,10 @@ public class VectorProcessor {
 		String language = record[1];
 		// break line into ngrams
 		// set vector
-		for (int i = 0; i < NeuralNetwork.inputs; i++) {
+		for (int i = 0; i < vector.length; i++) {
 			vector[i] = 0;
 		}
-		// issue with NGRAMS, since the number is smaller not sure about hashcode
-		// honestly very hard to figure this thing out
-		// should only be 235 in here
-		if (text.length() < 235 * ngrams) {
-			StringBuffer s = new StringBuffer(text.length());
-			for (int i = text.length(); i < NeuralNetwork.inputs * ngrams; i++) {
-				s.append("0");
-			}
-			text += s.toString();
-		}
+
 		// issue here? issue with last line of file maybe it's > 235 - ngrams from
 		// length maybe?
 		for (int i = 0; i < vector.length * ngrams; i += ngrams) {
@@ -99,7 +90,7 @@ public class VectorProcessor {
 		}
 		// use a counter to determine language of file so you can label it - issue may
 		// be with counter
-		if (counter <= 234) {
+		if (counter < 234) {
 
 			// write out language label - this will fill in 235 values - don't know if it's
 			// working
