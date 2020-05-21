@@ -37,8 +37,10 @@ public class VectorProcessor {
 			String line = null;
 			// everytime process is called new file is created
 			writer = new BufferedWriter(new FileWriter(output, false));
+			System.out.print("Progress: ");
 			while ((line = br.readLine()) != null) {
 				process(line, ngrams, writer);
+				System.out.print("#");
 			}
 
 			br.close();
@@ -69,32 +71,27 @@ public class VectorProcessor {
 		}
 		// issue with NGRAMS, since the number is smaller not sure about hashcode
 		// honestly very hard to figure this thing out
-		// should only be 235 in here  this is just the line not the whole text
-		/*
+		// should only be 235 in here
 		if (text.length() < 235 * ngrams) {
 			StringBuffer s = new StringBuffer(text.length());
-			for (int i = text.length(); i < NeuralNetwork.inputs; i++) {
-				s.append("1");
+			for (int i = text.length(); i < NeuralNetwork.inputs * ngrams; i++) {
+				s.append("0");
 			}
 			text += s.toString();
-			System.out.println("TTTTTTTTTT" + text.length());
 		}
-		*/
 		// issue here? issue with last line of file maybe it's > 235 - ngrams from
-		// length maybe? * Ngrams for both this and above
+		// length maybe?
 		for (int i = 0; i < vector.length * ngrams; i += ngrams) {
 			System.out.println(i);
 			try {
 				int hashcode = text.substring(i, ngrams + i).hashCode();
 				int index = hashcode % vector.length;
 				// think this maybe wrong
-				vector[Math.abs(index) + 1] = index++;
+				vector[Math.abs(index)] = index + 1;
 				// write out line to file
 				Utilities.normalize(vector, -1, 1);
 				bw.append(df.format(vector[Math.abs(index)]));
 				bw.append(",");
-				System.out.println("TEST of vector : " + i);
-				System.out.println("INDEX: " + index);
 			} catch (Exception e) {
 				bw.append('0');
 				bw.append(',');
@@ -106,12 +103,12 @@ public class VectorProcessor {
 		}
 		// use a counter to determine language of file so you can label it - issue may
 		// be with counter
-		if (!language.equalsIgnoreCase(lang[counter].toString()) && counter < 234) {
+		if (counter <= 234) {
 
 			// write out language label - this will fill in 235 values - don't know if it's
 			// working
 			for (int j = 0; j <= lang.length; j++) {
-				System.out.println("LANGUAGE " + j);
+	 
 				if (lang[counter].equals(lang[j])) {
 					bw.append('1');
 				} else {
@@ -145,30 +142,14 @@ public class VectorProcessor {
 		for (int i = 0; i < NeuralNetwork.inputs; i++) {
 			vector[i] = 0;
 		}
-		// issue with NGRAMS, since the number is smaller not sure about hashcode
-		// honestly very hard to figure this thing out
-		// should only be 235 in here
-		/*
-		if (text.length() < 235 * ngrams) {
-			StringBuffer s = new StringBuffer(text.length());
-			for (int i = text.length(); i < NeuralNetwork.inputs * ngrams; i++) {
-				s.append("0");
-			}
-			text += s.toString();
-			System.out.println("TTTTTTTTTT" + text.length());
-		}
-		*/
-		for (int i = 0; i < text.length() - ngrams; i += ngrams) {
-			System.out.println(i);
-			try {
-				int hashcode = text.substring(i, ngrams).hashCode();
+		for (int i = 0; i < vector.length * ngrams; i += ngrams) {
+ 			try {
+				int hashcode = text.substring(i, ngrams + i).hashCode();
 				int index = hashcode % vector.length;
 				// think this maybe wrong
 				vector[Math.abs(index)] = index + 1;
 				// write out line to file
 				Utilities.normalize(vector, -1, 1);
- 				System.out.println("TEST of vector : " + i);
-				System.out.println("INDEX: " + index);
 			} catch (Exception e) {
  			}
 

@@ -3,11 +3,8 @@ package ie.gmit.sw;
 import java.io.File;
 import java.util.Scanner;
 
-import org.encog.engine.network.activation.ActivationBiPolar;
 import org.encog.engine.network.activation.ActivationReLU;
-import org.encog.engine.network.activation.ActivationSigmoid;
 import org.encog.engine.network.activation.ActivationSoftMax;
-import org.encog.engine.network.activation.ActivationTANH;
 import org.encog.ml.data.MLData;
 import org.encog.ml.data.MLDataPair;
 import org.encog.ml.data.MLDataSet;
@@ -16,8 +13,6 @@ import org.encog.ml.data.buffer.MemoryDataLoader;
 import org.encog.ml.data.buffer.codec.CSVDataCODEC;
 import org.encog.ml.data.buffer.codec.DataSetCODEC;
 import org.encog.ml.data.folded.FoldedDataSet;
-import org.encog.ml.data.versatile.VersatileMLDataSet;
-import org.encog.ml.model.EncogModel;
 import org.encog.ml.train.MLTrain;
 import org.encog.neural.networks.BasicNetwork;
 import org.encog.neural.networks.layers.BasicLayer;
@@ -167,8 +162,11 @@ public class NeuralNetwork {
 		System.out.print("Enter Vector size, try 235: ");
 		VectorProcessor.vectorSize = s.nextInt();
 		System.out.println("FILE NAME: " + file);
+		System.out.println("ANALYZING FILE.............");
+
 		VectorProcessor vp = new VectorProcessor();
 		double[] testData = vp.testData(file, ngrams);
+		
 		MLData data = new BasicMLData(testData);
 		System.out.println("COMPUTER " + nn.compute(data).size());
 

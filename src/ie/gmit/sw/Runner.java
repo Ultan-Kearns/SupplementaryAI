@@ -34,7 +34,7 @@ public class Runner {
 				int ngrams = s.nextInt();
 				System.out.print("\nTry 235 - 500, must be > 235\nPlease enter the vector size: ");
 				VectorProcessor.vectorSize = s.nextInt();
-				System.out.print("\nTry 10\nPlease enter the number of epochs: ");
+				System.out.print("\nTry 100\nPlease enter the number of epochs: ");
 				NeuralNetwork.epochs = s.nextInt();
 				System.out.println("Neural network will be trained with File: " + fileDir
 						+ "  and number of ngrams will equal: " + ngrams);
@@ -45,7 +45,7 @@ public class Runner {
 				NeuralNetwork nn = new NeuralNetwork();
 			}
 			if (response == 3) {
-				System.out.println("Enter File Directory: ");
+				System.out.print("Enter File Directory: ");
 				String file = s.next();
  				NeuralNetwork.process(file);
  				s.nextLine();
