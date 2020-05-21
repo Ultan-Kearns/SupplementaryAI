@@ -67,8 +67,8 @@ public class NeuralNetwork {
 		// and their neurons
 		// network.addLayer(....);
 		// for some reason layers are not having an affect, issue with reading file?
-		network.addLayer(new BasicLayer(new ActivationReLU(), true, 100));
-		network.addLayer(new BasicLayer(new ActivationReLU(), true,50));
+		network.addLayer(new BasicLayer(new ActivationReLU(), true, 10));
+		network.addLayer(new BasicLayer(new ActivationReLU(), true,20));
  
 		network.addLayer(new BasicLayer(new ActivationSoftMax(), true, outputs));
 		network.getStructure().finalizeStructure();
@@ -85,7 +85,7 @@ public class NeuralNetwork {
 		MLDataSet trainingSet = mdl.external2Memory();
 
 		// Use backpropagation training with alpha=0.1 and momentum=0.2
-		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.2, 0.6);
+		Backpropagation trainer = new Backpropagation(network, trainingSet, 0.1, 1);
 		FoldedDataSet folded = new FoldedDataSet(trainingSet);
 		System.out.println(trainer.getTraining());
 		// may use backpropagation instead
@@ -157,6 +157,7 @@ public class NeuralNetwork {
 		}
 		Scanner s = new Scanner(System.in);
 		// read in file break into ngrams and hash maybe?
+		try {
 		System.out.print("Enter the number of ngrams for file, try 1 - 5, recommend 5: ");
 		int ngrams = s.nextInt();
 		System.out.print("Enter Vector size, try 235: ");
@@ -172,6 +173,11 @@ public class NeuralNetwork {
 
 		System.out.println("CLASSIFICATION - Language index: " + nn.classify(data) + " file is written in: "
 				+ lang[nn.classify(data)]);
+		}
+		catch(Exception e) {
+			System.out.println("NO FILE FOUND!");
+			Runner r = new Runner();
+		}
 
 	}
 }

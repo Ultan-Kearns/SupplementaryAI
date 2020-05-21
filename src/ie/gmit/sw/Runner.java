@@ -28,7 +28,8 @@ public class Runner {
 					System.out.println(i + "-->" + langs[i]);
 				}
 			} else if (response == 2) {
-				System.out.print("\nPlease enter the directory of the file: ");
+				try {
+				System.out.print("\nPlease enter the directory of the traiining data file: ");
 				String fileDir = s.next();
 				System.out.print("\nTry 1 - 5\nPlease enter the Number of ngrams: ");
 				int ngrams = s.nextInt();
@@ -43,6 +44,11 @@ public class Runner {
 				vp.go(fileDir, ngrams);
 				// trains network
 				NeuralNetwork nn = new NeuralNetwork();
+				}
+				catch(Exception e) {
+					System.out.println("FILE NOT FOUND");
+					Runner r = new Runner();
+				}
 			}
 			if (response == 3) {
 				System.out.print("Enter File Directory: ");
@@ -63,6 +69,8 @@ public class Runner {
 					}
 					System.out.println("\n");
 				} catch (Exception e) {
+					Runner r = new Runner();
+
 					System.out.println(
 							"Train network before running this command. Also trained network must named as neuralnetwork and have file extension .nn");
 				}

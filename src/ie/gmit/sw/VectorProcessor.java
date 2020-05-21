@@ -82,8 +82,7 @@ public class VectorProcessor {
 		// issue here? issue with last line of file maybe it's > 235 - ngrams from
 		// length maybe?
 		for (int i = 0; i < vector.length * ngrams; i += ngrams) {
-			System.out.println(i);
-			try {
+ 			try {
 				int hashcode = text.substring(i, ngrams + i).hashCode();
 				int index = hashcode % vector.length;
 				// think this maybe wrong
@@ -97,9 +96,6 @@ public class VectorProcessor {
 				bw.append(',');
 			}
 
-		}
-		if (vector.length >= NeuralNetwork.inputs) {
-			System.out.println("VECTOR LENGTH " + vector.length);
 		}
 		// use a counter to determine language of file so you can label it - issue may
 		// be with counter
