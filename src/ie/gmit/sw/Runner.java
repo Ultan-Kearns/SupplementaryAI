@@ -46,7 +46,7 @@ public class Runner {
 				NeuralNetwork nn = new NeuralNetwork();
 				}
 				catch(Exception e) {
-					System.out.println("FILE NOT FOUND");
+					System.out.println(e.toString());
 					Runner r = new Runner();
 				}
 			}

@@ -28,7 +28,6 @@ public class VectorProcessor {
 
 	public void go(String fileDir, int ngrams) throws Exception {
 		File input = new File(fileDir);
-
 		try {
 
 			System.out.println("CREATING DATA.......");
@@ -38,6 +37,7 @@ public class VectorProcessor {
 			// everytime process is called new file is created
 			writer = new BufferedWriter(new FileWriter(output, false));
 			System.out.print("Progress: ");
+			
 			while ((line = br.readLine()) != null) {
 				process(line, ngrams, writer);
 				System.out.print("#");
@@ -59,9 +59,10 @@ public class VectorProcessor {
 	// should have 235 + 235 coluns 470 total only getting 358
 	public void process(String line, int ngrams, BufferedWriter bw) throws Exception {
 		String[] record = line.split("@");
+	 
 		if (record.length > 2)
 			return; // get rid of bad lines
-
+		
 		String text = record[0].toLowerCase();
 		String language = record[1];
 		// break line into ngrams
@@ -69,7 +70,13 @@ public class VectorProcessor {
 		for (int i = 0; i < vector.length; i++) {
 			vector[i] = 0;
 		}
-
+		if (text.length() < 235 * ngrams) {
+			StringBuffer s = new StringBuffer(text.length());
+			for (int i = text.length(); i < vector.length * ngrams; i++) {
+				s.append("_");
+			}
+			text += s.toString();
+ 		}
 		// issue here? issue with last line of file maybe it's > 235 - ngrams from
 		// length maybe?
 		for (int i = 0; i < vector.length * ngrams; i += ngrams) {

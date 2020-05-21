@@ -69,8 +69,7 @@ public class NeuralNetwork {
 		// and their neurons
 		// network.addLayer(....);
 		// for some reason layers are not having an affect, issue with reading file?
-		network.addLayer(new BasicLayer(new ActivationReLU(), true, 60));
-		network.addLayer(new BasicLayer(new ActivationReLU(), true, 30));
+		network.addLayer(new BasicLayer(new ActivationReLU(), true, 150));
 		network.addLayer(new BasicLayer(new ActivationSoftMax(), true, outputs));
 		network.getStructure().finalizeStructure();
 		network.reset();

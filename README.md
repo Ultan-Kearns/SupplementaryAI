@@ -82,7 +82,10 @@ I parsed and hashed each ngram into the fixed size vector like so:
 		}
 	}
 I will explain the code below:
-I utilized a buffred reader
+
+I utilized a buffred reader to read in the file line by line then I passed the line, ngrams and the writer to the process function, from here I initialized the vecto to equal all zeros.  Then I checked the length of the text to ensure that the line was large enough to be stored into the vector.  Once all this was finished I read in each ngram using the substring method on the line and hashed each ngram into the vector index and incremented said index by one.  I also let the user decide how many ngrams they want to parse the line into, I suggested 5 as it is very unlikely that the same 5 ngram will appear more than once, it is about (0.26 ^ 5)% likely to occur twice which is an extremely low number.  I also allow the user to choose the vector size which I suggest is kept at 235 as there are 235 languages. My reasoning for keeping the vector size at 235 simply boils down to the processing time and the fact there are 235 languages, the larger the vector the longer it will take to fill up and to process.
+
+When reading in the Test file I basically did the same thing as I did when reading in the test file, excluding writing out the language number or making the text equal a certain number.
 
 ## Neural Network Topology
 
