@@ -203,9 +203,7 @@ For the input and output layers I used a Softmax activation function and for the
 		
 Once trained I output the following stats to the user: Time trained in seconds, time trained in minutes which is an approximation, and the error rate.
 
-### Error Rate
-When training the neural network with the following data: ngrams = 5, vector size = 500, epochs = 1000 - I was able to achieve an error rate of 0.00 and the total time it was trained in : 0.043 seconds.  Overall the training of the network is very fast(about 30 seconds using suggested data) with a very low incidence of error and high accuracy.
-
+ 
 ## Extras
 + Allowed user to enter in the vector size, ngram size & number of epochs
 + Allowed user to enter in the directory for the training data
