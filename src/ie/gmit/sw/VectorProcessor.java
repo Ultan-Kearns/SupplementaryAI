@@ -52,6 +52,8 @@ public class VectorProcessor {
 	// should have 235 + 235 coluns 470 total only getting 358
 	public void process(String line, int ngrams, BufferedWriter bw) throws Exception {
 		String[] record = line.split("@");
+		if(counter == 235)
+			return;
 		if (record.length > 2)
 			return; // get rid of bad lines
 
@@ -91,7 +93,7 @@ public class VectorProcessor {
 		if (counter < 235) {
 			// write out language label - this will fill in 235 values - don't know if it's
 			// working
-			for (int j = 0; j <= lang.length; j++) {
+			for (int j = 0; j < lang.length; j++) {
  				if (lang[counter].equals(lang[j])) {
 					bw.append('1');
 				} else {
